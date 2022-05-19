@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507D2826BFEC0029CB3F /* AccountViewController.swift */; };
+		9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */; };
+		9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2750812826C0240029CB3F /* ContactUsViewController.swift */; };
+		9D2750842826CE5A0029CB3F /* MyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */; };
+		9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8428314F4300EE6271 /* NotificationCell.swift */; };
+		9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8528314F4300EE6271 /* NotificationCell.xib */; };
+		9D44AC89283153A600EE6271 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC88283153A600EE6271 /* K.swift */; };
+		9D44AC8C2831541600EE6271 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */; };
+		9D44AC8D2831541600EE6271 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
 		9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D27507D2826BFEC0029CB3F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
+		9D2750812826C0240029CB3F /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailsViewController.swift; sourceTree = "<group>"; };
+		9D44AC8428314F4300EE6271 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		9D44AC8528314F4300EE6271 /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		9D44AC88283153A600EE6271 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBFA486282419E000C8BB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +120,19 @@
 				9DBFA484282419E000C8BB12 /* AppDelegate.swift */,
 				9DBFA486282419E000C8BB12 /* SceneDelegate.swift */,
 				9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */,
+				9D27507D2826BFEC0029CB3F /* AccountViewController.swift */,
+				9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */,
+				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
+				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
 				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
+				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
+				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
 				9DBFA48D282419E400C8BB12 /* Assets.xcassets */,
 				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
 				9DBFA492282419E400C8BB12 /* Info.plist */,
+				9D44AC88283153A600EE6271 /* K.swift */,
+				9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */,
+				9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */,
 			);
 			path = Killuanco;
 			sourceTree = "<group>";
@@ -232,7 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */,
 				9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */,
+				9D44AC8D2831541600EE6271 /* NotificationTableViewCell.xib in Resources */,
 				9DBFA48E282419E400C8BB12 /* Assets.xcassets in Resources */,
 				9DBFA48C282419E000C8BB12 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D44AC89283153A600EE6271 /* K.swift in Sources */,
 				9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */,
+				9D44AC8C2831541600EE6271 /* NotificationTableViewCell.swift in Sources */,
 				9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */,
+				9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */,
+				9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */,
+				9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */,
 				9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */,
+				9D2750842826CE5A0029CB3F /* MyDetailsViewController.swift in Sources */,
+				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
