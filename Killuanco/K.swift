@@ -9,12 +9,18 @@
 import Foundation
 import UIKit
 
+//MARK:- K Struct
 
 struct K {
     let notificationCellIdentifier = "NotificationCellIdentifier"
     let notificationTableCellIdentifier = "NotificationTableCellIdentifier"
+    
+    let homeCategoriesIconWidth = 90/414
+    let homeCategoriesIconLength = 115.86/1570
+//    let homeScrollViewWidth =
 }
 
+//MARK:- Custom Views Layout
 class RoundedCornerRadiusView : UIView{
     override func awakeFromNib() {
         layer.cornerRadius = 20
@@ -37,3 +43,12 @@ class RoundedCornerRadiusImage: UIImageView {
         clipsToBounds = true
     }
 }
+
+
+class RoundedCornerRadiusButton: UIButton{
+    override func awakeFromNib() {
+        layer.cornerRadius = 15
+        clipsToBounds = true
+    }
+}
+
