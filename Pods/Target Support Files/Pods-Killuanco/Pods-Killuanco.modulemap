@@ -1,0 +1,6 @@
+framework module Pods_Killuanco {
+  umbrella header "Pods-Killuanco-umbrella.h"
+
+  export *
+  module * { export * }
+}

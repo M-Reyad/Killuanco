@@ -1,0 +1,24 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+  - DragMenuPicker (0.0.1)
+  - ShowPasswordTextField (1.0.0)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - DragMenuPicker
+  - ShowPasswordTextField
+
+SPEC REPOS:
+  trunk:
+    - BEMCheckBox
+    - DragMenuPicker
+    - ShowPasswordTextField
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  DragMenuPicker: 5ec9ac9b1ee8c897eca361f91eb81f4366befbd6
+  ShowPasswordTextField: afaa03b704087989f841e3bdd4525383261104d1
+
+PODFILE CHECKSUM: e83713dc4537777b5f784b3bb07d40d8cce86123
+
+COCOAPODS: 1.11.2

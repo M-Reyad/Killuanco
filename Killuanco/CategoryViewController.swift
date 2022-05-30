@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DragMenuPicker
 
 struct Products {
     let name: String
@@ -35,6 +36,12 @@ class CategoryViewController: UIViewController, UICollectionViewDataSource, UICo
     
     @IBOutlet weak var newProductsCollectionView: UICollectionView!
     @IBOutlet weak var allProductsCollectionView: UICollectionView!
+    
+    
+    @IBAction func filtersButtonPressed(_ sender: Any) {
+        
+        
+    }
     
     
     override func viewDidLoad() {

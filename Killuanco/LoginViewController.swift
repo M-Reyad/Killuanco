@@ -8,6 +8,7 @@
 
 import UIKit
 import ShowPasswordTextField
+import BEMCheckBox
 
 
 
@@ -20,6 +21,19 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var signinButton: UIButton!
     
+    @IBOutlet weak var rememberMeCheckBox: BEMCheckBox!
+//    @IBOutlet weak var rememberMeButton: UIButton!
+    
+    
+    @IBAction func rememberMePressed(_ sender: UIButton) {
+        if rememberMeCheckBox.on == true {
+            rememberMeCheckBox.on = false
+            print("Unchecked")
+        }else{
+            rememberMeCheckBox.on = true
+            print("Checked")
+        }
+    }
     
     
     @IBAction func signupButtonPressed(_ sender: Any) {
@@ -43,6 +57,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         signupView.isHidden = true
+        if rememberMeCheckBox.on{
+            print("Remember me is Checked")
+        }
         // Do any additional setup after loading the view.
     }
     
