@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class NotificationCell: UITableViewCell {
 
     override func awakeFromNib() {
@@ -15,10 +17,19 @@ class NotificationCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var notificationHeader: UILabel!
+    
+    @IBOutlet weak var notificationContent: UILabel!
+    
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
-    
+    func config(with notification: Notifications){
+        self.notificationHeader.text = notification.header
+        self.notificationContent.text = notification.content
+        
+    }
 }

@@ -12,12 +12,18 @@ import UIKit
 //MARK:- K Struct
 
 struct K {
-    let notificationCellIdentifier = "NotificationCellIdentifier"
-    let notificationTableCellIdentifier = "NotificationTableCellIdentifier"
+    static let notificationCellIdentifier = "NotificationCellIdentifier"
+    static let notificationCellNibName = "NotificationCell"
+//    static let notificationTableCellIdentifier = "NotificationTableCellIdentifier"
     
-    let homeCategoriesIconWidth = 90/414
-    let homeCategoriesIconLength = 115.86/1570
+    static let homeCategoriesIconWidth = 90/414
+    static let homeCategoriesIconLength = 115.86/1570
 //    let homeScrollViewWidth =
+    
+    
+    
+    static let productsCollectionViewCellIdentifier = "ProductViewCollectionViewCell"
+    static let productsCollectionViewCellNibName = "ProductView"
 }
 
 //MARK:- Custom Views Layout
@@ -44,6 +50,13 @@ class RoundedCornerRadiusImage: UIImageView {
     }
 }
 
+
+class RoundedCornerRadiusOnboardingImages: UIImageView{
+    override func awakeFromNib() {
+        layer.cornerRadius = 292.5
+        clipsToBounds = true
+    }
+}
 
 class RoundedCornerRadiusButton: UIButton{
     override func awakeFromNib() {

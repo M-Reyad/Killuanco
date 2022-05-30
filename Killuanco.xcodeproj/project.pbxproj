@@ -14,8 +14,11 @@
 		9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8428314F4300EE6271 /* NotificationCell.swift */; };
 		9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8528314F4300EE6271 /* NotificationCell.xib */; };
 		9D44AC89283153A600EE6271 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC88283153A600EE6271 /* K.swift */; };
-		9D44AC8C2831541600EE6271 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */; };
-		9D44AC8D2831541600EE6271 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */; };
+		9D82CF7728410DC90064BEA6 /* ProductViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */; };
+		9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */; };
+		9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */; };
+		9D82CF7E284140610064BEA6 /* ProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D82CF7D284140610064BEA6 /* ProductView.xib */; };
+		9D97680828436E250053EE90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97680728436E250053EE90 /* LoginViewController.swift */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
 		9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */; };
@@ -24,6 +27,7 @@
 		9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */; };
 		9DBFA49C282419E400C8BB12 /* KilluancoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA49B282419E400C8BB12 /* KilluancoTests.swift */; };
 		9DBFA4A7282419E400C8BB12 /* KilluancoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */; };
+		AD7057C68C46A63E87679C39 /* Pods_Killuanco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Killuanco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1ED7FDB90D71A54A35AD17 /* Pods-Killuanco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Killuanco.debug.xcconfig"; path = "Target Support Files/Pods-Killuanco/Pods-Killuanco.debug.xcconfig"; sourceTree = "<group>"; };
+		81A0648B33D3F3A0448A00C0 /* Pods-Killuanco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Killuanco.release.xcconfig"; path = "Target Support Files/Pods-Killuanco/Pods-Killuanco.release.xcconfig"; sourceTree = "<group>"; };
 		9D27507D2826BFEC0029CB3F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
 		9D2750812826C0240029CB3F /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +58,11 @@
 		9D44AC8428314F4300EE6271 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9D44AC8528314F4300EE6271 /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
 		9D44AC88283153A600EE6271 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
-		9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
-		9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		9D82CF7D284140610064BEA6 /* ProductView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductView.xib; sourceTree = "<group>"; };
+		9D97680728436E250053EE90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBFA486282419E000C8BB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7057C68C46A63E87679C39 /* Pods_Killuanco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +105,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931F71C9B540343422F614EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED7FDB90D71A54A35AD17 /* Pods-Killuanco.debug.xcconfig */,
+				81A0648B33D3F3A0448A00C0 /* Pods-Killuanco.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9DBFA478282419E000C8BB12 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +122,8 @@
 				9DBFA49A282419E400C8BB12 /* KilluancoTests */,
 				9DBFA4A5282419E400C8BB12 /* KilluancoUITests */,
 				9DBFA482282419E000C8BB12 /* Products */,
+				931F71C9B540343422F614EE /* Pods */,
+				B7280B94A2B91C322DDFC44B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,14 +148,17 @@
 				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
 				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
 				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
+				9D97680728436E250053EE90 /* LoginViewController.swift */,
+				9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */,
+				9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */,
 				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
 				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
 				9DBFA48D282419E400C8BB12 /* Assets.xcassets */,
 				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
 				9DBFA492282419E400C8BB12 /* Info.plist */,
 				9D44AC88283153A600EE6271 /* K.swift */,
-				9D44AC8A2831541600EE6271 /* NotificationTableViewCell.swift */,
-				9D44AC8B2831541600EE6271 /* NotificationTableViewCell.xib */,
+				9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */,
+				9D82CF7D284140610064BEA6 /* ProductView.xib */,
 			);
 			path = Killuanco;
 			sourceTree = "<group>";
@@ -155,6 +181,14 @@
 			path = KilluancoUITests;
 			sourceTree = "<group>";
 		};
+		B7280B94A2B91C322DDFC44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DBFA4AB282419E400C8BB12 /* Build configuration list for PBXNativeTarget "Killuanco" */;
 			buildPhases = (
+				CA07E0ED3A7052C79BF5B9FC /* [CP] Check Pods Manifest.lock */,
 				9DBFA47D282419E000C8BB12 /* Sources */,
 				9DBFA47E282419E000C8BB12 /* Frameworks */,
 				9DBFA47F282419E000C8BB12 /* Resources */,
+				3BDA7C7495B33DEB559A0857 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,9 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D82CF7E284140610064BEA6 /* ProductView.xib in Resources */,
 				9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */,
 				9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */,
-				9D44AC8D2831541600EE6271 /* NotificationTableViewCell.xib in Resources */,
 				9DBFA48E282419E400C8BB12 /* Assets.xcassets in Resources */,
 				9DBFA48C282419E000C8BB12 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +319,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BDA7C7495B33DEB559A0857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Killuanco/Pods-Killuanco-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Killuanco/Pods-Killuanco-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Killuanco/Pods-Killuanco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA07E0ED3A7052C79BF5B9FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Killuanco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DBFA47D282419E000C8BB12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -290,14 +368,17 @@
 			files = (
 				9D44AC89283153A600EE6271 /* K.swift in Sources */,
 				9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */,
-				9D44AC8C2831541600EE6271 /* NotificationTableViewCell.swift in Sources */,
 				9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */,
+				9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */,
+				9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */,
 				9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */,
 				9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */,
 				9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */,
 				9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */,
 				9D2750842826CE5A0029CB3F /* MyDetailsViewController.swift in Sources */,
 				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
+				9D97680828436E250053EE90 /* LoginViewController.swift in Sources */,
+				9D82CF7728410DC90064BEA6 /* ProductViewCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +549,7 @@
 		};
 		9DBFA4AC282419E400C8BB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1ED7FDB90D71A54A35AD17 /* Pods-Killuanco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +569,7 @@
 		};
 		9DBFA4AD282419E400C8BB12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A0648B33D3F3A0448A00C0 /* Pods-Killuanco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
