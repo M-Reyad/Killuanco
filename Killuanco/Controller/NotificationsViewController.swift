@@ -8,11 +8,6 @@
 
 import UIKit
 
-struct Notifications {
-    let header: String
-    let content: String
-}
-
 
 class NotificationsViewController: UIViewController,UITableViewDataSource {
     

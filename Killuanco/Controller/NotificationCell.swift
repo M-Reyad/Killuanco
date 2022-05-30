@@ -9,7 +9,6 @@
 import UIKit
 
 
-
 class NotificationCell: UITableViewCell {
 
     override func awakeFromNib() {

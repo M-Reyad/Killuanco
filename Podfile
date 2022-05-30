@@ -9,5 +9,6 @@ target 'Killuanco' do
 	pod 'ShowPasswordTextField'
 	pod 'DragMenuPicker'
 	pod 'BEMCheckBox'
+	pod 'RateBar'
 
 end

@@ -3,105 +3,145 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0000C7B04F59AF1493DA4C9629E0D52B /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 14325D47A95BC533FB37537CDE435D04 /* BEMCheckBox.m */; };
-		143AE0DEDB06216ED06D6D28FF4829D9 /* ShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2A48A8F1B97995CC7F785E55B8E89 /* ShowPasswordTextField.swift */; };
-		14F541E46785EF9AF1BFD687C78C5CC4 /* Pods-Killuanco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */; };
-		24924C3453ACAC4A37D47A7182B22965 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4833BDDE15273625FE37CD7494970304 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B90284A8582499A7812C8C6EDF8ED2A /* DragMenuPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0A98891E212FE4DAC448C79D4388E8 /* DragMenuPicker-dummy.m */; };
-		2E839BC45EECED4B8FA075090C9F55AA /* DragMenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F14726085EF077BF6BAB16BA13D5A /* DragMenuPicker.swift */; };
-		2F518AAA46452757B2A7C83523257E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4AEA230EF22D7C3AE847E1697C398936 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 263C4633465E274FFA414D7261B4C986 /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		570F00355D972BBA986464C297578F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6868379DB9632E3C5D380CC129C8AFC8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A11DDEF45C7BF344B72E0460AEAB6 /* BEMAnimationManager.m */; };
-		739714D5DE4905B07055795644CF9E35 /* DragMenuPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AEBB3DA4097A0090B8D9022973B8A1 /* DragMenuPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D592A60D47EA9693439D21BC7B33047 /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA5D4071FBB93D2169F5A5CD28ADB56 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A445A81219A6092EA5CC8FB9C7EF29A /* ShowPasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3763539F4FB5FFF336D26FEA76152FF /* ShowPasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91BF3959F076C4FB81CA2EFA0F21F98D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B80D9A6F299ADF2B5ACBF902DB429E /* BEMCheckBoxGroup.m */; };
-		A03C3682675583BBFC702029BFB02F3D /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A38952C24208D43FD0AC0CED8DF6A0EA /* BEMCheckBox-dummy.m */; };
-		A5B82CC31EF566057D1282417CB57D8A /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F81602D52C607B00ABB1138BA2D427C /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF5247F0CB74898829A2E27EFC7D986 /* ShowPasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1988C3149A7D440D36C1CA6E0D58A2 /* ShowPasswordTextField-dummy.m */; };
-		B1DCD657E12C8B7F7CAE88215A57BC2D /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76106B4D1D1A594F279E6DD8074250B1 /* BEMPathManager.m */; };
-		BA96F13A805E18E1B6D572DE9B4B9A25 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1D9F3F4C0328D3A449D024BDA9E17A /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78D11B47D43806AFC9BBB663354A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EBA6C74393EB31726EFBDF94B83370E7 /* Pods-Killuanco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0650A3506F3E3DC67C11058BB3183BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0000C7B04F59AF1493DA4C9629E0D52B /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */; };
+		143AE0DEDB06216ED06D6D28FF4829D9 /* ShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */; };
+		2108061B001B3815D65C8BE19FAA31B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		24924C3453ACAC4A37D47A7182B22965 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C90B4D458B7DD98A7F84A5B44B7B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2B90284A8582499A7812C8C6EDF8ED2A /* DragMenuPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */; };
+		2E839BC45EECED4B8FA075090C9F55AA /* DragMenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */; };
+		2F518AAA46452757B2A7C83523257E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4AEA230EF22D7C3AE847E1697C398936 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D543392095089F0863B13A9CF6EDDF4 /* RateBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */; };
+		67F36DC9FCACDFE283EE2E74AAB9BE8A /* RateBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6868379DB9632E3C5D380CC129C8AFC8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */; };
+		718C5B384F0F5435A6C054ACB01308EB /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */; };
+		739714D5DE4905B07055795644CF9E35 /* DragMenuPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7918D5257D251FC2142F3D93CE145909 /* RateBar-RateBar in Resources */ = {isa = PBXBuildFile; fileRef = DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */; };
+		7D592A60D47EA9693439D21BC7B33047 /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB08BBF008654840280345F1976E1D7 /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */; };
+		82955BE330E8278A24A941EABDCB893C /* Pods-Killuanco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A445A81219A6092EA5CC8FB9C7EF29A /* ShowPasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE60FF26F9476906B0E3794FB0ABDFD /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */; };
+		91BF3959F076C4FB81CA2EFA0F21F98D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */; };
+		A01091E48BBB7285E8FDF17FE63D13C6 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */; };
+		A03C3682675583BBFC702029BFB02F3D /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */; };
+		A106366CDB03ABC1D30C557B7318D057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		A1E3D3C2DED9F708871B62A2A4EC14AD /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */; };
+		A5B82CC31EF566057D1282417CB57D8A /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF5247F0CB74898829A2E27EFC7D986 /* ShowPasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */; };
+		B1DCD657E12C8B7F7CAE88215A57BC2D /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */; };
+		BA96F13A805E18E1B6D572DE9B4B9A25 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA78D11B47D43806AFC9BBB663354A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F0650A3506F3E3DC67C11058BB3183BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F0AE782E79A6A507631C93F07ACAF305 /* Pods-Killuanco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */; };
+		FD54F0A5E472548538E440F4ED2E6F0A /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F801160DCF0B0030FF3FE181B633034 /* PBXContainerItemProxy */ = {
+		0C2F583CDFE2BA7DB13C4C129B366CDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B84DB26A54DCA074C71097A25ABF9E38;
-			remoteInfo = ShowPasswordTextField;
+			remoteGlobalIDString = 3264BB860C56ADE8E242ECE27D7151A1;
+			remoteInfo = "RateBar-RateBar";
 		};
-		D00A3E80C9085D0019DC2EA9FDB8645B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4315C804D18AF023D6D89A8281BF589;
-			remoteInfo = BEMCheckBox;
-		};
-		EF448194ED396EA148CF8921FB72289F /* PBXContainerItemProxy */ = {
+		14B5F6561119B0BA9665F1875526C512 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8F4F3D1C7BD7776800CA4A61690EB5F0;
 			remoteInfo = DragMenuPicker;
 		};
+		4A1DC5F63A0C73AE449146D4A8DA704A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4315C804D18AF023D6D89A8281BF589;
+			remoteInfo = BEMCheckBox;
+		};
+		522E628BD38D10F05755DEC07CB1F232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E9C4CC9FDB77401228CF224882CFC3;
+			remoteInfo = RateBar;
+		};
+		B172FFB230595CBFA07587E79FA4BF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84DB26A54DCA074C71097A25ABF9E38;
+			remoteInfo = ShowPasswordTextField;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		053C5A4BBA6527C3D4E9F0E7FE789B42 /* DragMenuPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-prefix.pch"; sourceTree = "<group>"; };
-		0D1988C3149A7D440D36C1CA6E0D58A2 /* ShowPasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShowPasswordTextField-dummy.m"; sourceTree = "<group>"; };
+		00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RateBar; path = RateBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
+		1077821DCCD5591D986A0EEE2AADDE8B /* RateBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-prefix.pch"; sourceTree = "<group>"; };
+		10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-umbrella.h"; sourceTree = "<group>"; };
 		134D33AD465A7F2EB346211F919AECE4 /* Pods-Killuanco-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Killuanco-Info.plist"; sourceTree = "<group>"; };
-		14325D47A95BC533FB37537CDE435D04 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
-		183C42FCBC78A10BACE39B9AF9B613BE /* BEMCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.debug.xcconfig; sourceTree = "<group>"; };
-		226C394BB54679F789E6A88125DA76D6 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.debug.xcconfig; sourceTree = "<group>"; };
+		16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
+		20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
 		25710256167467FCE31EBAB1029A6CF6 /* Pods-Killuanco-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Killuanco-frameworks.sh"; sourceTree = "<group>"; };
-		263C4633465E274FFA414D7261B4C986 /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
-		28AA1B86B89D9440490210E27ABB01FC /* ShowPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
-		316E0D93FAA8D8A5371FB8FBC2F61587 /* ShowPasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShowPasswordTextField.modulemap; sourceTree = "<group>"; };
-		35CA7F7CADDCD3077E0E0854FB6D26F2 /* DragMenuPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragMenuPicker.modulemap; sourceTree = "<group>"; };
+		2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.release.xcconfig; sourceTree = "<group>"; };
+		350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragMenuPicker.swift; path = DragMenuPicker/DragMenuPicker.swift; sourceTree = "<group>"; };
 		3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Killuanco-dummy.m"; sourceTree = "<group>"; };
 		3F282D213AB9D1ECA1228C986CC9D2BA /* BEMCheckBox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4833BDDE15273625FE37CD7494970304 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		43E02F6F3B5E149A030B4BD34BD4A3EB /* RateBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RateBar.modulemap; sourceTree = "<group>"; };
+		462F5C91999EA707B27E9A1F0857CB34 /* ShowPasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-prefix.pch"; sourceTree = "<group>"; };
+		48636042D0188AA0C979861ECB2DC5CF /* DragMenuPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-prefix.pch"; sourceTree = "<group>"; };
 		4EAC05429C206ADED9C6833B003DB67A /* Pods-Killuanco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Killuanco.release.xcconfig"; sourceTree = "<group>"; };
+		4F6DBFBEF8F135BF52AC0C9ED0DB2446 /* ShowPasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShowPasswordTextField-Info.plist"; sourceTree = "<group>"; };
 		4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Killuanco"; path = Pods_Killuanco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5802FBD93FF4EEB997D256FB18005C81 /* ShowPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.release.xcconfig; sourceTree = "<group>"; };
-		60B2C20F47C123B1BF1C4BC4F3D024FF /* ShowPasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShowPasswordTextField-Info.plist"; sourceTree = "<group>"; };
+		54356FBD9550987C759EA5B7C946D017 /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
+		543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateBar-dummy.m"; sourceTree = "<group>"; };
+		562E1EBF19B89B3755B8C520A16B73BA /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		5ECF8933625CC0FA73C55E82DD817577 /* ShowPasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShowPasswordTextField.modulemap; sourceTree = "<group>"; };
+		5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
 		630241D1E823F3D4EBFEF593B71A2224 /* DragMenuPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragMenuPicker; path = DragMenuPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63628E683128CC827BF2CD81F8A54B47 /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
-		71AEBB3DA4097A0090B8D9022973B8A1 /* DragMenuPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-umbrella.h"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76106B4D1D1A594F279E6DD8074250B1 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
-		7B0A11DDEF45C7BF344B72E0460AEAB6 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
-		7B1D9F3F4C0328D3A449D024BDA9E17A /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
-		7CA5D4071FBB93D2169F5A5CD28ADB56 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-umbrella.h"; sourceTree = "<group>"; };
+		748543035969E2C1FD08280040681301 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		7FC6F72EC35375B204B3EDCB45B26240 /* DragMenuPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragMenuPicker.modulemap; sourceTree = "<group>"; };
 		830734CEF521AE2E2ECC6D844E561C02 /* Pods-Killuanco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Killuanco.debug.xcconfig"; sourceTree = "<group>"; };
-		8515E43699B56AE0C0520989D949464F /* ShowPasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-prefix.pch"; sourceTree = "<group>"; };
-		8668F5A27F257EAA561AE7F181A2B416 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
-		99DA458DD462FA3B59CBF78521A66E7F /* DragMenuPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DragMenuPicker-Info.plist"; sourceTree = "<group>"; };
+		902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.debug.xcconfig; sourceTree = "<group>"; };
+		995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-umbrella.h"; sourceTree = "<group>"; };
+		9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShowPasswordTextField-dummy.m"; sourceTree = "<group>"; };
+		9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = RateBar.xcassets; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F81602D52C607B00ABB1138BA2D427C /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
 		A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Killuanco-umbrella.h"; sourceTree = "<group>"; };
-		A38952C24208D43FD0AC0CED8DF6A0EA /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
-		ADDFB262C11623B0716A583E8051574B /* DragMenuPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.release.xcconfig; sourceTree = "<group>"; };
-		B4B2A48A8F1B97995CC7F785E55B8E89 /* ShowPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowPasswordTextField.swift; path = ShowPasswordTextField/Classes/ShowPasswordTextField.swift; sourceTree = "<group>"; };
-		B4B80D9A6F299ADF2B5ACBF902DB429E /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		A54886E4E1D32E1178B059B6ED59B355 /* RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RateBar-Info.plist"; sourceTree = "<group>"; };
+		B2A7E22D74D10CF1EEA69AEC968722E2 /* DragMenuPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DragMenuPicker-Info.plist"; sourceTree = "<group>"; };
 		B6F86497B1EAE2261469AC06C4C5245B /* Pods-Killuanco-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Killuanco-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3763539F4FB5FFF336D26FEA76152FF /* ShowPasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-umbrella.h"; sourceTree = "<group>"; };
-		CF0A98891E212FE4DAC448C79D4388E8 /* DragMenuPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragMenuPicker-dummy.m"; sourceTree = "<group>"; };
+		BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.release.xcconfig; sourceTree = "<group>"; };
+		C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.debug.xcconfig; sourceTree = "<group>"; };
+		CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
 		D0EE77E270D9118BEBBFFF54C30A6EB4 /* Pods-Killuanco-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Killuanco-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D48F14726085EF077BF6BAB16BA13D5A /* DragMenuPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragMenuPicker.swift; path = DragMenuPicker/DragMenuPicker.swift; sourceTree = "<group>"; };
+		D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragMenuPicker-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5833EC36775C74BE6DB3576F7DCDC82 /* ResourceBundle-RateBar-RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RateBar-RateBar-Info.plist"; sourceTree = "<group>"; };
+		DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RateBar-RateBar"; path = RateBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4653A419CED52BFDB9F6D7CBC040F0A /* Pods-Killuanco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Killuanco.modulemap"; sourceTree = "<group>"; };
 		E4995CDE72A1A9BFE8D75E9E794A7F72 /* ShowPasswordTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShowPasswordTextField; path = ShowPasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F6A24A3D6C76574075D5A3DBAE6485 /* DragMenuPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.debug.xcconfig; sourceTree = "<group>"; };
-		FF8958DFB876A4C7982F24278BA1B24B /* BEMCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.release.xcconfig; sourceTree = "<group>"; };
+		E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.release.xcconfig; sourceTree = "<group>"; };
+		F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowPasswordTextField.swift; path = ShowPasswordTextField/Classes/ShowPasswordTextField.swift; sourceTree = "<group>"; };
+		F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F518AAA46452757B2A7C83523257E0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CD9C9C352DF743C5C53AAEC0A980B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,32 +176,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BD0C69691B255373D42CB9653FC47BB /* Frameworks */ = {
+		967475EDA531518356A9C2CC220C1B6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570F00355D972BBA986464C297578F80 /* Foundation.framework in Frameworks */,
+				2108061B001B3815D65C8BE19FAA31B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AC7FCD343B89B1440F73F2B8AAC8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C90B4D458B7DD98A7F84A5B44B7B63 /* Foundation.framework in Frameworks */,
+				A106366CDB03ABC1D30C557B7318D057 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09E987FB1D255D4409FF3654DE78E6C1 /* BEMCheckBox */ = {
+		0384626F6BDE03AECFA81B71164B2059 /* RateBar */ = {
 			isa = PBXGroup;
 			children = (
-				4833BDDE15273625FE37CD7494970304 /* BEMAnimationManager.h */,
-				7B0A11DDEF45C7BF344B72E0460AEAB6 /* BEMAnimationManager.m */,
-				7B1D9F3F4C0328D3A449D024BDA9E17A /* BEMCheckBox.h */,
-				14325D47A95BC533FB37537CDE435D04 /* BEMCheckBox.m */,
-				7CA5D4071FBB93D2169F5A5CD28ADB56 /* BEMCheckBoxGroup.h */,
-				B4B80D9A6F299ADF2B5ACBF902DB429E /* BEMCheckBoxGroup.m */,
-				263C4633465E274FFA414D7261B4C986 /* BEMPathManager.h */,
-				76106B4D1D1A594F279E6DD8074250B1 /* BEMPathManager.m */,
-				D63D6DD1DEB6353D792EC9D377869EF3 /* Support Files */,
+				2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */,
+				E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */,
+				B75527AF674892F61F27D4C931082F44 /* Resources */,
+				D56A7DB869C63603340A3F2BC7007049 /* Support Files */,
 			);
-			name = BEMCheckBox;
-			path = BEMCheckBox;
+			name = RateBar;
+			path = RateBar;
+			sourceTree = "<group>";
+		};
+		0A780822D605435FAC26AA9A7948DA5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DC032B99667330D2E45B133EF2FE13B /* BEMCheckBox */,
+				0DD7105B808EDF1C3F0FADF7F9AB12BC /* DragMenuPicker */,
+				0384626F6BDE03AECFA81B71164B2059 /* RateBar */,
+				5504F2916B7AC88D42E404DF4869F9B0 /* ShowPasswordTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0AC2C898177F15C029ECFE767D01FEB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF8933625CC0FA73C55E82DD817577 /* ShowPasswordTextField.modulemap */,
+				9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */,
+				4F6DBFBEF8F135BF52AC0C9ED0DB2446 /* ShowPasswordTextField-Info.plist */,
+				462F5C91999EA707B27E9A1F0857CB34 /* ShowPasswordTextField-prefix.pch */,
+				66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */,
+				0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */,
+				F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShowPasswordTextField";
+			sourceTree = "<group>";
+		};
+		0DD7105B808EDF1C3F0FADF7F9AB12BC /* DragMenuPicker */ = {
+			isa = PBXGroup;
+			children = (
+				350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */,
+				3B384725E08ACFB1739B8D170C3C1224 /* Support Files */,
+			);
+			name = DragMenuPicker;
+			path = DragMenuPicker;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		22CD2A1DC58982844D1AC360006347AB /* Pods-Killuanco */ = {
@@ -174,68 +269,83 @@
 			path = "Target Support Files/Pods-Killuanco";
 			sourceTree = "<group>";
 		};
-		27C9EA7957C52762D931E16F32C768F3 /* Pods */ = {
+		389B2414BBFE216A648714F15EEF3710 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				09E987FB1D255D4409FF3654DE78E6C1 /* BEMCheckBox */,
-				6877B450F1ED5F7EEEA28543CA03BC26 /* DragMenuPicker */,
-				825633C8F177F8E9588733D787E135A7 /* ShowPasswordTextField */,
+				748543035969E2C1FD08280040681301 /* BEMCheckBox.modulemap */,
+				5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */,
+				54356FBD9550987C759EA5B7C946D017 /* BEMCheckBox-Info.plist */,
+				562E1EBF19B89B3755B8C520A16B73BA /* BEMCheckBox-prefix.pch */,
+				902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */,
+				910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */,
+				313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
 			sourceTree = "<group>";
 		};
-		2F037DEE29931AD8CFC7AB6FC780A4B1 /* Products */ = {
+		3B384725E08ACFB1739B8D170C3C1224 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC6F72EC35375B204B3EDCB45B26240 /* DragMenuPicker.modulemap */,
+				D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */,
+				B2A7E22D74D10CF1EEA69AEC968722E2 /* DragMenuPicker-Info.plist */,
+				48636042D0188AA0C979861ECB2DC5CF /* DragMenuPicker-prefix.pch */,
+				9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */,
+				C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */,
+				BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragMenuPicker";
+			sourceTree = "<group>";
+		};
+		3DC032B99667330D2E45B133EF2FE13B /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */,
+				5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */,
+				995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */,
+				7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */,
+				20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */,
+				2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */,
+				7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */,
+				1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */,
+				389B2414BBFE216A648714F15EEF3710 /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		4BB495B4D357F44EFFDB7D29243E708D /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3F282D213AB9D1ECA1228C986CC9D2BA /* BEMCheckBox */,
 				630241D1E823F3D4EBFEF593B71A2224 /* DragMenuPicker */,
 				4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */,
+				00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */,
+				DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */,
 				E4995CDE72A1A9BFE8D75E9E794A7F72 /* ShowPasswordTextField */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		5504F2916B7AC88D42E404DF4869F9B0 /* ShowPasswordTextField */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6877B450F1ED5F7EEEA28543CA03BC26 /* DragMenuPicker */ = {
-			isa = PBXGroup;
-			children = (
-				D48F14726085EF077BF6BAB16BA13D5A /* DragMenuPicker.swift */,
-				9F4792271D22A52101CC13440F8AC426 /* Support Files */,
-			);
-			name = DragMenuPicker;
-			path = DragMenuPicker;
-			sourceTree = "<group>";
-		};
-		825633C8F177F8E9588733D787E135A7 /* ShowPasswordTextField */ = {
-			isa = PBXGroup;
-			children = (
-				B4B2A48A8F1B97995CC7F785E55B8E89 /* ShowPasswordTextField.swift */,
-				B54F638499B73E21C2BC17B28698E4E2 /* Support Files */,
+				F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */,
+				0AC2C898177F15C029ECFE767D01FEB9 /* Support Files */,
 			);
 			name = ShowPasswordTextField;
 			path = ShowPasswordTextField;
 			sourceTree = "<group>";
 		};
-		9F4792271D22A52101CC13440F8AC426 /* Support Files */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				35CA7F7CADDCD3077E0E0854FB6D26F2 /* DragMenuPicker.modulemap */,
-				CF0A98891E212FE4DAC448C79D4388E8 /* DragMenuPicker-dummy.m */,
-				99DA458DD462FA3B59CBF78521A66E7F /* DragMenuPicker-Info.plist */,
-				053C5A4BBA6527C3D4E9F0E7FE789B42 /* DragMenuPicker-prefix.pch */,
-				71AEBB3DA4097A0090B8D9022973B8A1 /* DragMenuPicker-umbrella.h */,
-				F9F6A24A3D6C76574075D5A3DBAE6485 /* DragMenuPicker.debug.xcconfig */,
-				ADDFB262C11623B0716A583E8051574B /* DragMenuPicker.release.xcconfig */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DragMenuPicker";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B205E697F8B101DF5F93FE38675D2715 /* Targets Support Files */ = {
@@ -246,58 +356,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B54F638499B73E21C2BC17B28698E4E2 /* Support Files */ = {
+		B75527AF674892F61F27D4C931082F44 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				316E0D93FAA8D8A5371FB8FBC2F61587 /* ShowPasswordTextField.modulemap */,
-				0D1988C3149A7D440D36C1CA6E0D58A2 /* ShowPasswordTextField-dummy.m */,
-				60B2C20F47C123B1BF1C4BC4F3D024FF /* ShowPasswordTextField-Info.plist */,
-				8515E43699B56AE0C0520989D949464F /* ShowPasswordTextField-prefix.pch */,
-				C3763539F4FB5FFF336D26FEA76152FF /* ShowPasswordTextField-umbrella.h */,
-				28AA1B86B89D9440490210E27ABB01FC /* ShowPasswordTextField.debug.xcconfig */,
-				5802FBD93FF4EEB997D256FB18005C81 /* ShowPasswordTextField.release.xcconfig */,
+				9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */,
+				16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ShowPasswordTextField";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				27C9EA7957C52762D931E16F32C768F3 /* Pods */,
-				2F037DEE29931AD8CFC7AB6FC780A4B1 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0A780822D605435FAC26AA9A7948DA5E /* Pods */,
+				4BB495B4D357F44EFFDB7D29243E708D /* Products */,
 				B205E697F8B101DF5F93FE38675D2715 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D56A7DB869C63603340A3F2BC7007049 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D63D6DD1DEB6353D792EC9D377869EF3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				226C394BB54679F789E6A88125DA76D6 /* BEMCheckBox.modulemap */,
-				A38952C24208D43FD0AC0CED8DF6A0EA /* BEMCheckBox-dummy.m */,
-				63628E683128CC827BF2CD81F8A54B47 /* BEMCheckBox-Info.plist */,
-				8668F5A27F257EAA561AE7F181A2B416 /* BEMCheckBox-prefix.pch */,
-				9F81602D52C607B00ABB1138BA2D427C /* BEMCheckBox-umbrella.h */,
-				183C42FCBC78A10BACE39B9AF9B613BE /* BEMCheckBox.debug.xcconfig */,
-				FF8958DFB876A4C7982F24278BA1B24B /* BEMCheckBox.release.xcconfig */,
+				43E02F6F3B5E149A030B4BD34BD4A3EB /* RateBar.modulemap */,
+				543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */,
+				A54886E4E1D32E1178B059B6ED59B355 /* RateBar-Info.plist */,
+				1077821DCCD5591D986A0EEE2AADDE8B /* RateBar-prefix.pch */,
+				10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */,
+				13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */,
+				F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */,
+				D5833EC36775C74BE6DB3576F7DCDC82 /* ResourceBundle-RateBar-RateBar-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/BEMCheckBox";
+			path = "../Target Support Files/RateBar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06BD110016EFF93891EB2035C6B2A6C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82955BE330E8278A24A941EABDCB893C /* Pods-Killuanco-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		851688B606404C74313BC11399297DC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,11 +431,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC13FEA1038BB8E4E7369748D4B2737A /* Headers */ = {
+		CEFC5752EBD2CEF60084233B4D53EB30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA6C74393EB31726EFBDF94B83370E7 /* Pods-Killuanco-umbrella.h in Headers */,
+				67F36DC9FCACDFE283EE2E74AAB9BE8A /* RateBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,23 +444,60 @@
 /* Begin PBXNativeTarget section */
 		00B71E0165DA80B8E5CE13E542F5D05E /* Pods-Killuanco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AAD03D1F187E3F5F3988400C4C53C36 /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */;
+			buildConfigurationList = 0412F76A1D64B922198FF58E983BE15F /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */;
 			buildPhases = (
-				AC13FEA1038BB8E4E7369748D4B2737A /* Headers */,
-				7135CAF84D91E0EA14798571991F157F /* Sources */,
-				5BD0C69691B255373D42CB9653FC47BB /* Frameworks */,
-				D4EA3C972A4B12020BD83A84CCBACD9B /* Resources */,
+				06BD110016EFF93891EB2035C6B2A6C8 /* Headers */,
+				A3FAAF5C5ED771FA6B8F7A52BFA83475 /* Sources */,
+				967475EDA531518356A9C2CC220C1B6F /* Frameworks */,
+				DA32A7D18DF3E53F5A46F0E786D1CE2C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				99308D1AFF5E19AC01E68537AB85C38E /* PBXTargetDependency */,
-				CA7E23E8C5C57D14511AF93909168626 /* PBXTargetDependency */,
-				BB2DF5935EC021855FCFA8567146FF7E /* PBXTargetDependency */,
+				EFBBA201F1C7457C11F9217AE947D591 /* PBXTargetDependency */,
+				94C40A5E40A1B4A6C27A02573DBF02FA /* PBXTargetDependency */,
+				A493CB681098CDACE9D7C2F731566D33 /* PBXTargetDependency */,
+				B3564345E102C32840D8BE74CF77ED96 /* PBXTargetDependency */,
 			);
 			name = "Pods-Killuanco";
 			productName = Pods_Killuanco;
 			productReference = 4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */;
+			productType = "com.apple.product-type.framework";
+		};
+		3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C09D6FA55A8C61E7E42EBB6895589E8 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */;
+			buildPhases = (
+				8ABDAFE4F702762891A3FFBE08C90EBF /* Sources */,
+				1CD9C9C352DF743C5C53AAEC0A980B75 /* Frameworks */,
+				6661E4D89BB727174FDFC5367A1DD119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RateBar-RateBar";
+			productName = RateBar;
+			productReference = DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */;
+			productType = "com.apple.product-type.bundle";
+		};
+		45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B43AEE90DFA1F202384DC225E415F2 /* Build configuration list for PBXNativeTarget "RateBar" */;
+			buildPhases = (
+				CEFC5752EBD2CEF60084233B4D53EB30 /* Headers */,
+				73A59268A0606C36D21E750313406E23 /* Sources */,
+				B2AC7FCD343B89B1440F73F2B8AAC8B8 /* Frameworks */,
+				95CFEB6E1771C3131529A41B6460E8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D21358D129A54114EECA8CBA8F6A022 /* PBXTargetDependency */,
+			);
+			name = RateBar;
+			productName = RateBar;
+			productReference = 00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */ = {
@@ -422,7 +564,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -430,13 +572,15 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2F037DEE29931AD8CFC7AB6FC780A4B1 /* Products */;
+			productRefGroup = 4BB495B4D357F44EFFDB7D29243E708D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */,
 				8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */,
 				00B71E0165DA80B8E5CE13E542F5D05E /* Pods-Killuanco */,
+				45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */,
+				3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */,
 				B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */,
 			);
 		};
@@ -457,6 +601,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6661E4D89BB727174FDFC5367A1DD119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB08BBF008654840280345F1976E1D7 /* RateBar.xcassets in Resources */,
+				8BE60FF26F9476906B0E3794FB0ABDFD /* RatingBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67FB8FF2FA32159F9B7961D17EDEB0FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,7 +617,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4EA3C972A4B12020BD83A84CCBACD9B /* Resources */ = {
+		95CFEB6E1771C3131529A41B6460E8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718C5B384F0F5435A6C054ACB01308EB /* RateBar.xcassets in Resources */,
+				7918D5257D251FC2142F3D93CE145909 /* RateBar-RateBar in Resources */,
+				A01091E48BBB7285E8FDF17FE63D13C6 /* RatingBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA32A7D18DF3E53F5A46F0E786D1CE2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,11 +658,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7135CAF84D91E0EA14798571991F157F /* Sources */ = {
+		73A59268A0606C36D21E750313406E23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F541E46785EF9AF1BFD687C78C5CC4 /* Pods-Killuanco-dummy.m in Sources */,
+				5D543392095089F0863B13A9CF6EDDF4 /* RateBar-dummy.m in Sources */,
+				A1E3D3C2DED9F708871B62A2A4EC14AD /* RatingBar.swift in Sources */,
+				FD54F0A5E472548538E440F4ED2E6F0A /* RatingBarDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABDAFE4F702762891A3FFBE08C90EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FAAF5C5ED771FA6B8F7A52BFA83475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE782E79A6A507631C93F07ACAF305 /* Pods-Killuanco-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,30 +695,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		99308D1AFF5E19AC01E68537AB85C38E /* PBXTargetDependency */ = {
+		3D21358D129A54114EECA8CBA8F6A022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BEMCheckBox;
-			target = B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */;
-			targetProxy = D00A3E80C9085D0019DC2EA9FDB8645B /* PBXContainerItemProxy */;
+			name = "RateBar-RateBar";
+			target = 3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */;
+			targetProxy = 0C2F583CDFE2BA7DB13C4C129B366CDE /* PBXContainerItemProxy */;
 		};
-		BB2DF5935EC021855FCFA8567146FF7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ShowPasswordTextField;
-			target = B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */;
-			targetProxy = 7F801160DCF0B0030FF3FE181B633034 /* PBXContainerItemProxy */;
-		};
-		CA7E23E8C5C57D14511AF93909168626 /* PBXTargetDependency */ = {
+		94C40A5E40A1B4A6C27A02573DBF02FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DragMenuPicker;
 			target = 8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */;
-			targetProxy = EF448194ED396EA148CF8921FB72289F /* PBXContainerItemProxy */;
+			targetProxy = 14B5F6561119B0BA9665F1875526C512 /* PBXContainerItemProxy */;
+		};
+		A493CB681098CDACE9D7C2F731566D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RateBar;
+			target = 45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */;
+			targetProxy = 522E628BD38D10F05755DEC07CB1F232 /* PBXContainerItemProxy */;
+		};
+		B3564345E102C32840D8BE74CF77ED96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShowPasswordTextField;
+			target = B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */;
+			targetProxy = B172FFB230595CBFA07587E79FA4BF27 /* PBXContainerItemProxy */;
+		};
+		EFBBA201F1C7457C11F9217AE947D591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */;
+			targetProxy = 4A1DC5F63A0C73AE449146D4A8DA704A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		068984EBF109CE3FD3E109525FED3D9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADDFB262C11623B0716A583E8051574B /* DragMenuPicker.release.xcconfig */;
+			baseConfigurationReference = BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -573,7 +765,7 @@
 		};
 		18533AA4589DA4879784FB26D80A016F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5802FBD93FF4EEB997D256FB18005C81 /* ShowPasswordTextField.release.xcconfig */;
+			baseConfigurationReference = F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -607,46 +799,25 @@
 			};
 			name = Release;
 		};
-		2C6EDB1CE087123125239DB331695C50 /* Debug */ = {
+		4700B35AC5B1CB5C1E410996B9D25A9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830734CEF521AE2E2ECC6D844E561C02 /* Pods-Killuanco.debug.xcconfig */;
+			baseConfigurationReference = F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RateBar";
+				IBSC_MODULE = RateBar;
+				INFOPLIST_FILE = "Target Support Files/RateBar/ResourceBundle-RateBar-RateBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RateBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		562A31BD58B3EE8AE392274705C73205 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28AA1B86B89D9440490210E27ABB01FC /* ShowPasswordTextField.debug.xcconfig */;
+			baseConfigurationReference = 0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -678,6 +849,78 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6034CB82572C2209A601BE75C263C22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RateBar/RateBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateBar/RateBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RateBar/RateBar.modulemap";
+				PRODUCT_MODULE_NAME = RateBar;
+				PRODUCT_NAME = RateBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75DA3CB4E016BDC763AD8BBE26D85118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAC05429C206ADED9C6833B003DB67A /* Pods-Killuanco.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -745,6 +988,43 @@
 			};
 			name = Debug;
 		};
+		9746D44743C6DBBA126A5E8BA7A07952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830734CEF521AE2E2ECC6D844E561C02 /* Pods-Killuanco.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -807,9 +1087,60 @@
 			};
 			name = Release;
 		};
+		9FC46587611ED4F3E52F8B1EBCEAC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RateBar/RateBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateBar/RateBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RateBar/RateBar.modulemap";
+				PRODUCT_MODULE_NAME = RateBar;
+				PRODUCT_NAME = RateBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD71AB8893F1EFFE52BF2A5D1BB3BAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RateBar";
+				IBSC_MODULE = RateBar;
+				INFOPLIST_FILE = "Target Support Files/RateBar/ResourceBundle-RateBar-RateBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RateBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		BE61380E0B235CC089EAFF888371F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 183C42FCBC78A10BACE39B9AF9B613BE /* BEMCheckBox.debug.xcconfig */;
+			baseConfigurationReference = 910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -843,7 +1174,7 @@
 		};
 		CD25B57C76D32B22B97D333D35C356A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8958DFB876A4C7982F24278BA1B24B /* BEMCheckBox.release.xcconfig */;
+			baseConfigurationReference = 313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -878,7 +1209,7 @@
 		};
 		F275D464F6AEE79C5F46769C9E4D62C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9F6A24A3D6C76574075D5A3DBAE6485 /* DragMenuPicker.debug.xcconfig */;
+			baseConfigurationReference = C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -910,47 +1241,18 @@
 			};
 			name = Debug;
 		};
-		F85F8DA7411E74F9B8D8989530350CC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EAC05429C206ADED9C6833B003DB67A /* Pods-Killuanco.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Killuanco/Pods-Killuanco.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0412F76A1D64B922198FF58E983BE15F /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9746D44743C6DBBA126A5E8BA7A07952 /* Debug */,
+				75DA3CB4E016BDC763AD8BBE26D85118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -960,11 +1262,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AAD03D1F187E3F5F3988400C4C53C36 /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */ = {
+		55B43AEE90DFA1F202384DC225E415F2 /* Build configuration list for PBXNativeTarget "RateBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C6EDB1CE087123125239DB331695C50 /* Debug */,
-				F85F8DA7411E74F9B8D8989530350CC9 /* Release */,
+				6034CB82572C2209A601BE75C263C22B /* Debug */,
+				9FC46587611ED4F3E52F8B1EBCEAC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C09D6FA55A8C61E7E42EBB6895589E8 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD71AB8893F1EFFE52BF2A5D1BB3BAE0 /* Debug */,
+				4700B35AC5B1CB5C1E410996B9D25A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

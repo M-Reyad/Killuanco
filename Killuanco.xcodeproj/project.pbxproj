@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D17781428455B8C00F300CB /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781328455B8C00F300CB /* ProductViewController.swift */; };
+		9D17781A2845690000F300CB /* Notifications Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1778192845690000F300CB /* Notifications Model.swift */; };
+		9D17781C2845696A00F300CB /* Favorites Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781B2845696A00F300CB /* Favorites Model.swift */; };
+		9D17781E28456A1500F300CB /* Products Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781D28456A1500F300CB /* Products Model.swift */; };
 		9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507D2826BFEC0029CB3F /* AccountViewController.swift */; };
 		9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */; };
 		9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2750812826C0240029CB3F /* ContactUsViewController.swift */; };
@@ -19,6 +23,7 @@
 		9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */; };
 		9D82CF7E284140610064BEA6 /* ProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D82CF7D284140610064BEA6 /* ProductView.xib */; };
 		9D97680828436E250053EE90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97680728436E250053EE90 /* LoginViewController.swift */; };
+		9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
 		9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */; };
@@ -27,6 +32,8 @@
 		9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */; };
 		9DBFA49C282419E400C8BB12 /* KilluancoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA49B282419E400C8BB12 /* KilluancoTests.swift */; };
 		9DBFA4A7282419E400C8BB12 /* KilluancoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */; };
+		9DD56C0A2845311700E61BBE /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */; };
+		9DD56C0B2845311700E61BBE /* FavoritesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */; };
 		AD7057C68C46A63E87679C39 /* Pods_Killuanco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +58,10 @@
 		2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Killuanco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1ED7FDB90D71A54A35AD17 /* Pods-Killuanco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Killuanco.debug.xcconfig"; path = "Target Support Files/Pods-Killuanco/Pods-Killuanco.debug.xcconfig"; sourceTree = "<group>"; };
 		81A0648B33D3F3A0448A00C0 /* Pods-Killuanco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Killuanco.release.xcconfig"; path = "Target Support Files/Pods-Killuanco/Pods-Killuanco.release.xcconfig"; sourceTree = "<group>"; };
+		9D17781328455B8C00F300CB /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		9D1778192845690000F300CB /* Notifications Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications Model.swift"; sourceTree = "<group>"; };
+		9D17781B2845696A00F300CB /* Favorites Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites Model.swift"; sourceTree = "<group>"; };
+		9D17781D28456A1500F300CB /* Products Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products Model.swift"; sourceTree = "<group>"; };
 		9D27507D2826BFEC0029CB3F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
 		9D2750812826C0240029CB3F /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +74,7 @@
 		9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		9D82CF7D284140610064BEA6 /* ProductView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductView.xib; sourceTree = "<group>"; };
 		9D97680728436E250053EE90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBFA486282419E000C8BB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +89,8 @@
 		9DBFA4A2282419E400C8BB12 /* KilluancoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KilluancoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilluancoUITests.swift; sourceTree = "<group>"; };
 		9DBFA4A8282419E400C8BB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +125,50 @@
 				5E1ED7FDB90D71A54A35AD17 /* Pods-Killuanco.debug.xcconfig */,
 				81A0648B33D3F3A0448A00C0 /* Pods-Killuanco.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D1778152845680700F300CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */,
+				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
+				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
+				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
+				9D82CF7D284140610064BEA6 /* ProductView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D1778162845682B00F300CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */,
+				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
+				9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */,
+				9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */,
+				9D27507D2826BFEC0029CB3F /* AccountViewController.swift */,
+				9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */,
+				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
+				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
+				9D17781328455B8C00F300CB /* ProductViewController.swift */,
+				9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */,
+				9D97680728436E250053EE90 /* LoginViewController.swift */,
+				9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */,
+				9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D177818284568DE00F300CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D44AC88283153A600EE6271 /* K.swift */,
+				9D1778192845690000F300CB /* Notifications Model.swift */,
+				9D17781B2845696A00F300CB /* Favorites Model.swift */,
+				9D17781D28456A1500F300CB /* Products Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9DBFA478282419E000C8BB12 = {
@@ -142,23 +198,11 @@
 			children = (
 				9DBFA484282419E000C8BB12 /* AppDelegate.swift */,
 				9DBFA486282419E000C8BB12 /* SceneDelegate.swift */,
-				9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */,
-				9D27507D2826BFEC0029CB3F /* AccountViewController.swift */,
-				9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */,
-				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
-				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
-				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
-				9D97680728436E250053EE90 /* LoginViewController.swift */,
-				9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */,
-				9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */,
-				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
-				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
+				9D177818284568DE00F300CB /* Model */,
+				9D1778152845680700F300CB /* View */,
+				9D1778162845682B00F300CB /* Controller */,
 				9DBFA48D282419E400C8BB12 /* Assets.xcassets */,
-				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
 				9DBFA492282419E400C8BB12 /* Info.plist */,
-				9D44AC88283153A600EE6271 /* K.swift */,
-				9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */,
-				9D82CF7D284140610064BEA6 /* ProductView.xib */,
 			);
 			path = Killuanco;
 			sourceTree = "<group>";
@@ -297,6 +341,7 @@
 			files = (
 				9D82CF7E284140610064BEA6 /* ProductView.xib in Resources */,
 				9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */,
+				9DD56C0B2845311700E61BBE /* FavoritesCollectionViewCell.xib in Resources */,
 				9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */,
 				9DBFA48E282419E400C8BB12 /* Assets.xcassets in Resources */,
 				9DBFA48C282419E000C8BB12 /* Main.storyboard in Resources */,
@@ -370,14 +415,20 @@
 				9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */,
 				9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */,
 				9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */,
+				9D17781C2845696A00F300CB /* Favorites Model.swift in Sources */,
 				9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */,
 				9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */,
+				9D17781428455B8C00F300CB /* ProductViewController.swift in Sources */,
 				9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */,
 				9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */,
+				9D17781A2845690000F300CB /* Notifications Model.swift in Sources */,
+				9DD56C0A2845311700E61BBE /* FavoritesCollectionViewCell.swift in Sources */,
+				9D17781E28456A1500F300CB /* Products Model.swift in Sources */,
 				9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */,
 				9D2750842826CE5A0029CB3F /* MyDetailsViewController.swift in Sources */,
 				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
 				9D97680828436E250053EE90 /* LoginViewController.swift in Sources */,
+				9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */,
 				9D82CF7728410DC90064BEA6 /* ProductViewCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

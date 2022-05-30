@@ -9,12 +9,6 @@
 import UIKit
 import DragMenuPicker
 
-struct Products {
-    let name: String
-    let price : Int
-}
-
-
 
 class CategoryViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     let newProducts: [Products] = [Products(name: "Doggy food", price: 12),

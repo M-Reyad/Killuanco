@@ -24,6 +24,10 @@ struct K {
     
     static let productsCollectionViewCellIdentifier = "ProductViewCollectionViewCell"
     static let productsCollectionViewCellNibName = "ProductView"
+    
+    
+    static let FavoritesNibName = "FavoritesCollectionViewCell"
+    static let FavoritesReuseIdentifier = "FavoritesReuseIdentifier"
 }
 
 //MARK:- Custom Views Layout
