@@ -7,141 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0000C7B04F59AF1493DA4C9629E0D52B /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */; };
-		143AE0DEDB06216ED06D6D28FF4829D9 /* ShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */; };
-		2108061B001B3815D65C8BE19FAA31B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		24924C3453ACAC4A37D47A7182B22965 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000C7B04F59AF1493DA4C9629E0D52B /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A29E9483AA2D29C7CA1F904F2B3FC486 /* BEMCheckBox.m */; };
+		1129F7BA2C4C802281B2F6A118D6594F /* ValueStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3958704FBD9E290664E22604BF2C4F6C /* ValueStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143AE0DEDB06216ED06D6D28FF4829D9 /* ShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B243CEC68C19CEA4F5B5C908D69DD3F /* ShowPasswordTextField.swift */; };
+		16E62F61C5AA001A5DA55CED8E508252 /* Pods-Killuanco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */; };
+		18282E49FC6F272B9235E45C4D531DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		24924C3453ACAC4A37D47A7182B22965 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2343DFF5FC83BEB3572F328F5E28E3EE /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26C90B4D458B7DD98A7F84A5B44B7B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		2B90284A8582499A7812C8C6EDF8ED2A /* DragMenuPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */; };
-		2E839BC45EECED4B8FA075090C9F55AA /* DragMenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */; };
+		2B90284A8582499A7812C8C6EDF8ED2A /* DragMenuPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6BCD821248E3C83374BF990C00D51 /* DragMenuPicker-dummy.m */; };
+		2E839BC45EECED4B8FA075090C9F55AA /* DragMenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258CCCBD0051972DF0193E866A1617F /* DragMenuPicker.swift */; };
 		2F518AAA46452757B2A7C83523257E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		4AEA230EF22D7C3AE847E1697C398936 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D543392095089F0863B13A9CF6EDDF4 /* RateBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */; };
-		67F36DC9FCACDFE283EE2E74AAB9BE8A /* RateBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6868379DB9632E3C5D380CC129C8AFC8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */; };
-		718C5B384F0F5435A6C054ACB01308EB /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */; };
-		739714D5DE4905B07055795644CF9E35 /* DragMenuPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C01E9797D4AB3C11540CF1CE018313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4AEA230EF22D7C3AE847E1697C398936 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC88FACBD5929CE4236E3131532966BD /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D543392095089F0863B13A9CF6EDDF4 /* RateBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68A3B1395B9BBC821AAA1DDED8E6C1 /* RateBar-dummy.m */; };
+		615D5E0D915978C44E5781493F193303 /* Pods-Killuanco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F36DC9FCACDFE283EE2E74AAB9BE8A /* RateBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9CCA1363945B77147480AEA2747F06 /* RateBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6868379DB9632E3C5D380CC129C8AFC8 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F0404FE63708D1730C001639853744 /* BEMAnimationManager.m */; };
+		718C5B384F0F5435A6C054ACB01308EB /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2804091B0156E87247070C4646597 /* RateBar.xcassets */; };
+		739714D5DE4905B07055795644CF9E35 /* DragMenuPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CACA532A4BA858B0A8F241F2BC4BB4A /* DragMenuPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7918D5257D251FC2142F3D93CE145909 /* RateBar-RateBar in Resources */ = {isa = PBXBuildFile; fileRef = DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */; };
-		7D592A60D47EA9693439D21BC7B33047 /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FB08BBF008654840280345F1976E1D7 /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */; };
-		82955BE330E8278A24A941EABDCB893C /* Pods-Killuanco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A445A81219A6092EA5CC8FB9C7EF29A /* ShowPasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BE60FF26F9476906B0E3794FB0ABDFD /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */; };
-		91BF3959F076C4FB81CA2EFA0F21F98D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */; };
-		A01091E48BBB7285E8FDF17FE63D13C6 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */; };
-		A03C3682675583BBFC702029BFB02F3D /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */; };
+		7D592A60D47EA9693439D21BC7B33047 /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C94B30868A33564D2D92DE17197F1F /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A445A81219A6092EA5CC8FB9C7EF29A /* ShowPasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3DFD1F5EAC21D726BC327C725F4BA7 /* ShowPasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91BF3959F076C4FB81CA2EFA0F21F98D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7554E63B1C038D319A1E15DBF8187B7C /* BEMCheckBoxGroup.m */; };
+		A01091E48BBB7285E8FDF17FE63D13C6 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DA95E8936B238E5E9A76406C148582 /* RatingBar.xib */; };
+		A03C3682675583BBFC702029BFB02F3D /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766757473A825FD62EE82E8FC2B721C /* BEMCheckBox-dummy.m */; };
 		A106366CDB03ABC1D30C557B7318D057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		A1E3D3C2DED9F708871B62A2A4EC14AD /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */; };
-		A5B82CC31EF566057D1282417CB57D8A /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF5247F0CB74898829A2E27EFC7D986 /* ShowPasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */; };
-		B1DCD657E12C8B7F7CAE88215A57BC2D /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */; };
-		BA96F13A805E18E1B6D572DE9B4B9A25 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E3D3C2DED9F708871B62A2A4EC14AD /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F28DF4589C5752835983D2EDAE82E0 /* RatingBar.swift */; };
+		A5B82CC31EF566057D1282417CB57D8A /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EF88DF7C4E30C1A1F3F451F7DDEF50 /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF5247F0CB74898829A2E27EFC7D986 /* ShowPasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097BDF6DC1F9BC8FA1659DF20F58776C /* ShowPasswordTextField-dummy.m */; };
+		B1DCD657E12C8B7F7CAE88215A57BC2D /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D66C41B41EEC5DF3ABDA518DDB187 /* BEMPathManager.m */; };
+		BA96F13A805E18E1B6D572DE9B4B9A25 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A3637651765BF4305202899692603C0B /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB18B1E8774B72DB597D73354A6BC958 /* RatingBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DA95E8936B238E5E9A76406C148582 /* RatingBar.xib */; };
+		BFFE9E7C556EE0F3633ABF0E7DAEAE62 /* ValueStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B904B2992D6366F137C2B3B632C6DE1 /* ValueStepper-dummy.m */; };
+		C860FF72D86CD1BFD35C9C5BD6CFAA4B /* RateBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2804091B0156E87247070C4646597 /* RateBar.xcassets */; };
 		EA78D11B47D43806AFC9BBB663354A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EFC180B1BD81810559CD17ED5AEBEB46 /* ValueStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4247C04B1967D68E8780C3F700844F /* ValueStepper.swift */; };
 		F0650A3506F3E3DC67C11058BB3183BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		F0AE782E79A6A507631C93F07ACAF305 /* Pods-Killuanco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */; };
-		FD54F0A5E472548538E440F4ED2E6F0A /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */; };
+		FD54F0A5E472548538E440F4ED2E6F0A /* RatingBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5559FA1D3BBDE7AF0021163A35C1A /* RatingBarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C2F583CDFE2BA7DB13C4C129B366CDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3264BB860C56ADE8E242ECE27D7151A1;
-			remoteInfo = "RateBar-RateBar";
-		};
-		14B5F6561119B0BA9665F1875526C512 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F4F3D1C7BD7776800CA4A61690EB5F0;
-			remoteInfo = DragMenuPicker;
-		};
-		4A1DC5F63A0C73AE449146D4A8DA704A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4315C804D18AF023D6D89A8281BF589;
-			remoteInfo = BEMCheckBox;
-		};
-		522E628BD38D10F05755DEC07CB1F232 /* PBXContainerItemProxy */ = {
+		78C628A9AE872B2E90E40FE475828E32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45E9C4CC9FDB77401228CF224882CFC3;
 			remoteInfo = RateBar;
 		};
-		B172FFB230595CBFA07587E79FA4BF27 /* PBXContainerItemProxy */ = {
+		7F7DC03C00C930410B18CBB7A7946CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4315C804D18AF023D6D89A8281BF589;
+			remoteInfo = BEMCheckBox;
+		};
+		BF314107A3523891AFCE2B99FDF70780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4F3D1C7BD7776800CA4A61690EB5F0;
+			remoteInfo = DragMenuPicker;
+		};
+		E3C1E17FADA6CB53C651F02FBE1CA551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3264BB860C56ADE8E242ECE27D7151A1;
+			remoteInfo = "RateBar-RateBar";
+		};
+		E7F73F17E02EB6B808E4940A9497A538 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B84DB26A54DCA074C71097A25ABF9E38;
 			remoteInfo = ShowPasswordTextField;
 		};
+		FC2FFB1409F368C792ECE127E05641A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75626691707CB65882B0D7D67E1235EC;
+			remoteInfo = ValueStepper;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00191895A7BC92D4014F3834C8D5C3FD /* ShowPasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-prefix.pch"; sourceTree = "<group>"; };
 		00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RateBar; path = RateBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
-		1077821DCCD5591D986A0EEE2AADDE8B /* RateBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-prefix.pch"; sourceTree = "<group>"; };
-		10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-umbrella.h"; sourceTree = "<group>"; };
+		01E2804091B0156E87247070C4646597 /* RateBar.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = RateBar.xcassets; sourceTree = "<group>"; };
+		029B1A3C5FEACB574B4E4BBD0BF7E3A0 /* RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RateBar-Info.plist"; sourceTree = "<group>"; };
+		05F0404FE63708D1730C001639853744 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		097BDF6DC1F9BC8FA1659DF20F58776C /* ShowPasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShowPasswordTextField-dummy.m"; sourceTree = "<group>"; };
+		0B243CEC68C19CEA4F5B5C908D69DD3F /* ShowPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowPasswordTextField.swift; path = ShowPasswordTextField/Classes/ShowPasswordTextField.swift; sourceTree = "<group>"; };
+		0DE6BCD821248E3C83374BF990C00D51 /* DragMenuPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragMenuPicker-dummy.m"; sourceTree = "<group>"; };
 		134D33AD465A7F2EB346211F919AECE4 /* Pods-Killuanco-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Killuanco-Info.plist"; sourceTree = "<group>"; };
-		1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
-		13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.debug.xcconfig; sourceTree = "<group>"; };
-		16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
-		20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
-		2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		1A734E1AA6F0BC772B7B147CF553C653 /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		1EA7A7AA54BC0E365F81876E6EC11354 /* BEMCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.debug.xcconfig; sourceTree = "<group>"; };
+		20F28DF4589C5752835983D2EDAE82E0 /* RatingBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		22DD22D931A9C64526F7B322FDDA1B31 /* ValueStepper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValueStepper.debug.xcconfig; sourceTree = "<group>"; };
+		2343DFF5FC83BEB3572F328F5E28E3EE /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		24251CE20F7B7150DA76BB8FC24BE374 /* RateBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.release.xcconfig; sourceTree = "<group>"; };
 		25710256167467FCE31EBAB1029A6CF6 /* Pods-Killuanco-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Killuanco-frameworks.sh"; sourceTree = "<group>"; };
-		2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
-		313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.release.xcconfig; sourceTree = "<group>"; };
-		350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragMenuPicker.swift; path = DragMenuPicker/DragMenuPicker.swift; sourceTree = "<group>"; };
+		2D3DFD1F5EAC21D726BC327C725F4BA7 /* ShowPasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-umbrella.h"; sourceTree = "<group>"; };
+		2D42C182CC583F6136422507D83ECCB8 /* BEMCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.release.xcconfig; sourceTree = "<group>"; };
+		3095EFAFAB855639A20DEBA0BF7802BE /* DragMenuPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.debug.xcconfig; sourceTree = "<group>"; };
+		3958704FBD9E290664E22604BF2C4F6C /* ValueStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValueStepper-umbrella.h"; sourceTree = "<group>"; };
 		3CA61146956DAC9474A0BFE6807C877A /* Pods-Killuanco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Killuanco-dummy.m"; sourceTree = "<group>"; };
 		3F282D213AB9D1ECA1228C986CC9D2BA /* BEMCheckBox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E02F6F3B5E149A030B4BD34BD4A3EB /* RateBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RateBar.modulemap; sourceTree = "<group>"; };
-		462F5C91999EA707B27E9A1F0857CB34 /* ShowPasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-prefix.pch"; sourceTree = "<group>"; };
-		48636042D0188AA0C979861ECB2DC5CF /* DragMenuPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-prefix.pch"; sourceTree = "<group>"; };
+		408FC8782B709A2685CE5AF221024BBD /* ShowPasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShowPasswordTextField-Info.plist"; sourceTree = "<group>"; };
 		4EAC05429C206ADED9C6833B003DB67A /* Pods-Killuanco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Killuanco.release.xcconfig"; sourceTree = "<group>"; };
-		4F6DBFBEF8F135BF52AC0C9ED0DB2446 /* ShowPasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShowPasswordTextField-Info.plist"; sourceTree = "<group>"; };
 		4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Killuanco"; path = Pods_Killuanco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54356FBD9550987C759EA5B7C946D017 /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
-		543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateBar-dummy.m"; sourceTree = "<group>"; };
-		562E1EBF19B89B3755B8C520A16B73BA /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
-		5ECF8933625CC0FA73C55E82DD817577 /* ShowPasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShowPasswordTextField.modulemap; sourceTree = "<group>"; };
-		5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
-		5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		5AB106E2EB3FF0D5083BED71DE028440 /* DragMenuPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DragMenuPicker-Info.plist"; sourceTree = "<group>"; };
+		61DA064572E787B8151B14A2770B7D51 /* ValueStepper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValueStepper.release.xcconfig; sourceTree = "<group>"; };
 		630241D1E823F3D4EBFEF593B71A2224 /* DragMenuPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragMenuPicker; path = DragMenuPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShowPasswordTextField-umbrella.h"; sourceTree = "<group>"; };
-		748543035969E2C1FD08280040681301 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
-		7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
-		7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
-		7FC6F72EC35375B204B3EDCB45B26240 /* DragMenuPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragMenuPicker.modulemap; sourceTree = "<group>"; };
+		64E5C20BE0066459C12325A579AA13BC /* ValueStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValueStepper.modulemap; sourceTree = "<group>"; };
+		6B904B2992D6366F137C2B3B632C6DE1 /* ValueStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValueStepper-dummy.m"; sourceTree = "<group>"; };
+		6CACA532A4BA858B0A8F241F2BC4BB4A /* DragMenuPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-umbrella.h"; sourceTree = "<group>"; };
+		7554E63B1C038D319A1E15DBF8187B7C /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		7766757473A825FD62EE82E8FC2B721C /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
 		830734CEF521AE2E2ECC6D844E561C02 /* Pods-Killuanco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Killuanco.debug.xcconfig"; sourceTree = "<group>"; };
-		902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
-		910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.debug.xcconfig; sourceTree = "<group>"; };
-		995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
-		9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-umbrella.h"; sourceTree = "<group>"; };
-		9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShowPasswordTextField-dummy.m"; sourceTree = "<group>"; };
-		9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = RateBar.xcassets; sourceTree = "<group>"; };
+		831F82C1A636F59B6E33E32B3C40054D /* ShowPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
+		8A22E73AB6830ABB9A7A49822086E209 /* RateBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.debug.xcconfig; sourceTree = "<group>"; };
+		9A98CEF86C2D4F999042F49BF0F5D99E /* DragMenuPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragMenuPicker.modulemap; sourceTree = "<group>"; };
+		9C9CCA1363945B77147480AEA2747F06 /* RateBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24D9435F7CAEFC36D12E3A8C5D2210E /* DragMenuPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.release.xcconfig; sourceTree = "<group>"; };
+		A27D66C41B41EEC5DF3ABDA518DDB187 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		A29E9483AA2D29C7CA1F904F2B3FC486 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
 		A2A96A080C5F974903CC660E36809026 /* Pods-Killuanco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Killuanco-umbrella.h"; sourceTree = "<group>"; };
-		A54886E4E1D32E1178B059B6ED59B355 /* RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RateBar-Info.plist"; sourceTree = "<group>"; };
-		B2A7E22D74D10CF1EEA69AEC968722E2 /* DragMenuPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DragMenuPicker-Info.plist"; sourceTree = "<group>"; };
+		A3637651765BF4305202899692603C0B /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		AC88FACBD5929CE4236E3131532966BD /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		B1C94B30868A33564D2D92DE17197F1F /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		B4EA84A5E6CAB88B9B30FF75D873DBA7 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
 		B6F86497B1EAE2261469AC06C4C5245B /* Pods-Killuanco-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Killuanco-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.release.xcconfig; sourceTree = "<group>"; };
-		C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragMenuPicker.debug.xcconfig; sourceTree = "<group>"; };
-		CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		C0EF88DF7C4E30C1A1F3F451F7DDEF50 /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		C258CCCBD0051972DF0193E866A1617F /* DragMenuPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragMenuPicker.swift; path = DragMenuPicker/DragMenuPicker.swift; sourceTree = "<group>"; };
+		CE71E7A7B42E0BBF679D4284DE8AF305 /* RateBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateBar-prefix.pch"; sourceTree = "<group>"; };
+		D0DA95E8936B238E5E9A76406C148582 /* RatingBar.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RatingBar.xib; sourceTree = "<group>"; };
 		D0EE77E270D9118BEBBFFF54C30A6EB4 /* Pods-Killuanco-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Killuanco-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragMenuPicker-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5833EC36775C74BE6DB3576F7DCDC82 /* ResourceBundle-RateBar-RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RateBar-RateBar-Info.plist"; sourceTree = "<group>"; };
+		D42F2D8318F477611A8428A05C40E7B7 /* ShowPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.release.xcconfig; sourceTree = "<group>"; };
 		DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RateBar-RateBar"; path = RateBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC627BC43BC518D4F9E1A222CA352488 /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
+		DF727733307371473638963AB4987453 /* DragMenuPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragMenuPicker-prefix.pch"; sourceTree = "<group>"; };
+		E00302180F5A10AE40CBAA45DB8CFF73 /* ShowPasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShowPasswordTextField.modulemap; sourceTree = "<group>"; };
+		E419002AF0511E3FC1A4E14A1C31520A /* ValueStepper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValueStepper-Info.plist"; sourceTree = "<group>"; };
 		E4653A419CED52BFDB9F6D7CBC040F0A /* Pods-Killuanco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Killuanco.modulemap"; sourceTree = "<group>"; };
 		E4995CDE72A1A9BFE8D75E9E794A7F72 /* ShowPasswordTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShowPasswordTextField; path = ShowPasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
+		E5795221EE7E73138C1D474806109609 /* ValueStepper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValueStepper; path = ValueStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateBar.release.xcconfig; sourceTree = "<group>"; };
-		F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShowPasswordTextField.swift; path = ShowPasswordTextField/Classes/ShowPasswordTextField.swift; sourceTree = "<group>"; };
-		F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShowPasswordTextField.release.xcconfig; sourceTree = "<group>"; };
+		EEA899EB20AE548434C28182230194A6 /* ValueStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValueStepper-prefix.pch"; sourceTree = "<group>"; };
+		F256F9236D818AB01758D19343270469 /* RateBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RateBar.modulemap; sourceTree = "<group>"; };
+		F860FB2A9FB58027C5CB53A9760B7C9C /* ResourceBundle-RateBar-RateBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RateBar-RateBar-Info.plist"; sourceTree = "<group>"; };
+		FCD5559FA1D3BBDE7AF0021163A35C1A /* RatingBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RatingBarDelegate.swift; sourceTree = "<group>"; };
+		FD4247C04B1967D68E8780C3F700844F /* ValueStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueStepper.swift; path = Pod/Classes/ValueStepper.swift; sourceTree = "<group>"; };
+		FD68A3B1395B9BBC821AAA1DDED8E6C1 /* RateBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateBar-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,13 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F518AAA46452757B2A7C83523257E0A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CD9C9C352DF743C5C53AAEC0A980B75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +189,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		967475EDA531518356A9C2CC220C1B6F /* Frameworks */ = {
+		553D32BDA092ACD49948BD00763F984B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2108061B001B3815D65C8BE19FAA31B4 /* Foundation.framework in Frameworks */,
+				45C01E9797D4AB3C11540CF1CE018313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD149B8FDAED6666B83336F2202F48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18282E49FC6F272B9235E45C4D531DB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,63 +214,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D84315D334F1510D443CB02BF3368D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0384626F6BDE03AECFA81B71164B2059 /* RateBar */ = {
-			isa = PBXGroup;
-			children = (
-				2EC43EF527E788C11DB1252F6C615789 /* RatingBar.swift */,
-				E924CC4CAC627CAACC51E99323E93506 /* RatingBarDelegate.swift */,
-				B75527AF674892F61F27D4C931082F44 /* Resources */,
-				D56A7DB869C63603340A3F2BC7007049 /* Support Files */,
-			);
-			name = RateBar;
-			path = RateBar;
-			sourceTree = "<group>";
-		};
-		0A780822D605435FAC26AA9A7948DA5E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DC032B99667330D2E45B133EF2FE13B /* BEMCheckBox */,
-				0DD7105B808EDF1C3F0FADF7F9AB12BC /* DragMenuPicker */,
-				0384626F6BDE03AECFA81B71164B2059 /* RateBar */,
-				5504F2916B7AC88D42E404DF4869F9B0 /* ShowPasswordTextField */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0AC2C898177F15C029ECFE767D01FEB9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ECF8933625CC0FA73C55E82DD817577 /* ShowPasswordTextField.modulemap */,
-				9D306F2E9D63A1B654B2929217B34319 /* ShowPasswordTextField-dummy.m */,
-				4F6DBFBEF8F135BF52AC0C9ED0DB2446 /* ShowPasswordTextField-Info.plist */,
-				462F5C91999EA707B27E9A1F0857CB34 /* ShowPasswordTextField-prefix.pch */,
-				66F4D527F41DA82455AEA6F15D8A9E8D /* ShowPasswordTextField-umbrella.h */,
-				0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */,
-				F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ShowPasswordTextField";
-			sourceTree = "<group>";
-		};
-		0DD7105B808EDF1C3F0FADF7F9AB12BC /* DragMenuPicker */ = {
-			isa = PBXGroup;
-			children = (
-				350EB1DADF8323775C45A16B3B046162 /* DragMenuPicker.swift */,
-				3B384725E08ACFB1739B8D170C3C1224 /* Support Files */,
-			);
-			name = DragMenuPicker;
-			path = DragMenuPicker;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		202B50E8C69704E8072A32F678DB86DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00302180F5A10AE40CBAA45DB8CFF73 /* ShowPasswordTextField.modulemap */,
+				097BDF6DC1F9BC8FA1659DF20F58776C /* ShowPasswordTextField-dummy.m */,
+				408FC8782B709A2685CE5AF221024BBD /* ShowPasswordTextField-Info.plist */,
+				00191895A7BC92D4014F3834C8D5C3FD /* ShowPasswordTextField-prefix.pch */,
+				2D3DFD1F5EAC21D726BC327C725F4BA7 /* ShowPasswordTextField-umbrella.h */,
+				831F82C1A636F59B6E33E32B3C40054D /* ShowPasswordTextField.debug.xcconfig */,
+				D42F2D8318F477611A8428A05C40E7B7 /* ShowPasswordTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShowPasswordTextField";
 			sourceTree = "<group>";
 		};
 		22CD2A1DC58982844D1AC360006347AB /* Pods-Killuanco */ = {
@@ -269,74 +264,71 @@
 			path = "Target Support Files/Pods-Killuanco";
 			sourceTree = "<group>";
 		};
-		389B2414BBFE216A648714F15EEF3710 /* Support Files */ = {
+		29DE09F2DA5F89D60DB5D7346F673F79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				748543035969E2C1FD08280040681301 /* BEMCheckBox.modulemap */,
-				5FACFE584081B7B9358422FAD619B784 /* BEMCheckBox-dummy.m */,
-				54356FBD9550987C759EA5B7C946D017 /* BEMCheckBox-Info.plist */,
-				562E1EBF19B89B3755B8C520A16B73BA /* BEMCheckBox-prefix.pch */,
-				902C76948B2C895C85A35E36F0E9B2BF /* BEMCheckBox-umbrella.h */,
-				910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */,
-				313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */,
+				3516B996E2B0F0C3C3B5EBA81B9E1B17 /* BEMCheckBox */,
+				BB74F826739EFE11104CA69611EA924C /* DragMenuPicker */,
+				56CF321CAE51311EE43C2ED2BA099252 /* RateBar */,
+				F3BBC334951941DCC3B8EE90152DC3AE /* ShowPasswordTextField */,
+				521A074CFA0B0D454C6BC4914C552BC5 /* ValueStepper */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BEMCheckBox";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3B384725E08ACFB1739B8D170C3C1224 /* Support Files */ = {
+		3516B996E2B0F0C3C3B5EBA81B9E1B17 /* BEMCheckBox */ = {
 			isa = PBXGroup;
 			children = (
-				7FC6F72EC35375B204B3EDCB45B26240 /* DragMenuPicker.modulemap */,
-				D15D578112D294B891EFE524C3119204 /* DragMenuPicker-dummy.m */,
-				B2A7E22D74D10CF1EEA69AEC968722E2 /* DragMenuPicker-Info.plist */,
-				48636042D0188AA0C979861ECB2DC5CF /* DragMenuPicker-prefix.pch */,
-				9AB46134F8815D55742036EEE8C7B201 /* DragMenuPicker-umbrella.h */,
-				C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */,
-				BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DragMenuPicker";
-			sourceTree = "<group>";
-		};
-		3DC032B99667330D2E45B133EF2FE13B /* BEMCheckBox */ = {
-			isa = PBXGroup;
-			children = (
-				CD232346BB2C0A8191FDC4DF12427A05 /* BEMAnimationManager.h */,
-				5EE3B2E373ABB62B4F95C8617577FDE2 /* BEMAnimationManager.m */,
-				995157BAD8BE5A671A29EE50D0CE443F /* BEMCheckBox.h */,
-				7EA2C6D6D9D32808AF81F5B8494345DD /* BEMCheckBox.m */,
-				20BDFC5366E6EFDB3CD4A982D2293424 /* BEMCheckBoxGroup.h */,
-				2141FA990DD08156FA2A690606439234 /* BEMCheckBoxGroup.m */,
-				7BEE7C4F0BD0FD2DEE7E08EE7624EBEC /* BEMPathManager.h */,
-				1394F2A8934D4B2AAB625A333F6FAA12 /* BEMPathManager.m */,
-				389B2414BBFE216A648714F15EEF3710 /* Support Files */,
+				2343DFF5FC83BEB3572F328F5E28E3EE /* BEMAnimationManager.h */,
+				05F0404FE63708D1730C001639853744 /* BEMAnimationManager.m */,
+				A3637651765BF4305202899692603C0B /* BEMCheckBox.h */,
+				A29E9483AA2D29C7CA1F904F2B3FC486 /* BEMCheckBox.m */,
+				B1C94B30868A33564D2D92DE17197F1F /* BEMCheckBoxGroup.h */,
+				7554E63B1C038D319A1E15DBF8187B7C /* BEMCheckBoxGroup.m */,
+				AC88FACBD5929CE4236E3131532966BD /* BEMPathManager.h */,
+				A27D66C41B41EEC5DF3ABDA518DDB187 /* BEMPathManager.m */,
+				CD58CF5642267751B7798CA8A6AF85E0 /* Support Files */,
 			);
 			name = BEMCheckBox;
 			path = BEMCheckBox;
 			sourceTree = "<group>";
 		};
-		4BB495B4D357F44EFFDB7D29243E708D /* Products */ = {
+		521A074CFA0B0D454C6BC4914C552BC5 /* ValueStepper */ = {
 			isa = PBXGroup;
 			children = (
-				3F282D213AB9D1ECA1228C986CC9D2BA /* BEMCheckBox */,
-				630241D1E823F3D4EBFEF593B71A2224 /* DragMenuPicker */,
-				4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */,
-				00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */,
-				DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */,
-				E4995CDE72A1A9BFE8D75E9E794A7F72 /* ShowPasswordTextField */,
+				FD4247C04B1967D68E8780C3F700844F /* ValueStepper.swift */,
+				E6CCA4ABA47494EA209CA9777E6C2457 /* Support Files */,
 			);
-			name = Products;
+			name = ValueStepper;
+			path = ValueStepper;
 			sourceTree = "<group>";
 		};
-		5504F2916B7AC88D42E404DF4869F9B0 /* ShowPasswordTextField */ = {
+		5250BC546A579045F89AA22B2D061149 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F867EB836526A313C0A6078C04F71DAA /* ShowPasswordTextField.swift */,
-				0AC2C898177F15C029ECFE767D01FEB9 /* Support Files */,
+				F256F9236D818AB01758D19343270469 /* RateBar.modulemap */,
+				FD68A3B1395B9BBC821AAA1DDED8E6C1 /* RateBar-dummy.m */,
+				029B1A3C5FEACB574B4E4BBD0BF7E3A0 /* RateBar-Info.plist */,
+				CE71E7A7B42E0BBF679D4284DE8AF305 /* RateBar-prefix.pch */,
+				9C9CCA1363945B77147480AEA2747F06 /* RateBar-umbrella.h */,
+				8A22E73AB6830ABB9A7A49822086E209 /* RateBar.debug.xcconfig */,
+				24251CE20F7B7150DA76BB8FC24BE374 /* RateBar.release.xcconfig */,
+				F860FB2A9FB58027C5CB53A9760B7C9C /* ResourceBundle-RateBar-RateBar-Info.plist */,
 			);
-			name = ShowPasswordTextField;
-			path = ShowPasswordTextField;
+			name = "Support Files";
+			path = "../Target Support Files/RateBar";
+			sourceTree = "<group>";
+		};
+		56CF321CAE51311EE43C2ED2BA099252 /* RateBar */ = {
+			isa = PBXGroup;
+			children = (
+				20F28DF4589C5752835983D2EDAE82E0 /* RatingBar.swift */,
+				FCD5559FA1D3BBDE7AF0021163A35C1A /* RatingBarDelegate.swift */,
+				D7D732153420BD8BE07F70EFE13C39A5 /* Resources */,
+				5250BC546A579045F89AA22B2D061149 /* Support Files */,
+			);
+			name = RateBar;
+			path = RateBar;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -348,6 +340,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		94FC3DE9D206E15A753FE4700A127EE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A98CEF86C2D4F999042F49BF0F5D99E /* DragMenuPicker.modulemap */,
+				0DE6BCD821248E3C83374BF990C00D51 /* DragMenuPicker-dummy.m */,
+				5AB106E2EB3FF0D5083BED71DE028440 /* DragMenuPicker-Info.plist */,
+				DF727733307371473638963AB4987453 /* DragMenuPicker-prefix.pch */,
+				6CACA532A4BA858B0A8F241F2BC4BB4A /* DragMenuPicker-umbrella.h */,
+				3095EFAFAB855639A20DEBA0BF7802BE /* DragMenuPicker.debug.xcconfig */,
+				A24D9435F7CAEFC36D12E3A8C5D2210E /* DragMenuPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragMenuPicker";
+			sourceTree = "<group>";
+		};
 		B205E697F8B101DF5F93FE38675D2715 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,13 +363,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B75527AF674892F61F27D4C931082F44 /* Resources */ = {
+		BB74F826739EFE11104CA69611EA924C /* DragMenuPicker */ = {
 			isa = PBXGroup;
 			children = (
-				9D63A96264110D8D84CA9B7A92474388 /* RateBar.xcassets */,
-				16CDB5A2117FBD39C8A7E1D5EA603B74 /* RatingBar.xib */,
+				C258CCCBD0051972DF0193E866A1617F /* DragMenuPicker.swift */,
+				94FC3DE9D206E15A753FE4700A127EE5 /* Support Files */,
 			);
-			name = Resources;
+			name = DragMenuPicker;
+			path = DragMenuPicker;
+			sourceTree = "<group>";
+		};
+		CD58CF5642267751B7798CA8A6AF85E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EA84A5E6CAB88B9B30FF75D873DBA7 /* BEMCheckBox.modulemap */,
+				7766757473A825FD62EE82E8FC2B721C /* BEMCheckBox-dummy.m */,
+				DC627BC43BC518D4F9E1A222CA352488 /* BEMCheckBox-Info.plist */,
+				1A734E1AA6F0BC772B7B147CF553C653 /* BEMCheckBox-prefix.pch */,
+				C0EF88DF7C4E30C1A1F3F451F7DDEF50 /* BEMCheckBox-umbrella.h */,
+				1EA7A7AA54BC0E365F81876E6EC11354 /* BEMCheckBox.debug.xcconfig */,
+				2D42C182CC583F6136422507D83ECCB8 /* BEMCheckBox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -370,36 +393,68 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				0A780822D605435FAC26AA9A7948DA5E /* Pods */,
-				4BB495B4D357F44EFFDB7D29243E708D /* Products */,
+				29DE09F2DA5F89D60DB5D7346F673F79 /* Pods */,
+				DE26A8D090718D523CA8E02BCC185244 /* Products */,
 				B205E697F8B101DF5F93FE38675D2715 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D56A7DB869C63603340A3F2BC7007049 /* Support Files */ = {
+		D7D732153420BD8BE07F70EFE13C39A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				43E02F6F3B5E149A030B4BD34BD4A3EB /* RateBar.modulemap */,
-				543C9464F66BBFFE61FAF944E0FEE699 /* RateBar-dummy.m */,
-				A54886E4E1D32E1178B059B6ED59B355 /* RateBar-Info.plist */,
-				1077821DCCD5591D986A0EEE2AADDE8B /* RateBar-prefix.pch */,
-				10B1885FD7585AE29AD298413CBD22A0 /* RateBar-umbrella.h */,
-				13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */,
-				F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */,
-				D5833EC36775C74BE6DB3576F7DCDC82 /* ResourceBundle-RateBar-RateBar-Info.plist */,
+				01E2804091B0156E87247070C4646597 /* RateBar.xcassets */,
+				D0DA95E8936B238E5E9A76406C148582 /* RatingBar.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE26A8D090718D523CA8E02BCC185244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F282D213AB9D1ECA1228C986CC9D2BA /* BEMCheckBox */,
+				630241D1E823F3D4EBFEF593B71A2224 /* DragMenuPicker */,
+				4F954C0A3D189F5A6D68F970966E56E3 /* Pods-Killuanco */,
+				00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */,
+				DC3B3783519A05AAF9CCB87EC529795E /* RateBar-RateBar */,
+				E4995CDE72A1A9BFE8D75E9E794A7F72 /* ShowPasswordTextField */,
+				E5795221EE7E73138C1D474806109609 /* ValueStepper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6CCA4ABA47494EA209CA9777E6C2457 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E5C20BE0066459C12325A579AA13BC /* ValueStepper.modulemap */,
+				6B904B2992D6366F137C2B3B632C6DE1 /* ValueStepper-dummy.m */,
+				E419002AF0511E3FC1A4E14A1C31520A /* ValueStepper-Info.plist */,
+				EEA899EB20AE548434C28182230194A6 /* ValueStepper-prefix.pch */,
+				3958704FBD9E290664E22604BF2C4F6C /* ValueStepper-umbrella.h */,
+				22DD22D931A9C64526F7B322FDDA1B31 /* ValueStepper.debug.xcconfig */,
+				61DA064572E787B8151B14A2770B7D51 /* ValueStepper.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/RateBar";
+			path = "../Target Support Files/ValueStepper";
+			sourceTree = "<group>";
+		};
+		F3BBC334951941DCC3B8EE90152DC3AE /* ShowPasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0B243CEC68C19CEA4F5B5C908D69DD3F /* ShowPasswordTextField.swift */,
+				202B50E8C69704E8072A32F678DB86DE /* Support Files */,
+			);
+			name = ShowPasswordTextField;
+			path = ShowPasswordTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06BD110016EFF93891EB2035C6B2A6C8 /* Headers */ = {
+		4FBCBB59DD5F7D46CA00E48294EC0E7B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82955BE330E8278A24A941EABDCB893C /* Pods-Killuanco-umbrella.h in Headers */,
+				1129F7BA2C4C802281B2F6A118D6594F /* ValueStepper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +486,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0DADF9F4465B3DC190028CC93270B81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D5E0D915978C44E5781493F193303 /* Pods-Killuanco-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEFC5752EBD2CEF60084233B4D53EB30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,20 +507,21 @@
 /* Begin PBXNativeTarget section */
 		00B71E0165DA80B8E5CE13E542F5D05E /* Pods-Killuanco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0412F76A1D64B922198FF58E983BE15F /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */;
+			buildConfigurationList = BBCFD57A0FFF2A0C328586E3B4079204 /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */;
 			buildPhases = (
-				06BD110016EFF93891EB2035C6B2A6C8 /* Headers */,
-				A3FAAF5C5ED771FA6B8F7A52BFA83475 /* Sources */,
-				967475EDA531518356A9C2CC220C1B6F /* Frameworks */,
-				DA32A7D18DF3E53F5A46F0E786D1CE2C /* Resources */,
+				B0DADF9F4465B3DC190028CC93270B81 /* Headers */,
+				355BDEBCFECD7B3884AF5DA155C7A510 /* Sources */,
+				AAD149B8FDAED6666B83336F2202F48B /* Frameworks */,
+				113C294FEC7B9422E9937E8E50443951 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EFBBA201F1C7457C11F9217AE947D591 /* PBXTargetDependency */,
-				94C40A5E40A1B4A6C27A02573DBF02FA /* PBXTargetDependency */,
-				A493CB681098CDACE9D7C2F731566D33 /* PBXTargetDependency */,
-				B3564345E102C32840D8BE74CF77ED96 /* PBXTargetDependency */,
+				202A3D451A89D406F7E42D6D18F6B672 /* PBXTargetDependency */,
+				A84C4AA153449694797D7FF173F29574 /* PBXTargetDependency */,
+				2DDA83955C19C6FB069E6D35425CBAE2 /* PBXTargetDependency */,
+				A100EF9608F0411CA0784A260ABE16BC /* PBXTargetDependency */,
+				903E3AD4EA4F5C1ED8FBBF4DF226B8A3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Killuanco";
 			productName = Pods_Killuanco;
@@ -466,11 +530,11 @@
 		};
 		3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C09D6FA55A8C61E7E42EBB6895589E8 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */;
+			buildConfigurationList = 096A6DCD73C4CD8C97018B855DAB4E63 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */;
 			buildPhases = (
-				8ABDAFE4F702762891A3FFBE08C90EBF /* Sources */,
-				1CD9C9C352DF743C5C53AAEC0A980B75 /* Frameworks */,
-				6661E4D89BB727174FDFC5367A1DD119 /* Resources */,
+				5C7755FD8735BE33E8032C6F0EE9DD10 /* Sources */,
+				D84315D334F1510D443CB02BF3368D03 /* Frameworks */,
+				979DCE2A191FBCA0916A47ECFCE668E4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -493,11 +557,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				3D21358D129A54114EECA8CBA8F6A022 /* PBXTargetDependency */,
+				D024E7CEB65783A0F676DC74EA7E64EF /* PBXTargetDependency */,
 			);
 			name = RateBar;
 			productName = RateBar;
 			productReference = 00A1EC84A54294EE9F9767CD7178FE5E /* RateBar */;
+			productType = "com.apple.product-type.framework";
+		};
+		75626691707CB65882B0D7D67E1235EC /* ValueStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78F3988BD55B7CC1ADBA3495CE18389 /* Build configuration list for PBXNativeTarget "ValueStepper" */;
+			buildPhases = (
+				4FBCBB59DD5F7D46CA00E48294EC0E7B /* Headers */,
+				4192B27D0B6DD5CE98C55D2D80113912 /* Sources */,
+				553D32BDA092ACD49948BD00763F984B /* Frameworks */,
+				277ED1D5C3AE8BA45CCCABBCD327679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValueStepper;
+			productName = ValueStepper;
+			productReference = E5795221EE7E73138C1D474806109609 /* ValueStepper */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */ = {
@@ -572,7 +654,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4BB495B4D357F44EFFDB7D29243E708D /* Products */;
+			productRefGroup = DE26A8D090718D523CA8E02BCC185244 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -582,11 +664,26 @@
 				45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */,
 				3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */,
 				B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */,
+				75626691707CB65882B0D7D67E1235EC /* ValueStepper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		113C294FEC7B9422E9937E8E50443951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277ED1D5C3AE8BA45CCCABBCD327679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FA4301321C1395FCCFA69F95D5C56E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,15 +695,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6661E4D89BB727174FDFC5367A1DD119 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FB08BBF008654840280345F1976E1D7 /* RateBar.xcassets in Resources */,
-				8BE60FF26F9476906B0E3794FB0ABDFD /* RatingBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,16 +715,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA32A7D18DF3E53F5A46F0E786D1CE2C /* Resources */ = {
+		979DCE2A191FBCA0916A47ECFCE668E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C860FF72D86CD1BFD35C9C5BD6CFAA4B /* RateBar.xcassets in Resources */,
+				BB18B1E8774B72DB597D73354A6BC958 /* RatingBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		355BDEBCFECD7B3884AF5DA155C7A510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E62F61C5AA001A5DA55CED8E508252 /* Pods-Killuanco-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4192B27D0B6DD5CE98C55D2D80113912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC180B1BD81810559CD17ED5AEBEB46 /* ValueStepper.swift in Sources */,
+				BFFE9E7C556EE0F3633ABF0E7DAEAE62 /* ValueStepper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7755FD8735BE33E8032C6F0EE9DD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		622CC8A70DD8514925DE9F38102EF67A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -668,21 +782,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ABDAFE4F702762891A3FFBE08C90EBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3FAAF5C5ED771FA6B8F7A52BFA83475 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0AE782E79A6A507631C93F07ACAF305 /* Pods-Killuanco-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6C2B19A33A671BA738A19744170BF70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,42 +794,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D21358D129A54114EECA8CBA8F6A022 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RateBar-RateBar";
-			target = 3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */;
-			targetProxy = 0C2F583CDFE2BA7DB13C4C129B366CDE /* PBXContainerItemProxy */;
-		};
-		94C40A5E40A1B4A6C27A02573DBF02FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DragMenuPicker;
-			target = 8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */;
-			targetProxy = 14B5F6561119B0BA9665F1875526C512 /* PBXContainerItemProxy */;
-		};
-		A493CB681098CDACE9D7C2F731566D33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RateBar;
-			target = 45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */;
-			targetProxy = 522E628BD38D10F05755DEC07CB1F232 /* PBXContainerItemProxy */;
-		};
-		B3564345E102C32840D8BE74CF77ED96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ShowPasswordTextField;
-			target = B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */;
-			targetProxy = B172FFB230595CBFA07587E79FA4BF27 /* PBXContainerItemProxy */;
-		};
-		EFBBA201F1C7457C11F9217AE947D591 /* PBXTargetDependency */ = {
+		202A3D451A89D406F7E42D6D18F6B672 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BEMCheckBox;
 			target = B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */;
-			targetProxy = 4A1DC5F63A0C73AE449146D4A8DA704A /* PBXContainerItemProxy */;
+			targetProxy = 7F7DC03C00C930410B18CBB7A7946CE1 /* PBXContainerItemProxy */;
+		};
+		2DDA83955C19C6FB069E6D35425CBAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RateBar;
+			target = 45E9C4CC9FDB77401228CF224882CFC3 /* RateBar */;
+			targetProxy = 78C628A9AE872B2E90E40FE475828E32 /* PBXContainerItemProxy */;
+		};
+		903E3AD4EA4F5C1ED8FBBF4DF226B8A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValueStepper;
+			target = 75626691707CB65882B0D7D67E1235EC /* ValueStepper */;
+			targetProxy = FC2FFB1409F368C792ECE127E05641A1 /* PBXContainerItemProxy */;
+		};
+		A100EF9608F0411CA0784A260ABE16BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShowPasswordTextField;
+			target = B84DB26A54DCA074C71097A25ABF9E38 /* ShowPasswordTextField */;
+			targetProxy = E7F73F17E02EB6B808E4940A9497A538 /* PBXContainerItemProxy */;
+		};
+		A84C4AA153449694797D7FF173F29574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragMenuPicker;
+			target = 8F4F3D1C7BD7776800CA4A61690EB5F0 /* DragMenuPicker */;
+			targetProxy = BF314107A3523891AFCE2B99FDF70780 /* PBXContainerItemProxy */;
+		};
+		D024E7CEB65783A0F676DC74EA7E64EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RateBar-RateBar";
+			target = 3264BB860C56ADE8E242ECE27D7151A1 /* RateBar-RateBar */;
+			targetProxy = E3C1E17FADA6CB53C651F02FBE1CA551 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		068984EBF109CE3FD3E109525FED3D9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA84C8A4BBD71632FAC117A14B12014B /* DragMenuPicker.release.xcconfig */;
+			baseConfigurationReference = A24D9435F7CAEFC36D12E3A8C5D2210E /* DragMenuPicker.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -765,7 +870,7 @@
 		};
 		18533AA4589DA4879784FB26D80A016F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8AC5899FA7A883EAF2383C222645883 /* ShowPasswordTextField.release.xcconfig */;
+			baseConfigurationReference = D42F2D8318F477611A8428A05C40E7B7 /* ShowPasswordTextField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -799,9 +904,9 @@
 			};
 			name = Release;
 		};
-		4700B35AC5B1CB5C1E410996B9D25A9F /* Release */ = {
+		311A624877ADA155838537334BB1B266 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */;
+			baseConfigurationReference = 24251CE20F7B7150DA76BB8FC24BE374 /* RateBar.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RateBar";
 				IBSC_MODULE = RateBar;
@@ -817,7 +922,7 @@
 		};
 		562A31BD58B3EE8AE392274705C73205 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2E9A4A78BEC0A5CA08E2DC479A509C /* ShowPasswordTextField.debug.xcconfig */;
+			baseConfigurationReference = 831F82C1A636F59B6E33E32B3C40054D /* ShowPasswordTextField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -850,41 +955,7 @@
 			};
 			name = Debug;
 		};
-		6034CB82572C2209A601BE75C263C22B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RateBar/RateBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RateBar/RateBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RateBar/RateBar.modulemap";
-				PRODUCT_MODULE_NAME = RateBar;
-				PRODUCT_NAME = RateBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75DA3CB4E016BDC763AD8BBE26D85118 /* Release */ = {
+		5B3F0316F577C3920BD50DC3E7AD0EAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EAC05429C206ADED9C6833B003DB67A /* Pods-Killuanco.release.xcconfig */;
 			buildSettings = {
@@ -921,6 +992,74 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6034CB82572C2209A601BE75C263C22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A22E73AB6830ABB9A7A49822086E209 /* RateBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RateBar/RateBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateBar/RateBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RateBar/RateBar.modulemap";
+				PRODUCT_MODULE_NAME = RateBar;
+				PRODUCT_NAME = RateBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7522CFC9C946E3FA266DCF6EC2E06F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DD22D931A9C64526F7B322FDDA1B31 /* ValueStepper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValueStepper/ValueStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValueStepper/ValueStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValueStepper/ValueStepper.modulemap";
+				PRODUCT_MODULE_NAME = ValueStepper;
+				PRODUCT_NAME = ValueStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -988,7 +1127,7 @@
 			};
 			name = Debug;
 		};
-		9746D44743C6DBBA126A5E8BA7A07952 /* Debug */ = {
+		9C94BABFD1AE1FF5845647676E5BB674 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 830734CEF521AE2E2ECC6D844E561C02 /* Pods-Killuanco.debug.xcconfig */;
 			buildSettings = {
@@ -1087,9 +1226,25 @@
 			};
 			name = Release;
 		};
+		9F7DDE92B7764CBDC9801C6B24568DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A22E73AB6830ABB9A7A49822086E209 /* RateBar.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RateBar";
+				IBSC_MODULE = RateBar;
+				INFOPLIST_FILE = "Target Support Files/RateBar/ResourceBundle-RateBar-RateBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RateBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		9FC46587611ED4F3E52F8B1EBCEAC818 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D328A9DD6EC56E36F9702C88EE1381 /* RateBar.release.xcconfig */;
+			baseConfigurationReference = 24251CE20F7B7150DA76BB8FC24BE374 /* RateBar.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1122,25 +1277,9 @@
 			};
 			name = Release;
 		};
-		BD71AB8893F1EFFE52BF2A5D1BB3BAE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E27DCDF08123D717F725F2430262DC /* RateBar.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RateBar";
-				IBSC_MODULE = RateBar;
-				INFOPLIST_FILE = "Target Support Files/RateBar/ResourceBundle-RateBar-RateBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = RateBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		BE61380E0B235CC089EAFF888371F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 910F5495964467BA484315DDF8BD829A /* BEMCheckBox.debug.xcconfig */;
+			baseConfigurationReference = 1EA7A7AA54BC0E365F81876E6EC11354 /* BEMCheckBox.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1172,9 +1311,44 @@
 			};
 			name = Debug;
 		};
+		C3EF348D47BE481C37377036228DFF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DA064572E787B8151B14A2770B7D51 /* ValueStepper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValueStepper/ValueStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValueStepper/ValueStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValueStepper/ValueStepper.modulemap";
+				PRODUCT_MODULE_NAME = ValueStepper;
+				PRODUCT_NAME = ValueStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CD25B57C76D32B22B97D333D35C356A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 313109C56F79640B8F951D2488596B4E /* BEMCheckBox.release.xcconfig */;
+			baseConfigurationReference = 2D42C182CC583F6136422507D83ECCB8 /* BEMCheckBox.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1209,7 +1383,7 @@
 		};
 		F275D464F6AEE79C5F46769C9E4D62C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5458CCB2BA3A6EBA140645C13BBFB1C /* DragMenuPicker.debug.xcconfig */;
+			baseConfigurationReference = 3095EFAFAB855639A20DEBA0BF7802BE /* DragMenuPicker.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1244,11 +1418,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0412F76A1D64B922198FF58E983BE15F /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */ = {
+		096A6DCD73C4CD8C97018B855DAB4E63 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9746D44743C6DBBA126A5E8BA7A07952 /* Debug */,
-				75DA3CB4E016BDC763AD8BBE26D85118 /* Release */,
+				9F7DDE92B7764CBDC9801C6B24568DE4 /* Debug */,
+				311A624877ADA155838537334BB1B266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1271,11 +1445,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C09D6FA55A8C61E7E42EBB6895589E8 /* Build configuration list for PBXNativeTarget "RateBar-RateBar" */ = {
+		A78F3988BD55B7CC1ADBA3495CE18389 /* Build configuration list for PBXNativeTarget "ValueStepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD71AB8893F1EFFE52BF2A5D1BB3BAE0 /* Debug */,
-				4700B35AC5B1CB5C1E410996B9D25A9F /* Release */,
+				7522CFC9C946E3FA266DCF6EC2E06F12 /* Debug */,
+				C3EF348D47BE481C37377036228DFF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCFD57A0FFF2A0C328586E3B4079204 /* Build configuration list for PBXNativeTarget "Pods-Killuanco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C94BABFD1AE1FF5845647676E5BB674 /* Debug */,
+				5B3F0316F577C3920BD50DC3E7AD0EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

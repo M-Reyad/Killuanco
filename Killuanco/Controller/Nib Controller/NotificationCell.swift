@@ -11,8 +11,11 @@ import UIKit
 
 class NotificationCell: UITableViewCell {
 
+    @IBOutlet weak var notificationHeight: NSLayoutConstraint!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        notificationHeight.constant *= K.conversionIndex
         // Initialization code
     }
 

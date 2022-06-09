@@ -3,12 +3,14 @@ PODS:
   - DragMenuPicker (0.0.1)
   - RateBar (1.3.2)
   - ShowPasswordTextField (1.0.0)
+  - ValueStepper (1.6)
 
 DEPENDENCIES:
   - BEMCheckBox
   - DragMenuPicker
   - RateBar
   - ShowPasswordTextField
+  - ValueStepper
 
 SPEC REPOS:
   trunk:
@@ -16,13 +18,15 @@ SPEC REPOS:
     - DragMenuPicker
     - RateBar
     - ShowPasswordTextField
+    - ValueStepper
 
 SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   DragMenuPicker: 5ec9ac9b1ee8c897eca361f91eb81f4366befbd6
   RateBar: 4d7b4a42148c600dde9a2bd537f567dab31b63d4
   ShowPasswordTextField: afaa03b704087989f841e3bdd4525383261104d1
+  ValueStepper: 8b120c72c8d1391cd874a427485e2e57fda1a0b9
 
-PODFILE CHECKSUM: 26b9128456d32548ead7f756391106fbdc44fbb4
+PODFILE CHECKSUM: ade93f54afec381b2721b8adf7522d0f010e1cfd
 
 COCOAPODS: 1.11.2

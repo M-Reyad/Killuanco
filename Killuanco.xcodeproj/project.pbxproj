@@ -11,6 +11,9 @@
 		9D17781A2845690000F300CB /* Notifications Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1778192845690000F300CB /* Notifications Model.swift */; };
 		9D17781C2845696A00F300CB /* Favorites Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781B2845696A00F300CB /* Favorites Model.swift */; };
 		9D17781E28456A1500F300CB /* Products Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781D28456A1500F300CB /* Products Model.swift */; };
+		9D1778212845714100F300CB /* ShoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17781F2845714100F300CB /* ShoppingCartTableViewCell.swift */; };
+		9D1778222845714100F300CB /* ShoppingCartCellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1778202845714100F300CB /* ShoppingCartCellNib.xib */; };
+		9D1778242845800E00F300CB /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1778232845800E00F300CB /* ShoppingCartViewController.swift */; };
 		9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507D2826BFEC0029CB3F /* AccountViewController.swift */; };
 		9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */; };
 		9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2750812826C0240029CB3F /* ContactUsViewController.swift */; };
@@ -18,11 +21,15 @@
 		9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8428314F4300EE6271 /* NotificationCell.swift */; };
 		9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8528314F4300EE6271 /* NotificationCell.xib */; };
 		9D44AC89283153A600EE6271 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC88283153A600EE6271 /* K.swift */; };
-		9D82CF7728410DC90064BEA6 /* ProductViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */; };
+		9D6E017D28465E4700406688 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6E017C28465E4700406688 /* HomeViewController.swift */; };
+		9D7C7F6416925FB5005BE1BC /* FAQsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C7F6316925FB5005BE1BC /* FAQsViewController.swift */; };
+		9D82CF7728410DC90064BEA6 /* ProductInCollectionViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7528410DC90064BEA6 /* ProductInCollectionViewCellViewController.swift */; };
 		9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */; };
 		9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */; };
 		9D82CF7E284140610064BEA6 /* ProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D82CF7D284140610064BEA6 /* ProductView.xib */; };
 		9D97680828436E250053EE90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D97680728436E250053EE90 /* LoginViewController.swift */; };
+		9DA4AC942852678F0087000E /* ProductsCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */; };
+		9DA4AC952852678F0087000E /* CategoryTableViewNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4AC932852678F0087000E /* CategoryTableViewNib.xib */; };
 		9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
@@ -34,6 +41,7 @@
 		9DBFA4A7282419E400C8BB12 /* KilluancoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */; };
 		9DD56C0A2845311700E61BBE /* FavoritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */; };
 		9DD56C0B2845311700E61BBE /* FavoritesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */; };
+		9DF7BC0C28500C170033182F /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7BC0B28500C170033182F /* PaymentMethodViewController.swift */; };
 		AD7057C68C46A63E87679C39 /* Pods_Killuanco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +70,9 @@
 		9D1778192845690000F300CB /* Notifications Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications Model.swift"; sourceTree = "<group>"; };
 		9D17781B2845696A00F300CB /* Favorites Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorites Model.swift"; sourceTree = "<group>"; };
 		9D17781D28456A1500F300CB /* Products Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products Model.swift"; sourceTree = "<group>"; };
+		9D17781F2845714100F300CB /* ShoppingCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewCell.swift; sourceTree = "<group>"; };
+		9D1778202845714100F300CB /* ShoppingCartCellNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingCartCellNib.xib; sourceTree = "<group>"; };
+		9D1778232845800E00F300CB /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 		9D27507D2826BFEC0029CB3F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
 		9D2750812826C0240029CB3F /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -69,11 +80,15 @@
 		9D44AC8428314F4300EE6271 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9D44AC8528314F4300EE6271 /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
 		9D44AC88283153A600EE6271 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
-		9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D6E017C28465E4700406688 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Killuanco/Controller/ViewController/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		9D7C7F6316925FB5005BE1BC /* FAQsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FAQsViewController.swift; path = Killuanco/Controller/ViewController/FAQsViewController.swift; sourceTree = SOURCE_ROOT; };
+		9D82CF7528410DC90064BEA6 /* ProductInCollectionViewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInCollectionViewCellViewController.swift; sourceTree = "<group>"; };
 		9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		9D82CF7D284140610064BEA6 /* ProductView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductView.xib; sourceTree = "<group>"; };
 		9D97680728436E250053EE90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductsCategoryTableViewCell.swift; path = "Killuanco/Controller/Nib Controller/ProductsCategoryTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		9DA4AC932852678F0087000E /* CategoryTableViewNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CategoryTableViewNib.xib; path = "Killuanco/View/Main View/CategoryTableViewNib.xib"; sourceTree = SOURCE_ROOT; };
 		9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +106,7 @@
 		9DBFA4A8282419E400C8BB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewCell.swift; sourceTree = "<group>"; };
 		9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DF7BC0B28500C170033182F /* PaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentMethodViewController.swift; path = Killuanco/Controller/ViewController/PaymentMethodViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +147,8 @@
 		9D1778152845680700F300CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */,
-				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
-				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
-				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
-				9D82CF7D284140610064BEA6 /* ProductView.xib */,
+				9DA4AC912852563F0087000E /* Main View */,
+				9DA4AC90285255E30087000E /* Nibs */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,19 +156,8 @@
 		9D1778162845682B00F300CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9D82CF7528410DC90064BEA6 /* ProductViewCollectionViewCell.swift */,
-				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
-				9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */,
-				9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */,
-				9D27507D2826BFEC0029CB3F /* AccountViewController.swift */,
-				9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */,
-				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
-				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
-				9D17781328455B8C00F300CB /* ProductViewController.swift */,
-				9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */,
-				9D97680728436E250053EE90 /* LoginViewController.swift */,
-				9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */,
-				9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */,
+				9DA4AC8E285255980087000E /* Nib Controller */,
+				9DA4AC8F285255A00087000E /* ViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,6 +171,60 @@
 				9D17781D28456A1500F300CB /* Products Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA4AC8E285255980087000E /* Nib Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */,
+				9DD56C082845311700E61BBE /* FavoritesCollectionViewCell.swift */,
+				9D17781F2845714100F300CB /* ShoppingCartTableViewCell.swift */,
+				9D82CF7528410DC90064BEA6 /* ProductInCollectionViewCellViewController.swift */,
+				9D44AC8428314F4300EE6271 /* NotificationCell.swift */,
+			);
+			path = "Nib Controller";
+			sourceTree = "<group>";
+		};
+		9DA4AC8F285255A00087000E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9DF7BC0B28500C170033182F /* PaymentMethodViewController.swift */,
+				9D7C7F6316925FB5005BE1BC /* FAQsViewController.swift */,
+				9D6E017C28465E4700406688 /* HomeViewController.swift */,
+				9DBFA488282419E000C8BB12 /* OnbooardingViewController.swift */,
+				9D27507D2826BFEC0029CB3F /* AccountViewController.swift */,
+				9D27507F2826C0120029CB3F /* PaymentMethodsViewController.swift */,
+				9D2750812826C0240029CB3F /* ContactUsViewController.swift */,
+				9D2750832826CE5A0029CB3F /* MyDetailsViewController.swift */,
+				9D97680728436E250053EE90 /* LoginViewController.swift */,
+				9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */,
+				9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */,
+				9D1778232845800E00F300CB /* ShoppingCartViewController.swift */,
+				9D17781328455B8C00F300CB /* ProductViewController.swift */,
+				9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9DA4AC90285255E30087000E /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				9DA4AC932852678F0087000E /* CategoryTableViewNib.xib */,
+				9DD56C092845311700E61BBE /* FavoritesCollectionViewCell.xib */,
+				9D1778202845714100F300CB /* ShoppingCartCellNib.xib */,
+				9D44AC8528314F4300EE6271 /* NotificationCell.xib */,
+				9D82CF7D284140610064BEA6 /* ProductView.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		9DA4AC912852563F0087000E /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				9DBFA48A282419E000C8BB12 /* Main.storyboard */,
+				9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */,
+			);
+			path = "Main View";
 			sourceTree = "<group>";
 		};
 		9DBFA478282419E000C8BB12 = {
@@ -343,6 +399,8 @@
 				9D44AC8728314F4300EE6271 /* NotificationCell.xib in Resources */,
 				9DD56C0B2845311700E61BBE /* FavoritesCollectionViewCell.xib in Resources */,
 				9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */,
+				9D1778222845714100F300CB /* ShoppingCartCellNib.xib in Resources */,
+				9DA4AC952852678F0087000E /* CategoryTableViewNib.xib in Resources */,
 				9DBFA48E282419E400C8BB12 /* Assets.xcassets in Resources */,
 				9DBFA48C282419E000C8BB12 /* Main.storyboard in Resources */,
 			);
@@ -411,17 +469,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA4AC942852678F0087000E /* ProductsCategoryTableViewCell.swift in Sources */,
 				9D44AC89283153A600EE6271 /* K.swift in Sources */,
+				9D7C7F6416925FB5005BE1BC /* FAQsViewController.swift in Sources */,
 				9DBFA489282419E000C8BB12 /* OnbooardingViewController.swift in Sources */,
 				9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */,
 				9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */,
 				9D17781C2845696A00F300CB /* Favorites Model.swift in Sources */,
 				9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */,
 				9D2750802826C0120029CB3F /* PaymentMethodsViewController.swift in Sources */,
+				9D6E017D28465E4700406688 /* HomeViewController.swift in Sources */,
 				9D17781428455B8C00F300CB /* ProductViewController.swift in Sources */,
+				9D1778242845800E00F300CB /* ShoppingCartViewController.swift in Sources */,
 				9D27507E2826BFEC0029CB3F /* AccountViewController.swift in Sources */,
 				9D44AC8628314F4300EE6271 /* NotificationCell.swift in Sources */,
 				9D17781A2845690000F300CB /* Notifications Model.swift in Sources */,
+				9D1778212845714100F300CB /* ShoppingCartTableViewCell.swift in Sources */,
 				9DD56C0A2845311700E61BBE /* FavoritesCollectionViewCell.swift in Sources */,
 				9D17781E28456A1500F300CB /* Products Model.swift in Sources */,
 				9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */,
@@ -429,7 +492,8 @@
 				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
 				9D97680828436E250053EE90 /* LoginViewController.swift in Sources */,
 				9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */,
-				9D82CF7728410DC90064BEA6 /* ProductViewCollectionViewCell.swift in Sources */,
+				9DF7BC0C28500C170033182F /* PaymentMethodViewController.swift in Sources */,
+				9D82CF7728410DC90064BEA6 /* ProductInCollectionViewCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

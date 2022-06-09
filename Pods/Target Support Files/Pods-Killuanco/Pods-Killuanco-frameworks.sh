@@ -180,12 +180,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DragMenuPicker/DragMenuPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RateBar/RateBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ShowPasswordTextField/ShowPasswordTextField.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ValueStepper/ValueStepper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DragMenuPicker/DragMenuPicker.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RateBar/RateBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ShowPasswordTextField/ShowPasswordTextField.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ValueStepper/ValueStepper.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

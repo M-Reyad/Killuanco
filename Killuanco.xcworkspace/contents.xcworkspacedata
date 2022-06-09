@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Volumes/Data/New Portfolio/PA&amp;A/Killuanco App/Killuanco/Killuanco/View/ProductCellView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Volumes/Data/New Portfolio/PA&amp;A/Killuanco App/Killuanco/Killuanco/View/ProductCellView.xib">
+   </FileRef>
+   <FileRef
       location = "group:Killuanco.xcodeproj">
    </FileRef>
    <FileRef

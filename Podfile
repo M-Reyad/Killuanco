@@ -10,5 +10,6 @@ target 'Killuanco' do
 	pod 'DragMenuPicker'
 	pod 'BEMCheckBox'
 	pod 'RateBar'
+	pod 'ValueStepper'
 
 end

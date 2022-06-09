@@ -1,17 +1,21 @@
 //
-//  MyDetailsViewController.swift
+//  PaymentMethodViewController.swift
 //  Killuanco
 //
-//  Created by Muhammad Reyadh on 5/7/22.
+//  Created by Muhammad Reyadh on 6/8/22.
 //  Copyright © 2022 PA&A. All rights reserved.
 //
 
 import UIKit
 
-class MyDetailsViewController: UIViewController {
-
+class PaymentMethodViewController: UIViewController {
+    @IBOutlet weak var logoHeight: NSLayoutConstraint!
+    @IBOutlet weak var paymentHeight: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        logoHeight.constant *= K.conversionIndex
+        paymentHeight.constant *= K.conversionIndex
 
         // Do any additional setup after loading the view.
     }

@@ -11,7 +11,9 @@ import UIKit
 
 class NotificationsViewController: UIViewController,UITableViewDataSource {
     
-        @IBOutlet weak var notificationTableView: UITableView!
+    @IBOutlet weak var logoHeight: NSLayoutConstraint!
+    @IBOutlet weak var notificationTableView: UITableView!
+    @IBOutlet weak var notificationTableViewHeight: NSLayoutConstraint!
     
     let notifications: [Notifications] = [Notifications(header: "New Discount!!",
                                                         content: "You have discount 15% special for you!!"),
@@ -21,8 +23,12 @@ class NotificationsViewController: UIViewController,UITableViewDataSource {
                                                         content: "You have a discount 25% special for you!!")]
     override func viewDidLoad() {
          super.viewDidLoad()
+        //Optimizing Dimensions
+        logoHeight.constant *= K.conversionIndex
+        notificationTableViewHeight.constant *= K.conversionIndex
+        
          notificationTableView.dataSource = self
-        self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationCellIdentifier)
+        self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationsCellIdentifier)
      }
      
 

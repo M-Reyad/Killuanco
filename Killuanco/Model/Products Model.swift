@@ -7,9 +7,16 @@
 //
 
 import Foundation
+import UIKit
 
+struct ProductsCategory {
+    let categoryName : String
+    let products: [Product]
+}
 
-struct Products {
+struct Product {
     let name: String
     let price : Int
+    var image: UIImage = UIImage(named: "productImage" )!
+    var quantity: Int = 5
 }

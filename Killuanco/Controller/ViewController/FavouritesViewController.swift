@@ -11,6 +11,7 @@ import UIKit
 
 class FavouritesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
+    @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
     let favoritesList : [Favorites] = [Favorites(name: "Your Monthly Favorites",
                                                  logo: UIImage(named:"Monthly Folder")!),
                                        Favorites(name: "Your Weekly Favorites",
@@ -25,8 +26,14 @@ class FavouritesViewController: UIViewController, UICollectionViewDataSource, UI
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Optimizing CollectionView Heigh//
+        collectionViewHeight.constant = CGFloat(Double(favoritesList.count * 177))
         
-        favoritesCollectionView.register(UINib(nibName: K.FavoritesNibName, bundle: nil), forCellWithReuseIdentifier: K.FavoritesReuseIdentifier)
+        
+        //Registering Nib//
+        favoritesCollectionView.register(UINib(nibName: K.favoritesInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.favoritesInCollectionViewCellIdentifier)
+        
+        //Registering Data Source and Delegates//
         favoritesCollectionView.dataSource = self
         favoritesCollectionView.delegate = self
     }
@@ -39,7 +46,7 @@ class FavouritesViewController: UIViewController, UICollectionViewDataSource, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = favoritesCollectionView.dequeueReusableCell(withReuseIdentifier: K.FavoritesReuseIdentifier, for: indexPath) as! FavoritesCollectionViewCell
+        let cell = favoritesCollectionView.dequeueReusableCell(withReuseIdentifier: K.favoritesInCollectionViewCellIdentifier, for: indexPath) as! FavoritesCollectionViewCell
         
         
         if indexPath.row < favoritesList.count{

@@ -9,17 +9,26 @@
 import UIKit
 
 class FavoritesCollectionViewCell: UICollectionViewCell {
+
+    
+    //Cell Dimensions//
+    @IBOutlet weak var cellHeight: NSLayoutConstraint!
+    @IBOutlet weak var cellWidth: NSLayoutConstraint!
+    
+    
+    //Cell Labels//
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var cellLabel: UILabel!
-    
-    
     func config(withLabel name: String, withImage image: UIImage){
         self.cellLabel.text = name
         self.cellImage.image = image
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        //Optimizing Cell Dimensions//
+        cellHeight.constant *= K.conversionIndex
+        cellWidth.constant  *= K.conversionIndex
+        
     }
 
 }

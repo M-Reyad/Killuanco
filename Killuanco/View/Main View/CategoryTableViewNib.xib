@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryTableViewCellIdentifier" rowHeight="247" id="KGk-i7-Jjw" userLabel="CategoryTableViewNib" customClass="ProductsCategoryTableViewCell" customModule="Killuanco" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="247"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="247"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zxP-Tg-i7T">
+                        <rect key="frame" x="0.0" y="5" width="421" height="252"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U36-DP-fYf">
+                                <rect key="frame" x="0.0" y="0.0" width="421" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" name="brown1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="OwZ-lQ-c5I">
+                                <rect key="frame" x="0.0" y="22" width="421" height="230"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="jTf-RY-4uD"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VnI-n1-x09">
+                                    <size key="itemSize" width="177" height="250"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="OwZ-lQ-c5I" firstAttribute="leading" secondItem="U36-DP-fYf" secondAttribute="leading" id="9Rf-iH-pNS"/>
+                            <constraint firstItem="OwZ-lQ-c5I" firstAttribute="trailing" secondItem="U36-DP-fYf" secondAttribute="trailing" id="AVW-tI-0fd"/>
+                            <constraint firstAttribute="trailing" secondItem="U36-DP-fYf" secondAttribute="trailing" id="oOV-YB-oIk"/>
+                            <constraint firstItem="U36-DP-fYf" firstAttribute="leading" secondItem="zxP-Tg-i7T" secondAttribute="leading" id="qZw-zV-Hdz"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zxP-Tg-i7T" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="oIO-UO-pId"/>
+                    <constraint firstAttribute="trailing" secondItem="zxP-Tg-i7T" secondAttribute="trailing" id="w8U-1P-Wqj"/>
+                    <constraint firstItem="zxP-Tg-i7T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="woW-oQ-dJc"/>
+                    <constraint firstAttribute="bottom" secondItem="zxP-Tg-i7T" secondAttribute="bottom" constant="5" id="ytC-Vf-jff"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryCollectionView" destination="OwZ-lQ-c5I" id="wyi-Ot-ugv"/>
+                <outlet property="categoryName" destination="U36-DP-fYf" id="QqU-PU-NJA"/>
+                <outlet property="collectionViewHeight" destination="jTf-RY-4uD" id="0NI-go-2h7"/>
+            </connections>
+            <point key="canvasLocation" x="-44" y="146"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="brown1">
+            <color red="0.37599998712539673" green="0.2199999988079071" blue="0.18799999356269836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
