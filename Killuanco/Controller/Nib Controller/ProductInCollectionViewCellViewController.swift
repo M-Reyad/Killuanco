@@ -8,11 +8,7 @@
 
 import UIKit
 
-class ProductInCollectionViewCellViewController: UICollectionViewCell {
-
-//Cell Dimensions Constraints//
-//    @IBOutlet weak var height: NSLayoutConstraint!
-//    @IBOutlet weak var width: NSLayoutConstraint!
+class ProductInCollectionViewCellViewController : UICollectionViewCell {
     
     @IBOutlet weak var productImage: ProductCornerRadiusImage!
     @IBOutlet weak var productName: UILabel!
@@ -26,11 +22,6 @@ class ProductInCollectionViewCellViewController: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        print("Woken")
-//        print(self.height.constant)
-//        print(self.width.constant)
-//        self.height.constant *= K.conversionIndex
-//        self.width.constant *= K.conversionIndex
         
     }
     

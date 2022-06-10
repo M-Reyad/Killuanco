@@ -9,11 +9,6 @@
 import UIKit
 
 class FavoritesCollectionViewCell: UICollectionViewCell {
-
-    
-    //Cell Dimensions//
-    @IBOutlet weak var cellHeight: NSLayoutConstraint!
-    @IBOutlet weak var cellWidth: NSLayoutConstraint!
     
     
     //Cell Labels//
@@ -25,10 +20,12 @@ class FavoritesCollectionViewCell: UICollectionViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        //Optimizing Cell Dimensions//
-        cellHeight.constant *= K.conversionIndex
-        cellWidth.constant  *= K.conversionIndex
-        
+    }
+    
+    //Config Func//
+    func config(withCategory category: Category) {
+        self.cellLabel.text = category.categoryName
+        self.cellImage.image = category.categoryImage
     }
 
 }

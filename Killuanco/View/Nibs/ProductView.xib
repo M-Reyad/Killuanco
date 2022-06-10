@@ -95,14 +95,14 @@
                 <constraint firstItem="5rp-yf-FA1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="q5U-l4-Mjg"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <size key="customSize" width="599" height="624"/>
+            <size key="customSize" width="634" height="616"/>
             <connections>
                 <outlet property="productImage" destination="g44-na-KFh" id="pZQ-M1-nvv"/>
                 <outlet property="productName" destination="phr-7N-LN0" id="j6q-kn-VJL"/>
                 <outlet property="productPrice" destination="Fcf-TD-Ded" id="kKe-4m-KHn"/>
                 <outlet property="productQuantity" destination="n7V-zw-6CR" id="29E-qI-aNZ"/>
             </connections>
-            <point key="canvasLocation" x="-625" y="-325"/>
+            <point key="canvasLocation" x="-693.47826086956525" y="-248.4375"/>
         </collectionViewCell>
     </objects>
     <resources>
