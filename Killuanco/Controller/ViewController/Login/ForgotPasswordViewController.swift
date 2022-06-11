@@ -12,9 +12,9 @@ class ForgotPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        sendHeight.constant *= K.conversionIndex
+
     }
-    @IBOutlet weak var sendHeight: NSLayoutConstraint!
+
     
 
     /*

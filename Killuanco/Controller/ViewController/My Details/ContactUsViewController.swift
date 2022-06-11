@@ -9,13 +9,10 @@
 import UIKit
 
 class ContactUsViewController: UIViewController {
-    @IBOutlet weak var logoHeight: NSLayoutConstraint!
-    @IBOutlet weak var contactUsHeight: NSLayoutConstraint!
+
     
 override func viewDidLoad() {
     super.viewDidLoad()
-    logoHeight.constant *= K.conversionIndex
-    contactUsHeight.constant *= K.conversionIndex
-    // Do any additional setup after loading the view.
+
 }
 }

@@ -15,12 +15,8 @@ import BEMCheckBox
 class LoginViewController: UIViewController {
     
     //MARK:- View Controller Variables
-    
-    /*      -1- Constraints         */
-    @IBOutlet weak var loginHeight: NSLayoutConstraint!
-    @IBOutlet weak var loginWidth: NSLayoutConstraint!
-    
-    /*    -2- Local Outlets         */
+
+    /*    -1- Local Outlets         */
     @IBOutlet weak var loginView: UIView!
     @IBOutlet weak var signupView: UIView!
     @IBOutlet weak var signupButton: UIButton!
@@ -28,7 +24,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var rememberMeCheckBox: BEMCheckBox!
     
     
-    /*     -3- Functions            */
+    /*     -2- Functions            */
     @IBAction func rememberMePressed(_ sender: UIButton) {
         if rememberMeCheckBox.on == true {
             rememberMeCheckBox.on = false
@@ -62,8 +58,6 @@ class LoginViewController: UIViewController {
 //MARK:- View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
-//        loginHeight.constant *= K.conversionIndex
-//        loginWidth.constant *= K.conversionIndex
         signupView.isHidden = true
         if rememberMeCheckBox.on{
             print("Remember me is Checked")

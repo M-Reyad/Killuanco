@@ -9,13 +9,11 @@
 import UIKit
 
 class PaymentMethodViewController: UIViewController {
-    @IBOutlet weak var logoHeight: NSLayoutConstraint!
-    @IBOutlet weak var paymentHeight: NSLayoutConstraint!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        logoHeight.constant *= K.conversionIndex
-        paymentHeight.constant *= K.conversionIndex
+  
 
         // Do any additional setup after loading the view.
     }

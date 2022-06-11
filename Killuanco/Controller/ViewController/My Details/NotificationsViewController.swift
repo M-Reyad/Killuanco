@@ -9,9 +9,9 @@
 import UIKit
 
 
-class NotificationsViewController: UIViewController,UITableViewDataSource {
+class NotificationsViewController: UIViewController {
     
-    @IBOutlet weak var logoHeight: NSLayoutConstraint!
+    
     @IBOutlet weak var notificationTableView: UITableView!
     @IBOutlet weak var notificationTableViewHeight: NSLayoutConstraint!
     
@@ -24,14 +24,16 @@ class NotificationsViewController: UIViewController,UITableViewDataSource {
     override func viewDidLoad() {
          super.viewDidLoad()
         //Optimizing Dimensions
-        logoHeight.constant *= K.conversionIndex
-        notificationTableViewHeight.constant *= K.conversionIndex
+//        notificationTableViewHeight.constant *= K.conversionIndex
         
          notificationTableView.dataSource = self
         self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationsCellIdentifier)
      }
      
+}
 
+//MARK:- Notifications Table View Protocols
+extension NotificationsViewController :UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notifications.count
@@ -42,13 +44,13 @@ class NotificationsViewController: UIViewController,UITableViewDataSource {
         
         
         cell.config(with: notifications[indexPath.row])
-        
+        print("Cell Height is \(cell.bounds.height)")
         return cell
     }
     
-
-
- 
-
-
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let height = 90*K.conversionIndex
+        return height
+    }
 }

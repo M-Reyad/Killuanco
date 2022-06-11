@@ -10,10 +10,10 @@ import UIKit
 
 class ResetPasswordViewController: UIViewController {
 
-    @IBOutlet weak var resetHeight: NSLayoutConstraint!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        resetHeight.constant *= K.conversionIndex
+
         // Do any additional setup after loading the view.
     }
     
