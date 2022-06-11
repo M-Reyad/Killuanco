@@ -44,7 +44,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        print("Screen Size is \(UIScreen.main.bounds.width)*\(UIScreen.main.bounds.height)")
         self.categoriesCollectionViewHeight.constant *= K.conversionIndex
         print("Categories Height is \(categoriesCollectionViewHeight.constant)")
         self.mostSelledProductsHeight.constant *= K.conversionIndex
