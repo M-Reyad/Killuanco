@@ -13,19 +13,39 @@ class NotificationsViewController: UIViewController {
     
     
     @IBOutlet weak var notificationTableView: UITableView!
-    @IBOutlet weak var notificationTableViewHeight: NSLayoutConstraint!
-    
-    let notifications: [Notifications] = [Notifications(header: "New Discount!!",
-                                                        content: "You have discount 15% special for you!!"),
-                                          Notifications(header: "New Discount!!",
-                                                        content: "You have a discount 20% special for you!!"),
-                                          Notifications(header: "New Discount!!",
-                                                        content: "You have a discount 25% special for you!!")]
+//    @IBOutlet weak var notificationTableViewHeight: NSLayoutConstraint!
+   var notificationsList : [String : [Notification]] = ["Today" : [Notification(header: "New Discount!",
+                                                 content: "You have a new Discount for Cat Products with 15%"),
+                                    Notification(header: "New Discount!!",
+                                                 content: "You have a new Discount for Dog Products with 20%")],
+                         "Yesterday" : [Notification(header: "New Discount!!!",
+                                                     content: "You have a new Discount for Cat Products with 35%"),
+                                        Notification(header: "New Discount :)",
+                                         content: "You have a new Discount for Dog Products with 10%"),
+                                        Notification(header: "New Discount!!!",
+                                                     content: "You have a new Discount for Cat Products with 35%")],
+                         "Last Week" : [Notification(header: "New Discount!!!",
+                                                     content: "You have a new Discount for Cat Products with 35%"),
+                                        Notification(header: "New Discount :)",
+                                                     content: "You have a new Discount for Dog Products with 10%"),
+                                        Notification(header: "New Discount!!!",
+                                                     content: "You have a new Discount for Cat Products with 35%"),
+                                        Notification(header: "New Discount :)",
+                                                     content: "You have a new Discount for Dog Products with 10%"),
+                                        Notification(header: "New Discount!!!",
+                                                     content: "You have a new Discount for Cat Products with 35%")]]
+    var sectionsList = [String]()
+    func generateSections(from notificationsList: [String:[Notification]]) {
+        for (date, notifications) in notificationsList{
+            self.sectionsList.append(date)
+        }
+        print(self.sectionsList)
+    }
+
     override func viewDidLoad() {
          super.viewDidLoad()
-        //Optimizing Dimensions
-//        notificationTableViewHeight.constant *= K.conversionIndex
-        
+        generateSections(from: self.notificationsList)
+        notificationTableView.delegate = self
          notificationTableView.dataSource = self
         self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationsCellIdentifier)
      }
@@ -35,20 +55,40 @@ class NotificationsViewController: UIViewController {
 //MARK:- Notifications Table View Protocols
 extension NotificationsViewController :UITableViewDataSource, UITableViewDelegate{
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return notifications.count
+    //Generating Headers for Sections//
+    
+    //--1-- Generating Number of Sections//
+    func numberOfSections(in tableView: UITableView) -> Int {
+        print("Number of sections is \(notificationsList.count)")
+        return self.sectionsList.count
     }
     
+    //--2-- Generating the Title of Sections//
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return self.sectionsList[section]
+    }
+    
+    //--3-- Generating Height of Sections//
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return CGFloat(20)
+    }
+    
+
+    //Generating Cells Data//
+    //--1-- Generating Number of cells per Section//
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("Number of notification in section is \((notificationsList[sectionsList[section]]?.count)!)")
+        return (notificationsList[sectionsList[section]]?.count)!
+    }
+    //--2-- Configuring Cells//
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = notificationTableView.dequeueReusableCell(withIdentifier: "NotificationCellIdentifier", for: indexPath) as! NotificationCell
-        
-        
-        cell.config(with: notifications[indexPath.row])
-        print("Cell Height is \(cell.bounds.height)")
+        cell.config(with: (notificationsList[sectionsList[indexPath.section]]?[indexPath.row])!)
+        print("Section is \(indexPath.section)")
         return cell
     }
     
-    
+    //--3-- Configuring Height for Cells//
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let height = 90*K.conversionIndex
         return height

@@ -10,26 +10,29 @@ import UIKit
 
 
 class NotificationCell: UITableViewCell {
-
-    @IBOutlet weak var notificationHeight: NSLayoutConstraint!
+    @IBOutlet weak var notificationHeader: UILabel!
+    @IBOutlet weak var notificationContent: UILabel!
+    var markAsRead : Bool = false
+//    var
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        if self.markAsRead == false {
+        self.notificationContent.font = UIFont.boldSystemFont(ofSize: 16)
+        }
         
-        notificationHeight.constant *= K.conversionIndex
-        // Initialization code
     }
 
-    @IBOutlet weak var notificationHeader: UILabel!
-    
-    @IBOutlet weak var notificationContent: UILabel!
-    
+
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        self.markAsRead = true
+        self.notificationContent.font = UIFont.systemFont(ofSize: 16)
 
-        // Configure the view for the selected state
     }
-    func config(with notification: Notifications){
+    func config(with notification: Notification){
         self.notificationHeader.text = notification.header
         self.notificationContent.text = notification.content
         
