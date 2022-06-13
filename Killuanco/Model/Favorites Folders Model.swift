@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-struct Favorites {
-    let name : String
-    let logo : UIImage
+struct CategoryFolder {
+    let folderName : String
+    let folderImage : UIImage
+    let products : [Product]
 }

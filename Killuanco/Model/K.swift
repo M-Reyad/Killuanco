@@ -15,35 +15,20 @@ struct K {
     
     static let conversionIndex = UIScreen.main.bounds.width/414
     
+    //Notification  Cell in Notification Table View
+    static let notificationCell = "NotificationCell"
     
-    static let notificationsCellIdentifier = "NotificationCellIdentifier"
-    static let notificationsNibName = "NotificationCell"
-    
-    
-    
-    static let homeCategoriesIconWidth = 90/414
-    static let homeCategoriesIconLength = 115.86/1570
+    //Product View In Collection View
+    static let productView = "productView"
 
     
+    //Product Cell in Shopping Cart Table View
+    static let productCell = "productCell"
     
-    static let productsInCollectionViewCellIdentifier = "ProductViewCollectionViewCell"
-    static let productsInCollectionViewNibName = "ProductView"
+    //Prodcut View in Collection View
+    static let categoryView = "categoryView"
     
-    
-    
-    
-    static let favoritesInCollectionViewNibName = "FavoritesCollectionViewCell"
-    static let favoritesInCollectionViewCellIdentifier = "FavoritesReuseIdentifier"
-    
-    
-    
-    static let productsInShoppingTableNibName = "ShoppingCartCellNib"
-    static let productsInShoppingTableCellIdentifier = "ShoppingCartReuseCellIdentifier"
-    
-    
-    static let productsInCategoryTableViewCellIdentifier = "CategoryTableViewCellIdentifier"
-    static let productsInCategoryTableViewNibName = "CategoryTableViewNib"
-    
+    static let CategoryCell = "CategoryCell"
 }
 
 //MARK:- Custom Views Layout

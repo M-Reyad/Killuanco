@@ -8,12 +8,12 @@
 
 import Foundation
 
+struct Notifications {
+    let date: String
+    let notifications : [Notification]
+}
 
 struct Notification {
     let header :String
     let content :String
-}
-struct Notifications {
-    let date: String
-    let notifications : [Notification]
 }

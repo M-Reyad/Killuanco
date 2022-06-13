@@ -1,5 +1,5 @@
 //
-//  FavoritesCollectionViewCell.swift
+//  categoryView.swift
 //  Killuanco
 //
 //  Created by Muhammad Reyadh on 5/30/22.
@@ -8,24 +8,27 @@
 
 import UIKit
 
-class FavoritesCollectionViewCell: UICollectionViewCell {
+class categoryView: UICollectionViewCell {
     
     
     //Cell Labels//
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var cellLabel: UILabel!
-    func config(withLabel name: String, withImage image: UIImage){
-        self.cellLabel.text = name
-        self.cellImage.image = image
-    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
     //Config Func//
-    func config(withCategory category: Category) {
-        self.cellLabel.text = category.categoryName
-        self.cellImage.image = category.categoryImage
+    func configForCategory(withCategory category: Category, withTitle yesOrNO : Bool) {
+        if yesOrNO{
+            self.cellLabel.text = category.categoryName
+            self.cellImage.image = category.categoryImage
+        } else{
+            cellImage.image = category.categoryImage
+            self.cellLabel.removeFromSuperview()
+        }
+        
+        
     }
-
 }

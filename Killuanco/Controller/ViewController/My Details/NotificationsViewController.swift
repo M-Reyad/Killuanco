@@ -47,7 +47,7 @@ class NotificationsViewController: UIViewController {
         generateSections(from: self.notificationsList)
         notificationTableView.delegate = self
          notificationTableView.dataSource = self
-        self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationsCellIdentifier)
+        self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationCell)
      }
      
 }
@@ -82,7 +82,7 @@ extension NotificationsViewController :UITableViewDataSource, UITableViewDelegat
     }
     //--2-- Configuring Cells//
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = notificationTableView.dequeueReusableCell(withIdentifier: "NotificationCellIdentifier", for: indexPath) as! NotificationCell
+        let cell = notificationTableView.dequeueReusableCell(withIdentifier: K.notificationCell, for: indexPath) as! NotificationCell
         cell.config(with: (notificationsList[sectionsList[indexPath.section]]?[indexPath.row])!)
         print("Section is \(indexPath.section)")
         return cell

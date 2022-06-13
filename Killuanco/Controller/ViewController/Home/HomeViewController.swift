@@ -8,23 +8,6 @@
 
 import UIKit
 
-var products : [Product] = [Product(name: "Cat Food",price: 15),
-                            Product(name: "Doggy Food", price: 20),
-                            Product(name: "Turtle Food", price: 20),
-                            Product(name: "Frog Food", price: 20)]
-
-
-var categoriesList : [Category] =
-    [Category(categoryName: "Organic", categoryImage: #imageLiteral(resourceName: "Organic"), products: products),
-     Category(categoryName: "Vegan", categoryImage: #imageLiteral(resourceName: "Vegan"), products: products),
-     Category(categoryName: "Bio", categoryImage: #imageLiteral(resourceName: "Bio"), products: products),
-     Category(categoryName: "Beds", categoryImage: #imageLiteral(resourceName: "Beds"), products: products),
-     Category(categoryName: "Food", categoryImage: #imageLiteral(resourceName: "Food"), products: products),
-     Category(categoryName: "Toys", categoryImage: #imageLiteral(resourceName: "Toys"),products: products),
-     Category(categoryName: "Carrier",categoryImage: #imageLiteral(resourceName: "Carriers"),products: products),
-     Category(categoryName: "Leashes",categoryImage: #imageLiteral(resourceName: "Leashes"),products: products),
-     Category(categoryName: "Snacks",categoryImage: #imageLiteral(resourceName: "Snacks"),products: products),
-     Category(categoryName: "Best Seller",categoryImage: #imageLiteral(resourceName: "Best Sellers"), products: products)]
 
 class HomeViewController: UIViewController {
 
@@ -32,37 +15,55 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var mostSelledProductsHeight: NSLayoutConstraint!
     @IBOutlet weak var greenViewHeight: NSLayoutConstraint!
     @IBOutlet weak var shopVeganHeight: NSLayoutConstraint!
-    
+    @IBOutlet weak var foldersCollectionVIewHeight: NSLayoutConstraint!
+    @IBOutlet weak var shopByBrandsHeight: NSLayoutConstraint!
     
     
     
     @IBOutlet weak var categoriesCollectionView: UICollectionView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var topSellingProductsCollectionView: UICollectionView!
+    @IBOutlet weak var shopByBrandsCollectionView: UICollectionView!
+    @IBOutlet weak var foldersCollectionView: UICollectionView!
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Screen Size is \(UIScreen.main.bounds.width)*\(UIScreen.main.bounds.height)")
+        self.shopByBrandsHeight.constant *= K.conversionIndex
         self.categoriesCollectionViewHeight.constant *= K.conversionIndex
-        print("Categories Height is \(categoriesCollectionViewHeight.constant)")
         self.mostSelledProductsHeight.constant *= K.conversionIndex
-        print("Most Selling Height is \(mostSelledProductsHeight.constant)")
         self.greenViewHeight.constant *= K.conversionIndex
         self.shopVeganHeight.constant *= K.conversionIndex
+        self.foldersCollectionVIewHeight.constant *= K.conversionIndex
         
         
-        categoriesCollectionView.register(UINib(nibName: K.favoritesInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.favoritesInCollectionViewCellIdentifier)
+        shopByBrandsCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
         
-        topSellingProductsCollectionView.register(UINib(nibName: K.productsInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.productsInCollectionViewCellIdentifier)
+        categoriesCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
+        
+        topSellingProductsCollectionView.register(UINib(nibName: K.productView, bundle: nil), forCellWithReuseIdentifier: K.productView)
+        
+        foldersCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
 
+        
         categoriesCollectionView.dataSource = self
         categoriesCollectionView.delegate = self
         
         topSellingProductsCollectionView.dataSource = self
         topSellingProductsCollectionView.delegate = self
+        
+        shopByBrandsCollectionView.dataSource = self
+        shopByBrandsCollectionView.delegate = self
+        
+        foldersCollectionView.dataSource = self
+        foldersCollectionView.delegate = self
+        
+        
     }
+    
+    
+    
     @IBOutlet weak var searchBarPressed: UISearchBar!
     @IBAction func shoppingCartButtonPressed(_ sender: Any) {
     }
@@ -72,45 +73,91 @@ class HomeViewController: UIViewController {
     
     @IBAction func seeAllButtonPressed(_ sender: Any) {
     }
-
-
 }
 
 
 extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if collectionView == self.categoriesCollectionView {
+        if
+            collectionView == self.categoriesCollectionView {
             return categoriesList.count
-        }else{
-            return products.count
+            
+        } else if
+            collectionView == shopByBrandsCollectionView{
+            return brandsList.count
+            
+        }else if
+            collectionView == foldersCollectionView{
+                return foldersList.count
+            
+        }else {
+            return productsList.count
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if collectionView == self.categoriesCollectionView {
-            let cell = categoriesCollectionView.dequeueReusableCell(withReuseIdentifier: K.favoritesInCollectionViewCellIdentifier, for: indexPath) as! FavoritesCollectionViewCell
-            cell.config(withCategory: categoriesList[indexPath.row])
-            print("Categories Cell Size is  \(cell.contentView.bounds.height) , \(cell.contentView.bounds.width)")
+        
+        if collectionView == topSellingProductsCollectionView {
+            
+            let cell = topSellingProductsCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
+            
+            cell.config(with: productsList[indexPath.row])
+            
             return cell
-        }else{
-            let cell = topSellingProductsCollectionView.dequeueReusableCell(withReuseIdentifier: K.productsInCollectionViewCellIdentifier, for: indexPath) as! ProductInCollectionViewCellViewController
-            cell.config(with: products[indexPath.row])
-            print("Top Selling Cell Size is  \(cell.contentView.bounds.height) , \(cell.contentView.bounds.width)")
-            return cell
+            
+        } else {
+            let cell = categoriesCollectionView.dequeueReusableCell(withReuseIdentifier: K.categoryView, for: indexPath) as! categoryView
+            
+            if collectionView == categoriesCollectionView{
+                cell.configForCategory(withCategory: categoriesList[indexPath.row], withTitle: true)
+                return cell
+                
+            }else if collectionView == foldersCollectionView{
+                cell.configForCategory(withCategory: foldersList[indexPath.row], withTitle: false)
+                return cell
+            }else{
+                cell.configForCategory(withCategory: brandsList[indexPath.row], withTitle: false)
+                return cell
+            }
         }
     }
+    
+    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
         if collectionView == self.categoriesCollectionView {
-        let height = 114*K.conversionIndex
-        let width = 95*K.conversionIndex
-        return CGSize(width: width, height: height)
+            let height = 114*K.conversionIndex
+            let width = 95*K.conversionIndex
+            return CGSize(width: width, height: height)
+            
+        }else if collectionView == shopByBrandsCollectionView{
+            let height = 70 * K.conversionIndex
+            let width = 110 * K.conversionIndex
+            return CGSize(width: width, height: height)
+            
+        }else if collectionView == foldersCollectionView{
+            let height = 177*K.conversionIndex
+            let width = 176*K.conversionIndex
+            return CGSize(width: width, height: height)
+            
         }else{
-        let height = 245*K.conversionIndex
-        let width = 185*K.conversionIndex
-        return CGSize(width: width, height: height)
+            let height = 245*K.conversionIndex
+            let width = 185*K.conversionIndex
+            return CGSize(width: width, height: height)
         }
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "categorySegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "categorySegue"{
+            if let destinationVC = segue.destination as? CategoryViewController{
+//                destinationVC.products =
+            }
+        }
+    }
 }

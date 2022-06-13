@@ -8,59 +8,90 @@
 
 import UIKit
 
-class CategoryViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
-    
-    
-    let products : [ProductsCategory] =
-        [ProductsCategory(categoryName: "New Products",
-                          products:
-            [Product(name: "Cat Food", price: 15),
-             Product(name: "Doggy Food", price: 20),
-             Product(name: "Turtle Food", price: 20),
-             Product(name: "Frog Food", price: 20)]),
-        ProductsCategory(categoryName: "All Products",
-                         products:
-            [Product(name: "Cat Food", price: 15),
-             Product(name: "Doggy Food", price: 20),
-             Product(name: "Turtle Food", price: 20),
-             Product(name: "Frog Food", price: 20)])]
-    
+
+class CategoryViewController: UIViewController {
     
     @IBOutlet weak var productsTableView: UITableView!
-    @IBOutlet weak var logoHeight: NSLayoutConstraint!
+    @IBOutlet weak var categoryName: UILabel!
     
+    let products: [Product]? = nil
+    var safeProducts: [Product] = []
+    var newProducts : [Product] = []
+    var allProducts : [Product] = []
+
     override func viewDidLoad() {
-          logoHeight.constant *= K.conversionIndex
-        productsTableView.register(UINib(nibName: K.productsInCategoryTableViewNibName, bundle: nil), forCellReuseIdentifier:K.productsInCategoryTableViewCellIdentifier)
+//          logoHeight.constant *= K.conversionIndex
+        
+        //Unwrapping The Optional Products List!!
+        if let safeProducts = products{
+            self.safeProducts = safeProducts
+            formingProductsLists(from: safeProducts)
+            
+            productsTableView.register(UINib(nibName: K.productView, bundle: nil), forCellReuseIdentifier: K.productView)
+        }else{
+            print("Empty Category")
+        }
+    }
+    
+    func formingProductsLists(from productsList: [Product]){
+        for product in productsList {
+            if product.prodcutClassification == .new{
+                newProducts.append(product)
+            }else{
+                self.allProducts.append(product)
+            }
+        }
+    }
+}
+
+
+extension CategoryViewController : UITableViewDelegate, UITableViewDataSource{
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        if self.allProducts.count == 0 || self.newProducts.count == 0{
+            return 1
+        }else{
+            return 2
+        }
     }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return products.count
+        if self.allProducts.count == 0 || self.newProducts.count == 0 {
+        
+        if section > 0 {
+            return allProducts.count
+        }else{
+            return newProducts.count
+    }
+        }
+        else{
+            return allProducts.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(indexPath.row)
-        if indexPath.row > 0{
-            let cell = productsTableView.dequeueReusableCell(withIdentifier: K.productsInCategoryTableViewCellIdentifier, for: indexPath) as! ProductsCategoryTableViewCell
-            cell.config(with: products[indexPath.row])
-            let layout = UICollectionViewFlowLayout()
-            layout.scrollDirection = .vertical
-            
-            cell.categoryCollectionView.setCollectionViewLayout(layout, animated: false)
-            return cell
-
-        } else {
-        let cell = productsTableView.dequeueReusableCell(withIdentifier: K.productsInCategoryTableViewCellIdentifier, for: indexPath) as! ProductsCategoryTableViewCell
-        cell.config(with: products[indexPath.row])
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.CategoryCell, for: indexPath) as! CategoryCell
+        
+        if indexPath.section == 0 {
+            cell.config(withProductsList: [newProducts[indexPath.row]])
         return cell
+
+        }else{
+            cell.config(withProductsList: [allProducts[indexPath.row]])
+        return cell
+        }
+        
     }
+        
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            let height = 250*K.conversionIndex
+//            var width = 177*K.conversionIndex
+            if indexPath.section > 0{
+                return height+4
+            }else{
+                return CGFloat(allProducts.count) * height
+            }
     }
-    
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
-    }
-    
 }

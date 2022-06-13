@@ -22,16 +22,16 @@ class ProductsCategoryTableViewCell: UITableViewCell,UICollectionViewDelegate, U
         categoryCollectionView.dataSource = self
         categoryCollectionView.delegate = self
         
-        categoryCollectionView.register(UINib(nibName: K.productsInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.productsInCollectionViewCellIdentifier)
+        categoryCollectionView.register(UINib(nibName: K.productView, bundle: nil), forCellWithReuseIdentifier: K.productView)
         print("Registered")
     }
     
-    func config(with productsCategory: ProductsCategory){
-        self.categoryName.text = productsCategory.categoryName
-        self.products = productsCategory.products
-        self.categoryCollectionView.reloadData()
-        print("Reloaded")
-    }
+//    func config(with productsCategory: ProductsClassification){
+//        self.categoryName.text = productsCategory.categoryName
+//        self.products = productsCategory.products
+//        self.categoryCollectionView.reloadData()
+//        print("Reloaded")
+//    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
          print(self.products.count)
          return self.products.count
@@ -39,7 +39,7 @@ class ProductsCategoryTableViewCell: UITableViewCell,UICollectionViewDelegate, U
      
      func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          print("Returned")
-        let cell = categoryCollectionView.dequeueReusableCell(withReuseIdentifier: K.productsInCollectionViewCellIdentifier, for: indexPath) as! ProductInCollectionViewCellViewController
+        let cell = categoryCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
          
          print("Returned !!")
          cell.config(with: products[indexPath.row])

@@ -9,65 +9,54 @@
 import UIKit
 
 
-class FavouritesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class FavouritesViewController: UIViewController {
 
     @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
-    let favoritesList : [Favorites] = [Favorites(name: "Your Monthly Favorites",
-                                                 logo: UIImage(named:"Monthly Folder")!),
-                                       Favorites(name: "Your Weekly Favorites",
-                                                 logo: UIImage(named: "weeklyfolder")!),
-                                       Favorites(name: "Your Weekly Favorites",
-                                                 logo: UIImage(named: "weeklyfolder")!),
-                                       Favorites(name: "Your Weekly Favorites",
-                                                 logo: UIImage(named: "weeklyfolder")!)]
 
-    
     @IBOutlet weak var favoritesCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //Optimizing CollectionView Heigh//
-        collectionViewHeight.constant = CGFloat(Double(favoritesList.count * 177))
+        collectionViewHeight.constant = CGFloat(Double(foldersList.count * 177))
         
         
         //Registering Nib//
-        favoritesCollectionView.register(UINib(nibName: K.favoritesInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.favoritesInCollectionViewCellIdentifier)
+        favoritesCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
         
         //Registering Data Source and Delegates//
         favoritesCollectionView.dataSource = self
         favoritesCollectionView.delegate = self
     }
     
-
+}
+extension FavouritesViewController : UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        print("Returned Number of Items")
-        return favoritesList.count + 1
+        return foldersList.count + 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = favoritesCollectionView.dequeueReusableCell(withReuseIdentifier: K.favoritesInCollectionViewCellIdentifier, for: indexPath) as! FavoritesCollectionViewCell
+        let cell = favoritesCollectionView.dequeueReusableCell(withReuseIdentifier: K.categoryView, for: indexPath) as! categoryView
         
-        
-        if indexPath.row < favoritesList.count{
-        cell.config(withLabel: favoritesList[indexPath.row].name, withImage: favoritesList[indexPath.row].logo)
+        if indexPath.row < foldersList.count{
+            cell.configForCategory(withCategory: foldersList[indexPath.row], withTitle: false)
         print("Return Cells")
         return cell
         }
         else{
-            cell.config(withLabel: "Add New Folder", withImage: UIImage(named: "addIcon")!)
+            cell.configForCategory(withCategory: foldersList[indexPath.row], withTitle: false)
             print("Return Add Icon")
             return cell
         }
     }
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let height = 177*K.conversionIndex
+        let width = 176*K.conversionIndex
+        
+        return CGSize(width: width, height: height)
+    }
+
 }

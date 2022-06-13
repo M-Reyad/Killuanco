@@ -10,22 +10,6 @@ import UIKit
 
 class ShoppingCartViewController: UIViewController {
     
-    let shoppingList: [Product] =
-        [Product(name: "Cat Food", price: 20, quantity: 5),
-         Product(name: "Dog Food", price: 30, quantity: 2),
-         Product(name: "Dog Food", price: 30, quantity: 2),
-         Product(name: "Dog Food", price: 30, quantity: 2),
-         Product(name: "Dog Food", price: 30, quantity: 2),]
-    
-    
-    let mayLikeList: [Product] =
-        [Product(name: "Doggy food", price: 12),
-         Product(name: "Cat Food", price: 15),
-         Product(name: "Turtles Food", price: 20),
-         Product(name: "Birds Food", price: 20)]
-
-    
-    
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var collectionViewHeight: NSLayoutConstraint!
     
@@ -49,18 +33,18 @@ class ShoppingCartViewController: UIViewController {
         mayLikeCollectionView.dataSource = self
         mayLikeCollectionView.delegate = self
         
-        mayLikeCollectionView.register(UINib(nibName: K.productsInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.productsInCollectionViewCellIdentifier)
+        mayLikeCollectionView.register(UINib(nibName: K.productView, bundle: nil), forCellWithReuseIdentifier: K.productView)
         
         
         
         shoppingCartTableView.dataSource = self
         shoppingCartTableView.delegate = self
         
-        shoppingCartTableView.register(UINib(nibName: K.productsInShoppingTableNibName, bundle: nil), forCellReuseIdentifier: K.productsInShoppingTableCellIdentifier)
+        shoppingCartTableView.register(UINib(nibName: K.productCell, bundle: nil), forCellReuseIdentifier: K.productCell)
         
         
         shoppingCartTableView.rowHeight = 77
-        tableViewHeight.constant = CGFloat(shoppingList.count)*shoppingCartTableView.rowHeight
+        tableViewHeight.constant = CGFloat(productsList.count)*shoppingCartTableView.rowHeight
         
         
     }
@@ -74,13 +58,13 @@ class ShoppingCartViewController: UIViewController {
 //MARK:- Shopping Cart Table View Function
 extension ShoppingCartViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return shoppingList.count
+        return productsList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = shoppingCartTableView.dequeueReusableCell(withIdentifier: K.productsInShoppingTableCellIdentifier, for: indexPath) as! ShoppingCartTableViewCell
+        let cell = shoppingCartTableView.dequeueReusableCell(withIdentifier: K.productCell, for: indexPath) as! ShoppingCartTableViewCell
         
-        cell.config(withProduct: shoppingList[indexPath.row])
+        cell.config(withProduct: productsList[indexPath.row])
         self.shoppingCartTableView.rowHeight = cell.cellHeight.constant
 
     return cell
@@ -95,13 +79,13 @@ extension ShoppingCartViewController: UITableViewDataSource, UITableViewDelegate
 //MARK:- Shopping Cart May Like Products Function
 extension ShoppingCartViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return mayLikeList.count
+        return productsList.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = mayLikeCollectionView.dequeueReusableCell(withReuseIdentifier: K.productsInCollectionViewCellIdentifier, for: indexPath) as! ProductInCollectionViewCellViewController
+        let cell = mayLikeCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
 
-        cell.config(with: mayLikeList[indexPath.row])
+        cell.config(with: productsList[indexPath.row])
         return cell
     }
     

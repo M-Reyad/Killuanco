@@ -8,87 +8,78 @@
 
 import UIKit
 
-//var products : [Product] =
-//    [Product(name: "Cat Food",price: 15),
-//     Product(name: "Doggy Food", price: 20),
-//     Product(name: "Turtle Food", price: 20),
-//     Product(name: "Frog Food", price: 20)]
-//
-//var categoriesList : [Category] =
-//    [Category(categoryName: "Organic",
-//              categoryImage: #imageLiteral(resourceName: "organic"),
-//              products: products),
-//     Category(categoryName: "Vegan",
-//              categoryImage: #imageLiteral(resourceName: "vegan"),
-//              products: products),
-//     Category(categoryName: "Bio",
-//              categoryImage: #imageLiteral(resourceName: "bio"),
-//              products: products),
-//     Category(categoryName: "Beds",
-//              categoryImage: #imageLiteral(resourceName: "beds"),
-//              products: products),
-//     Category(categoryName: "Food",
-//              categoryImage: #imageLiteral(resourceName: "food"),
-//              products: products),
-//     Category(categoryName: "Toys",
-//              categoryImage: #imageLiteral(resourceName: "toys"),
-//              products: products),
-//     Category(categoryName: "Carrier",
-//              categoryImage: #imageLiteral(resourceName: "carrier"),
-//              products: products),
-//     Category(categoryName: "Leashes",
-//              categoryImage: #imageLiteral(resourceName: "leashes"),
-//              products: products),
-//     Category(categoryName: "Snacks",
-//              categoryImage: #imageLiteral(resourceName: "snacks"),
-//              products: products),
-//     Category(categoryName: "New Products",
-//              categoryImage: #imageLiteral(resourceName: "new products"),
-//              products: products),
-//     Category(categoryName: "Top Sellers",
-//              categoryImage: #imageLiteral(resourceName: "top sellers"),
-//              products: products),
-//     Category(categoryName: "All",
-//              categoryImage: #imageLiteral(resourceName: "all"),
-//              products: products),]
-
 class CategoriesViewController: UIViewController {
 
+    
+    @IBOutlet weak var categoriesCollectionViewHeight: NSLayoutConstraint!
+    
+    @IBOutlet weak var brandsCollectionViewHeight: NSLayoutConstraint!
+    
+    
     @IBOutlet weak var categoriesCollectionView: UICollectionView!
+    
+    @IBOutlet weak var brandsCollectionView: UICollectionView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-////        let layout = UICollectionViewFlowLayout()
-////        layout.estimatedItemSize.width = 50
-////        layout.estimatedItemSize.height = 50
-////        layout.clip
-////        categoriesCollectionView.collectionViewLayout = layout
-//        categoriesCollectionView.dataSource = self
-//        categoriesCollectionView.delegate = self
-//
-//        categoriesCollectionView.register(UINib(nibName: K.favoritesInCollectionViewNibName, bundle: nil), forCellWithReuseIdentifier: K.favoritesInCollectionViewCellIdentifier)
+
+        brandsCollectionViewHeight.constant *= K.conversionIndex
         
-    }
+        let categoriesHeight =
+            ((categoriesList.count/3)*137) //Height for each Row
+            +
+            (((categoriesList.count/3)+1)*2) // Height for each space between rows and Lines
+        
+        categoriesCollectionViewHeight.constant = CGFloat(categoriesHeight)*K.conversionIndex
+        
+        categoriesCollectionView.dataSource = self
+        categoriesCollectionView.delegate = self
+        
+        brandsCollectionView.dataSource = self
+        brandsCollectionView.delegate = self
+        
+        brandsCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
+        categoriesCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
 
 }
-//
-//
-//extension CategoriesViewController : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//
-//        print("Counted")
-//        return categoriesList.count
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = categoriesCollectionView.dequeueReusableCell(withReuseIdentifier: K.favoritesInCollectionViewCellIdentifier, for: indexPath) as! FavoritesCollectionViewCell
-//        print("Configured")
-//        cell.config(withCategory: categoriesList[indexPath.row])
-//        print("returned")
-//        return cell
-//    }
     
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: 90, height: 90)
-//    }
     
+    
+}
 
+extension CategoriesViewController : UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if collectionView == brandsCollectionView {
+            return brandsList.count
+        }else{
+            return categoriesList.count
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: K.categoryView, for: indexPath) as! categoryView
+        if collectionView == brandsCollectionView{
+            cell.configForCategory(withCategory: categoriesList[indexPath.row], withTitle: true)
+            return cell
+        }else{
+            cell.configForCategory(withCategory: brandsList[indexPath.row], withTitle: false)
+            return cell
+        }
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        var height, width : CGFloat
+        if collectionView == brandsCollectionView{
+            height = 70*K.conversionIndex
+            width = 111*K.conversionIndex
+            return CGSize(width: width, height: height)
+        }else{
+            height = 137*K.conversionIndex
+            width = 109*K.conversionIndex
+            return CGSize(width: width, height: height)
+        }
+    }
+    
+}
