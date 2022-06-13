@@ -59,15 +59,17 @@ extension CategoriesViewController : UICollectionViewDelegate, UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: K.categoryView, for: indexPath) as! categoryView
-        if collectionView == brandsCollectionView{
-            cell.configForCategory(withCategory: categoriesList[indexPath.row], withTitle: true)
+        if collectionView == categoriesCollectionView{
+            cell.configForCategory(withCategory: categoriesList[indexPath.row], withTitle: false)
+            print("Brands Collection View")
+            print(indexPath.row)
             return cell
-        }else{
-            cell.configForCategory(withCategory: brandsList[indexPath.row], withTitle: false)
+        } else {
+            cell.configForCategory(withCategory: brandsList[indexPath.row], withTitle: true)
+            print(indexPath.row)
             return cell
-        }
     }
-    
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var height, width : CGFloat

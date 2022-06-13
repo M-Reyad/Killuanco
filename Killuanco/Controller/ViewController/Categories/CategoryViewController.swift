@@ -15,7 +15,7 @@ class CategoryViewController: UIViewController {
     @IBOutlet weak var productsTableView: UITableView!
     @IBOutlet weak var categoryName: UILabel!
     
-    let products: [Product]? = nil
+    var products: [Product]? = nil
     var safeProducts: [Product] = []
     var newProducts : [Product] = []
     var allProducts : [Product] = []

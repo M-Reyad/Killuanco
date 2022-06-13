@@ -42,7 +42,7 @@ extension CategoryCell: UICollectionViewDelegateFlowLayout, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! productView
         cell.config(with: productsList[indexPath.row])
         return cell
     }

@@ -62,7 +62,7 @@ extension ShoppingCartViewController: UITableViewDataSource, UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = shoppingCartTableView.dequeueReusableCell(withIdentifier: K.productCell, for: indexPath) as! ShoppingCartTableViewCell
+        let cell = shoppingCartTableView.dequeueReusableCell(withIdentifier: K.productCell, for: indexPath) as! productCell
         
         cell.config(withProduct: productsList[indexPath.row])
         self.shoppingCartTableView.rowHeight = cell.cellHeight.constant
@@ -83,7 +83,7 @@ extension ShoppingCartViewController: UICollectionViewDataSource, UICollectionVi
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = mayLikeCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
+        let cell = mayLikeCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! productView
 
         cell.config(with: productsList[indexPath.row])
         return cell

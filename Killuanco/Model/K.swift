@@ -16,7 +16,7 @@ struct K {
     static let conversionIndex = UIScreen.main.bounds.width/414
     
     //Notification  Cell in Notification Table View
-    static let notificationCell = "NotificationCell"
+    static let notificationCell = "notificationCell"
     
     //Product View In Collection View
     static let productView = "productView"

@@ -82,7 +82,7 @@ extension NotificationsViewController :UITableViewDataSource, UITableViewDelegat
     }
     //--2-- Configuring Cells//
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = notificationTableView.dequeueReusableCell(withIdentifier: K.notificationCell, for: indexPath) as! NotificationCell
+        let cell = notificationTableView.dequeueReusableCell(withIdentifier: K.notificationCell, for: indexPath) as! notificationCell
         cell.config(with: (notificationsList[sectionsList[indexPath.section]]?[indexPath.row])!)
         print("Section is \(indexPath.section)")
         return cell

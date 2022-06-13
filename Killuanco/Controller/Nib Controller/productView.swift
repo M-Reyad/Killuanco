@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProductInCollectionViewCellViewController : UICollectionViewCell {
+class productView : UICollectionViewCell {
     
     @IBOutlet weak var productImage: ProductCornerRadiusImage!
     @IBOutlet weak var productName: UILabel!

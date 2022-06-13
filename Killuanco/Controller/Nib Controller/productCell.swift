@@ -10,7 +10,7 @@ import UIKit
 import ValueStepper
 
 
-class ShoppingCartTableViewCell: UITableViewCell {
+class productCell: UITableViewCell {
     
     //CELL DIMENSIONS CONSTRAINTS//
     @IBOutlet weak var cellHeight: NSLayoutConstraint!

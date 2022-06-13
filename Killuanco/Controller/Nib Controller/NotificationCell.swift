@@ -9,7 +9,7 @@
 import UIKit
 
 
-class NotificationCell: UITableViewCell {
+class notificationCell: UITableViewCell {
     @IBOutlet weak var notificationHeader: UILabel!
     @IBOutlet weak var notificationContent: UILabel!
     var markAsRead : Bool = false

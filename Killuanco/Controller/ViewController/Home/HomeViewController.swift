@@ -100,7 +100,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         
         if collectionView == topSellingProductsCollectionView {
             
-            let cell = topSellingProductsCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! ProductInCollectionViewCellViewController
+            let cell = topSellingProductsCollectionView.dequeueReusableCell(withReuseIdentifier: K.productView, for: indexPath) as! productView
             
             cell.config(with: productsList[indexPath.row])
             
@@ -150,13 +150,13 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "categorySegue", sender: self)
+        performSegue(withIdentifier: "categorySegue", sender: Category.self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "categorySegue"{
             if let destinationVC = segue.destination as? CategoryViewController{
-//                destinationVC.products =
+                destinationVC.products = (sender as! Category).products
             }
         }
     }
