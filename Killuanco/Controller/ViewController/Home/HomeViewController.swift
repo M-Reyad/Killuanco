@@ -150,13 +150,14 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "categorySegue", sender: Category.self)
+        performSegue(withIdentifier: "categorySegue", sender: indexPath)
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "categorySegue"{
             if let destinationVC = segue.destination as? CategoryViewController{
-                destinationVC.products = (sender as! Category).products
+                let selectedCategory = sender as! NSIndexPath
+                destinationVC.products = categoriesList[selectedCategory.row].products
             }
         }
     }

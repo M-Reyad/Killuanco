@@ -19,6 +19,9 @@
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="y45-aw-EIF">
                         <rect key="frame" x="5" y="5" width="312" height="144"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="144" id="mvD-RP-oKf"/>
+                        </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="2" minimumInteritemSpacing="2" id="fik-fu-AHA">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -36,6 +39,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="collectionViewHeight" destination="mvD-RP-oKf" id="0Ro-B7-apj"/>
                 <outlet property="productsCollectionView" destination="y45-aw-EIF" id="HgY-V5-OHG"/>
             </connections>
             <point key="canvasLocation" x="-127.53623188405798" y="87.053571428571431"/>

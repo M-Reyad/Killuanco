@@ -29,6 +29,10 @@ struct K {
     static let categoryView = "categoryView"
     
     static let CategoryCell = "CategoryCell"
+    
+    static let categorySegue = "categorySegue"
+    
+    static let productSegue = "productSegue"
 }
 
 //MARK:- Custom Views Layout

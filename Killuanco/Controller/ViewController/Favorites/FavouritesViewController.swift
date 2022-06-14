@@ -39,7 +39,7 @@ extension FavouritesViewController : UICollectionViewDataSource, UICollectionVie
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = favoritesCollectionView.dequeueReusableCell(withReuseIdentifier: K.categoryView, for: indexPath) as! categoryView
         
-        if indexPath.row < foldersList.count{
+        if indexPath.row < foldersList.count-1{
             cell.configForCategory(withCategory: foldersList[indexPath.row], withTitle: false)
         print("Return Cells")
         return cell
