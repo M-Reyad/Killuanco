@@ -8,10 +8,16 @@
 
 import Foundation
 
+protocol ProductsManagerDelegate {
+    func didFinishFetchingData(with list: [Product])
+}
+
 struct ProductsManager {
     
-    func fetchingProductsList(from url: String) -> [Product]{
-        var list : [Product] = []
+    var delegate : ProductsManagerDelegate?
+    
+    func fetchingProductsList(from url: String){
+//        var list : [Product] = []
         //1- Create URL
         if let safeURL = URL(string: url){
             //2- Create Session
@@ -26,8 +32,10 @@ struct ProductsManager {
                 //Data Handling//
                 if let safeData = data {
                     do{
-                        list = try JSONDecoder().decode([Product].self, from: safeData)
-                        print("2nd \(list.count)")
+                        let list = try JSONDecoder().decode([Product].self, from: safeData)
+//                        print(list)
+                        print("List is fetched with count \(list.count)")
+                    self.delegate?.didFinishFetchingData(with: list)
                     }catch{
                         print(error)
                     }
@@ -35,17 +43,14 @@ struct ProductsManager {
                 }else{
                     print("Error Fetching Data")
                 }
-                print("3rd \(list.count)")
             }
             //4- Resume Task.
             task.resume()
         }
-        print("4th \(list.count)")
-        return list
     }
-//
-//    func fetchingData(with productsData : [Product]){
-//
-//    }
+
+    func parsingJSON(){
+        
+    }
     
 }

@@ -9,7 +9,7 @@
 import UIKit
 import RateBar
 import ValueStepper
-import SDWebImage
+//import SDWebImage
 
 
 class ProductViewController: UIViewController{

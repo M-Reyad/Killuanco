@@ -28,15 +28,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var foldersCollectionView: UICollectionView!
     var productManager = ProductsManager()
     
-    //    var products: [Product]?
+        var products: [Product]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("1st\(productsList.count)")
+        print("View Did Load")
         DispatchQueue.main.async {
-            productsList = self.productManager.fetchingProductsList(from: "https://killuandco.herokuapp.com/api/?format=json")
-            print("5th \(productsList.count)")
+            self.productManager.fetchingProductsList(from: "https://killuandco.herokuapp.com/api/?format=json")
+            print("API Called")
         }
+//            print("5th \(productsList.count)")
+//        self.categoriesCollectionView.reloadData()
+//        print("Categories Collection Reloaded")
         
         //Optimizing Constants//
         self.shopByBrandsHeight.constant *= K.conversionIndex
@@ -56,6 +59,8 @@ class HomeViewController: UIViewController {
         foldersCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
         
         //Deploying DataSources and Delegates//
+        productManager.delegate = self
+        
         categoriesCollectionView.dataSource = self
         categoriesCollectionView.delegate = self
         
@@ -172,3 +177,18 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
 }
 
+//MARK:- Product Manager Delegate Section
+extension HomeViewController: ProductsManagerDelegate{
+    func didFinishFetchingData(with list: [Product]) {
+        print("Finished Fetching with list = \(list)")
+        DispatchQueue.main.async {
+            self.products = list
+            productsList = list
+            self.categoriesCollectionView.reloadData()
+            self.foldersCollectionView.reloadData()
+            self.shopByBrandsCollectionView.reloadData()
+            self.topSellingProductsCollectionView.reloadData()
+    }
+    
+}
+}

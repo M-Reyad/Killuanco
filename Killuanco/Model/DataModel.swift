@@ -1,5 +1,5 @@
 //
-//  Category.swift
+//  ProductsModel.swift
 //  Killuanco
 //
 //  Created by Muhammad Reyadh on 6/10/22.
@@ -36,3 +36,21 @@ struct Product: Codable {
 //    let categoryName : String
 //    let products: [Product]
 //}
+
+
+struct CategoryFolder {
+    let folderName : String
+    let folderImage : UIImage
+    let products : [Product]
+}
+
+
+struct Notifications {
+    let date: String
+    let notifications : [Notification]
+}
+
+struct Notification {
+    let header :String
+    let content :String
+}
