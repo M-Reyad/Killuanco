@@ -12,5 +12,5 @@ target 'Killuanco' do
 	pod 'RateBar'
 	pod 'ValueStepper'
 	pod 'SwipeCellKit'
-
+	pod 'SDWebImage'
 end

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SDWebImage
+
 
 class productView : UICollectionViewCell {
     
@@ -26,7 +28,9 @@ class productView : UICollectionViewCell {
     }
     
     func config(with product: Product){
-        productPrice.text = String(product.price)
+        productPrice.text = product.price
         productName.text = product.name
+//        productImage!.sd_setImage(with: product.image, completed: nil)
+        
     }
-}
+    }
