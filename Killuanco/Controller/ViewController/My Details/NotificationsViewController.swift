@@ -14,29 +14,11 @@ class NotificationsViewController: UIViewController {
     
     @IBOutlet weak var notificationTableView: UITableView!
 //    @IBOutlet weak var notificationTableViewHeight: NSLayoutConstraint!
-   var notificationsList : [String : [Notification]] = ["Today" : [Notification(header: "New Discount!",
-                                                 content: "You have a new Discount for Cat Products with 15%"),
-                                    Notification(header: "New Discount!!",
-                                                 content: "You have a new Discount for Dog Products with 20%")],
-                         "Yesterday" : [Notification(header: "New Discount!!!",
-                                                     content: "You have a new Discount for Cat Products with 35%"),
-                                        Notification(header: "New Discount :)",
-                                         content: "You have a new Discount for Dog Products with 10%"),
-                                        Notification(header: "New Discount!!!",
-                                                     content: "You have a new Discount for Cat Products with 35%")],
-                         "Last Week" : [Notification(header: "New Discount!!!",
-                                                     content: "You have a new Discount for Cat Products with 35%"),
-                                        Notification(header: "New Discount :)",
-                                                     content: "You have a new Discount for Dog Products with 10%"),
-                                        Notification(header: "New Discount!!!",
-                                                     content: "You have a new Discount for Cat Products with 35%"),
-                                        Notification(header: "New Discount :)",
-                                                     content: "You have a new Discount for Dog Products with 10%"),
-                                        Notification(header: "New Discount!!!",
-                                                     content: "You have a new Discount for Cat Products with 35%")]]
+   
     var sectionsList = [String]()
+    
     func generateSections(from notificationsList: [String:[Notification]]) {
-        for (date, notifications) in notificationsList{
+        for (date, _) in notificationsList{
             self.sectionsList.append(date)
         }
         print(self.sectionsList)
@@ -44,10 +26,10 @@ class NotificationsViewController: UIViewController {
 
     override func viewDidLoad() {
          super.viewDidLoad()
-        generateSections(from: self.notificationsList)
+        generateSections(from: notificationsList)
         notificationTableView.delegate = self
          notificationTableView.dataSource = self
-        self.notificationTableView.register(UINib(nibName: "NotificationCell", bundle: nil), forCellReuseIdentifier: K.notificationCell)
+        self.notificationTableView.register(UINib(nibName: K.notificationCell, bundle: nil), forCellReuseIdentifier: K.notificationCell)
      }
      
 }

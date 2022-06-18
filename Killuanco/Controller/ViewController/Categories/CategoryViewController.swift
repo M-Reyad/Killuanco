@@ -36,7 +36,7 @@ class CategoryViewController: UIViewController {
     
     func formingProductsLists(from productsList: [Product]){
         for product in productsList {
-            if product.prodcutClassification == .new{
+            if product.is_available == true{
                 newProducts.append(product)
 //                print(newProducts.count)
             }else{

@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 
-enum classification {
-    case new, old
-}
+//enum is_available: Bool, Codable {
+//
+//    case true, false
+//}
 
 struct Category {
     let categoryName : String
@@ -19,12 +20,15 @@ struct Category {
     let products : [Product]
 }
 
-struct Product {
+struct Product: Codable {
+    let id: Int
     let name: String
-    let price : Int
-    var image: UIImage = UIImage(named: "productImage" )!
-    var quantity: Int = 5
-    var prodcutClassification : classification
+    let price : String
+    let sku: String
+    var image : String
+    var stock: Int
+    var rating: String
+    var is_available : Bool
     //    var category : Category
 }
 

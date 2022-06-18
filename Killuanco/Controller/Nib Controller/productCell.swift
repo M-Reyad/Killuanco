@@ -8,21 +8,20 @@
 
 import UIKit
 import ValueStepper
+import SwipeCellKit
 
 
-class productCell: UITableViewCell {
-    
-    //CELL DIMENSIONS CONSTRAINTS//
-    @IBOutlet weak var cellHeight: NSLayoutConstraint!
-    @IBOutlet weak var cellWidth: NSLayoutConstraint!
+class productCell: SwipeTableViewCell {
     
     //Cell Labels//
     @IBOutlet weak var productLabel: UILabel!
+    
     @IBOutlet weak var quantityStepper: ValueStepper!
     @IBOutlet weak var priceLabel: UILabel!
     
     //Stepper Function//
     @IBAction func stepperPressed(_ sender: Any) {
+        
         print("Current Value is \(quantityStepper.value)")
     }
     
@@ -30,13 +29,6 @@ class productCell: UITableViewCell {
     //Awake From Nib Function//
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        //Optimizing Cell Dimensions//
-        cellWidth.constant  *= K.conversionIndex
-        cellHeight.constant *= K.conversionIndex
-        
-        print("Cell Width is \(cellWidth.constant) and Height is \(cellHeight.constant)")
-        
     }
 
     //Config Function to produce Repeated Cells//

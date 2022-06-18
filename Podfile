@@ -11,5 +11,6 @@ target 'Killuanco' do
 	pod 'BEMCheckBox'
 	pod 'RateBar'
 	pod 'ValueStepper'
+	pod 'SwipeCellKit'
 
 end

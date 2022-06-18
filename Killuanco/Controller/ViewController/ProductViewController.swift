@@ -8,63 +8,56 @@
 
 import UIKit
 import RateBar
-
+import ValueStepper
+import SDWebImage
 
 
 class ProductViewController: UIViewController{
 
-    
-    
-    
-    @IBAction func cartButtonPressed(_ sender: Any) {
-        
-        
-    }
-    @IBOutlet weak var productImage: UIImageView!
+
+    @IBOutlet  var productImage: UIImageView!
     @IBOutlet weak var productName: UILabel!
     @IBOutlet weak var piecesPerStock: UILabel!
     @IBOutlet weak var gmsPerPiece: UILabel!
-    @IBOutlet weak var quantityStepper: UIStepper!
-    @IBOutlet weak var stepperValueLabel: UILabel!
+    
+    @IBOutlet weak var quantityStepper: ValueStepper!
     @IBOutlet weak var ratingBar: RatingBar!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var describtionTitle: UILabel!
     @IBOutlet weak var describtion: UILabel!
     
     @IBAction func stepperValueChanged(_ sender: Any) {
-        
-        stepperValueLabel.text = String(quantityStepper.value)
+        print(quantityStepper.value)
+
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ratingBar.rateValue = Int(3.5)
 
-        // Do any additional setup after loading the view.
     }
     
     
     
     @IBAction func  addToCartButtonPressed(_ sender: Any){
-        
+        print("Added to Cart")
     }
     
     
 
     
     @IBAction func addToFolderButtonPressed(_ sender: Any) {
+        print("Added to Folder")
     }
+
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    func config(with product: Product?){
+        self.productName.text = product!.name
+        self.priceLabel.text = String(product!.price)
+        self.productImage = UIImageView(image: UIImage(named: "productPic"))
+        }
 }
 
 

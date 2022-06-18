@@ -36,6 +36,7 @@
 		9D9A051D285638F500C25671 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A051B285638F500C25671 /* CategoryCell.swift */; };
 		9D9A051E285638F500C25671 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A051C285638F500C25671 /* CategoryCell.xib */; };
 		9DA4AC942852678F0087000E /* ProductsCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */; };
+		9DA5BC19285DD1100056B29A /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5BC18285DD1100056B29A /* ProductsManager.swift */; };
 		9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
@@ -99,6 +100,7 @@
 		9D9A051B285638F500C25671 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = "Killuanco/Controller/Nib Controller/CategoryCell.swift"; sourceTree = SOURCE_ROOT; };
 		9D9A051C285638F500C25671 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CategoryCell.xib; path = "Killuanco/View/Main View/CategoryCell.xib"; sourceTree = SOURCE_ROOT; };
 		9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductsCategoryTableViewCell.swift; path = "Killuanco/Controller/Nib Controller/ProductsCategoryTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		9DA5BC18285DD1100056B29A /* ProductsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
 		9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				9D1778192845690000F300CB /* Notifications Model.swift */,
 				9D17781B2845696A00F300CB /* Favorites Folders Model.swift */,
 				9D9A051728561DEE00C25671 /* Data Base.swift */,
+				9DA5BC18285DD1100056B29A /* ProductsManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,6 +362,8 @@
 			dependencies = (
 			);
 			name = Killuanco;
+			packageProductDependencies = (
+			);
 			productName = Killuanco;
 			productReference = 9DBFA481282419E000C8BB12 /* Killuanco.app */;
 			productType = "com.apple.product-type.application";
@@ -431,6 +436,8 @@
 				Base,
 			);
 			mainGroup = 9DBFA478282419E000C8BB12;
+			packageReferences = (
+			);
 			productRefGroup = 9DBFA482282419E000C8BB12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -546,6 +553,7 @@
 				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
 				9D97680828436E250053EE90 /* LoginViewController.swift in Sources */,
 				9D9A051828561DEE00C25671 /* Data Base.swift in Sources */,
+				9DA5BC19285DD1100056B29A /* ProductsManager.swift in Sources */,
 				9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */,
 				9D215A7B28536A31003E89EE /* CategoriesViewController.swift in Sources */,
 				9D82CF7728410DC90064BEA6 /* productView.swift in Sources */,

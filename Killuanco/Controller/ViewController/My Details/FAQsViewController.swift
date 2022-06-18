@@ -14,7 +14,7 @@ class FAQsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        logoHeight.constant *= K.conversionIndex
+//        logoHeight.constant *= K.conversionIndex
 
         // Do any additional setup after loading the view.
     }

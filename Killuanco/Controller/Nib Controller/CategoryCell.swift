@@ -22,12 +22,6 @@ class CategoryCell: UITableViewCell {
         
         productsCollectionView.register(UINib(nibName: K.productView, bundle: nil), forCellWithReuseIdentifier: K.productView)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
     func config(withProductsList productsList : [Product]/*, makeCollectionView horizontal: Bool*/){
         self.productsList = productsList
@@ -55,5 +49,12 @@ extension CategoryCell: UICollectionViewDelegateFlowLayout, UICollectionViewData
         let height = 250*K.conversionIndex
         return CGSize(width: width, height: height)
     }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
 }
+
+
 

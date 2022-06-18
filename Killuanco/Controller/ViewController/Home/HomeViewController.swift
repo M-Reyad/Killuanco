@@ -10,7 +10,8 @@ import UIKit
 
 
 class HomeViewController: UIViewController {
-
+    
+    //View Controller Constraints//
     @IBOutlet weak var categoriesCollectionViewHeight: NSLayoutConstraint!
     @IBOutlet weak var mostSelledProductsHeight: NSLayoutConstraint!
     @IBOutlet weak var greenViewHeight: NSLayoutConstraint!
@@ -18,18 +19,26 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var foldersCollectionVIewHeight: NSLayoutConstraint!
     @IBOutlet weak var shopByBrandsHeight: NSLayoutConstraint!
     
-    
-    
+    //View Controller Variables//
+    @IBOutlet weak var searchBarPressed: UISearchBar!
     @IBOutlet weak var categoriesCollectionView: UICollectionView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var topSellingProductsCollectionView: UICollectionView!
     @IBOutlet weak var shopByBrandsCollectionView: UICollectionView!
     @IBOutlet weak var foldersCollectionView: UICollectionView!
+    var productManager = ProductsManager()
     
-
+    //    var products: [Product]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("1st\(productsList.count)")
+        DispatchQueue.main.async {
+            productsList = self.productManager.fetchingProductsList(from: "https://killuandco.herokuapp.com/api/?format=json")
+            print("5th \(productsList.count)")
+        }
         
+        //Optimizing Constants//
         self.shopByBrandsHeight.constant *= K.conversionIndex
         self.categoriesCollectionViewHeight.constant *= K.conversionIndex
         self.mostSelledProductsHeight.constant *= K.conversionIndex
@@ -37,7 +46,7 @@ class HomeViewController: UIViewController {
         self.shopVeganHeight.constant *= K.conversionIndex
         self.foldersCollectionVIewHeight.constant *= K.conversionIndex
         
-        
+        //Registering Nibs//
         shopByBrandsCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
         
         categoriesCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
@@ -45,8 +54,8 @@ class HomeViewController: UIViewController {
         topSellingProductsCollectionView.register(UINib(nibName: K.productView, bundle: nil), forCellWithReuseIdentifier: K.productView)
         
         foldersCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
-
         
+        //Deploying DataSources and Delegates//
         categoriesCollectionView.dataSource = self
         categoriesCollectionView.delegate = self
         
@@ -63,19 +72,19 @@ class HomeViewController: UIViewController {
     }
     
     
-    
-    @IBOutlet weak var searchBarPressed: UISearchBar!
+    //View Controller Buttons Actions//
+    //Shopping Cart Button Action//
     @IBAction func shoppingCartButtonPressed(_ sender: Any) {
     }
-    
+    //Notification Button Action//
     @IBAction func notificationButtonPressed(_ sender: Any) {
     }
-    
+    //See All Button Action//
     @IBAction func seeAllButtonPressed(_ sender: Any) {
     }
 }
 
-
+//MARK:-Collection View Section
 extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -89,7 +98,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
             
         }else if
             collectionView == foldersCollectionView{
-                return foldersList.count
+            return foldersList.count
             
         }else {
             return productsList.count
@@ -152,7 +161,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: "categorySegue", sender: indexPath)
     }
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "categorySegue"{
             if let destinationVC = segue.destination as? CategoryViewController{
@@ -162,3 +171,4 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         }
     }
 }
+

@@ -8,17 +8,36 @@
 
 import Foundation
 
-
-let productsList : [Product] =
-[Product(name: "Doggy Food", price: 20, prodcutClassification: classification.new),
- Product(name: "Turtle Food", price: 20, prodcutClassification: classification.new),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.new),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.new),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
- Product(name: "Frog Food", price: 20, prodcutClassification: classification.old)]
+var notificationsList : [String : [Notification]] = ["Today" : [Notification(header: "New Discount!",
+                        content: "You have a new Discount for Cat Products with 15%"),
+           Notification(header: "New Discount!!",
+                        content: "You have a new Discount for Dog Products with 20%")],
+"Yesterday" : [Notification(header: "New Discount!!!",
+                            content: "You have a new Discount for Cat Products with 35%"),
+               Notification(header: "New Discount :)",
+                content: "You have a new Discount for Dog Products with 10%"),
+               Notification(header: "New Discount!!!",
+                            content: "You have a new Discount for Cat Products with 35%")],
+"Last Week" : [Notification(header: "New Discount!!!",
+                            content: "You have a new Discount for Cat Products with 35%"),
+               Notification(header: "New Discount :)",
+                            content: "You have a new Discount for Dog Products with 10%"),
+               Notification(header: "New Discount!!!",
+                            content: "You have a new Discount for Cat Products with 35%"),
+               Notification(header: "New Discount :)",
+                            content: "You have a new Discount for Dog Products with 10%"),
+               Notification(header: "New Discount!!!",
+                            content: "You have a new Discount for Cat Products with 35%")]]
+var productsList : [Product] = []
+//[Product(name: "Doggy Food", price: 20, prodcutClassification: classification.new),
+// Product(name: "Turtle Food", price: 20, prodcutClassification: classification.new),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.new),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.new),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.old),
+// Product(name: "Frog Food", price: 20, prodcutClassification: classification.old)]
 
 
 var categoriesList : [Category] =
