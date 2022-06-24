@@ -23,7 +23,6 @@ class ProductViewController: UIViewController{
     @IBOutlet weak var quantityStepper: ValueStepper!
     @IBOutlet weak var ratingBar: RatingBar!
     @IBOutlet weak var priceLabel: UILabel!
-    @IBOutlet weak var describtionTitle: UILabel!
     @IBOutlet weak var describtion: UILabel!
     
     @IBAction func stepperValueChanged(_ sender: Any) {
@@ -53,11 +52,11 @@ class ProductViewController: UIViewController{
     }
 
     
-    func config(with product: Product?){
-        self.productName.text = product!.name
-        self.priceLabel.text = String(product!.price)
-        self.productImage = UIImageView(image: UIImage(named: "productPic"))
-        }
+//    func config(with product: Product?){
+//        self.productName.text = product!.name
+//        self.priceLabel.text = String(product!.price)
+//        self.productImage = UIImageView(image: UIImage(named: "productPic"))
+//        }
 }
 
 

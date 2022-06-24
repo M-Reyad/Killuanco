@@ -30,17 +30,23 @@ struct K {
     
     static let CategoryCell = "CategoryCell"
     
-    static let categoriesToCategorySegue = "categorySegue"
+    static let categoriesToCategorySegue = "categoriesToCategorySegue"
+    
+    static let homeToProductSegue = "homeToProductSegue"
+    static let homeToCategorySegue = "homeToCategorySegue"
     
     static let categoryToProductSegue = "categoryToProductSegue"
     
     static let cartToProductSegue = "cartToProductSegue"
+    
+    
+    static let imagePlaceHolder = "placeholderImage"
 }
 
 //MARK:- Custom Views Layout
 class LargeRoundedCornerRadiusView : UIView{
     override func awakeFromNib() {
-        layer.cornerRadius = 20
+        layer.cornerRadius = 6
         layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         layer.shadowRadius = 17
         layer.shadowOffset = CGSize.init(width: 1, height: 1)
@@ -54,7 +60,7 @@ class LargeRoundedCornerRadiusView : UIView{
     
     class SmallRoundedCornerRadiusView : UIView{
     override func awakeFromNib() {
-        layer.cornerRadius = 3
+        layer.cornerRadius = 6
         layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         layer.shadowRadius = 4
         layer.shadowOffset = CGSize.init(width: 1, height: 1)
@@ -72,6 +78,8 @@ class ProductCornerRadiusImage: UIImageView {
         clipsToBounds = true
     }
 }
+
+
 class RoundedCornerRadiusImage: UIImageView {
     override func awakeFromNib() {
         layer.cornerRadius = 50
@@ -86,6 +94,7 @@ class RoundedCornerRadiusOnboardingImages: UIImageView{
         clipsToBounds = true
     }
 }
+
 
 class RoundedCornerRadiusButton: UIButton{
     override func awakeFromNib() {

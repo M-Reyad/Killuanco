@@ -16,7 +16,7 @@ class CategoryCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        print("Awoken")
         productsCollectionView.dataSource = self
         productsCollectionView.delegate = self
         
@@ -24,6 +24,7 @@ class CategoryCell: UITableViewCell {
     }
     
     func config(withProductsList productsList : [Product]/*, makeCollectionView horizontal: Bool*/){
+        print("Configured")
         self.productsList = productsList
 //        if horizontal{
 //            self.productsCollectionView.direction

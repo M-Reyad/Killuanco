@@ -17,7 +17,9 @@ class ResetPasswordViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func saveChangesPressed(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

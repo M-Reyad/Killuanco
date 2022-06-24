@@ -57,11 +57,13 @@ class ShoppingCartViewController: UIViewController {
         if segue.identifier == K.cartToProductSegue {
             if let destinationVC = segue.destination as? ProductViewController
             {
-                let selectedProduct = sender as! IndexPath
-                print(selectedProduct)
-                print(selectedProduct.row)
-                print(selectedProduct.item)
-                destinationVC.config(with: shoppingCartList![selectedProduct.item])
+                let selectedRow = sender as! NSIndexPath
+                  let selectedProduct = productsList[selectedRow.row]
+                  destinationVC.productName.text = selectedProduct.name
+                  destinationVC.productImage.image = selectedProduct.image
+                  destinationVC.describtion.text = selectedProduct.description
+                  destinationVC.ratingBar.rateValue = Int(selectedProduct.rating)
+                  destinationVC.priceLabel.text = String(selectedProduct.price)
                 
 //                destinationVC.productName?.text = shoppingCartList![selectedProduct.item].name
 //                destinationVC.productImage? = shoppingCartList![selectedProduct.item].image

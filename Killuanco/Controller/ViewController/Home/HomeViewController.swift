@@ -10,7 +10,7 @@ import UIKit
 
 
 class HomeViewController: UIViewController {
-    
+    //MARK:- View Controller Variables
     //View Controller Constraints//
     @IBOutlet weak var categoriesCollectionViewHeight: NSLayoutConstraint!
     @IBOutlet weak var mostSelledProductsHeight: NSLayoutConstraint!
@@ -26,20 +26,16 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var topSellingProductsCollectionView: UICollectionView!
     @IBOutlet weak var shopByBrandsCollectionView: UICollectionView!
     @IBOutlet weak var foldersCollectionView: UICollectionView!
-    var productManager = ProductsManager()
+    var productsListManager = ProductsListManager()
+    var products: [Product]?
     
-        var products: [Product]?
     
+    //MARK:- View Controller View
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View Did Load")
         DispatchQueue.main.async {
-            self.productManager.fetchingProductsList(from: "https://killuandco.herokuapp.com/api/?format=json")
-            print("API Called")
+            self.productsListManager.fetchingProductsList(from: "https://killuandco.herokuapp.com/api/?format=json")
         }
-//            print("5th \(productsList.count)")
-//        self.categoriesCollectionView.reloadData()
-//        print("Categories Collection Reloaded")
         
         //Optimizing Constants//
         self.shopByBrandsHeight.constant *= K.conversionIndex
@@ -59,7 +55,7 @@ class HomeViewController: UIViewController {
         foldersCollectionView.register(UINib(nibName: K.categoryView, bundle: nil), forCellWithReuseIdentifier: K.categoryView)
         
         //Deploying DataSources and Delegates//
-        productManager.delegate = self
+        productsListManager.delegate = self
         
         categoriesCollectionView.dataSource = self
         categoriesCollectionView.delegate = self
@@ -76,8 +72,7 @@ class HomeViewController: UIViewController {
         
     }
     
-    
-    //View Controller Buttons Actions//
+    //MARK:- View Controller Buttons Actions//
     //Shopping Cart Button Action//
     @IBAction func shoppingCartButtonPressed(_ sender: Any) {
     }
@@ -162,25 +157,51 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
             return CGSize(width: width, height: height)
         }
     }
-    
+    //MARK:- Segues Section
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "categorySegue", sender: indexPath)
+        //Category Segue
+        if collectionView == categoriesCollectionView{
+            performSegue(withIdentifier: K.homeToCategorySegue, sender: indexPath)
+        //Product Segue
+        }else if collectionView == topSellingProductsCollectionView{
+            performSegue(withIdentifier: K.homeToProductSegue, sender: indexPath)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "categorySegue"{
-            if let destinationVC = segue.destination as? CategoryViewController{
-                let selectedCategory = sender as! NSIndexPath
-                destinationVC.products = categoriesList[selectedCategory.row].products
+        //Category Segue
+        if segue.identifier == K.homeToCategorySegue{
+            if let destinationVC = segue.destination as? CategoryViewController {
+                DispatchQueue.main.async {
+                    let selectedIndex = sender as! NSIndexPath
+                    let selectedCategory = categoriesList[selectedIndex.row]
+                    destinationVC.categoryName!.text = selectedCategory.categoryName
+                    destinationVC.categoryManager.prepareProductsList(from: self.products, belongingTo: selectedCategory)
+                    
+                    print("Category is \(selectedCategory.categoryName)")
+                    
+                }
+            }
+        }else if segue.identifier == K.homeToProductSegue{
+            if let destinationVC = segue.destination as? ProductViewController {
+                let selectedRow = sender as! NSIndexPath
+                let selectedProduct = productsList[selectedRow.row]
+                destinationVC.productName.text = selectedProduct.name
+                destinationVC.productImage.image = selectedProduct.image
+                destinationVC.describtion.text = selectedProduct.description
+                destinationVC.ratingBar.rateValue = Int(selectedProduct.rating)
+                destinationVC.priceLabel.text = String(selectedProduct.price)
             }
         }
     }
+    
+    
 }
 
 //MARK:- Product Manager Delegate Section
-extension HomeViewController: ProductsManagerDelegate{
-    func didFinishFetchingData(with list: [Product]) {
-        print("Finished Fetching with list = \(list)")
+extension HomeViewController: ProductsListDelegate{
+    
+    func didFinishParsingData(with list: [Product]) {
         DispatchQueue.main.async {
             self.products = list
             productsList = list
@@ -188,7 +209,7 @@ extension HomeViewController: ProductsManagerDelegate{
             self.foldersCollectionView.reloadData()
             self.shopByBrandsCollectionView.reloadData()
             self.topSellingProductsCollectionView.reloadData()
+        }
+        
     }
-    
-}
 }

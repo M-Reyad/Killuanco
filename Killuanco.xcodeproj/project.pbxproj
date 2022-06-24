@@ -24,6 +24,7 @@
 		9D44AC8628314F4300EE6271 /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC8428314F4300EE6271 /* notificationCell.swift */; };
 		9D44AC8728314F4300EE6271 /* notificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D44AC8528314F4300EE6271 /* notificationCell.xib */; };
 		9D44AC89283153A600EE6271 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44AC88283153A600EE6271 /* K.swift */; };
+		9D72AE702865E47E0055BC71 /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72AE6F2865E47E0055BC71 /* CategoryManager.swift */; };
 		9D82CF7728410DC90064BEA6 /* productView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7528410DC90064BEA6 /* productView.swift */; };
 		9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */; };
 		9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */; };
@@ -34,7 +35,7 @@
 		9D9A051D285638F500C25671 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A051B285638F500C25671 /* CategoryCell.swift */; };
 		9D9A051E285638F500C25671 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A051C285638F500C25671 /* CategoryCell.xib */; };
 		9DA4AC942852678F0087000E /* ProductsCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */; };
-		9DA5BC19285DD1100056B29A /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5BC18285DD1100056B29A /* ProductsManager.swift */; };
+		9DA5BC19285DD1100056B29A /* ProductsListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5BC18285DD1100056B29A /* ProductsListManager.swift */; };
 		9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */; };
 		9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA484282419E000C8BB12 /* AppDelegate.swift */; };
 		9DBFA487282419E000C8BB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA486282419E000C8BB12 /* SceneDelegate.swift */; };
@@ -86,6 +87,7 @@
 		9D44AC8428314F4300EE6271 /* notificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
 		9D44AC8528314F4300EE6271 /* notificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = notificationCell.xib; sourceTree = "<group>"; };
 		9D44AC88283153A600EE6271 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		9D72AE6F2865E47E0055BC71 /* CategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
 		9D82CF7528410DC90064BEA6 /* productView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productView.swift; sourceTree = "<group>"; };
 		9D82CF7928411A3E0064BEA6 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		9D82CF7B284138E80064BEA6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 		9D9A051B285638F500C25671 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = "Killuanco/Controller/Nib Controller/CategoryCell.swift"; sourceTree = SOURCE_ROOT; };
 		9D9A051C285638F500C25671 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CategoryCell.xib; path = "Killuanco/View/Main View/CategoryCell.xib"; sourceTree = SOURCE_ROOT; };
 		9DA4AC922852678F0087000E /* ProductsCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductsCategoryTableViewCell.swift; path = "Killuanco/Controller/Nib Controller/ProductsCategoryTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		9DA5BC18285DD1100056B29A /* ProductsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
+		9DA5BC18285DD1100056B29A /* ProductsListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListManager.swift; sourceTree = "<group>"; };
 		9DB0D8482845125C00AF53E0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		9DBFA481282419E000C8BB12 /* Killuanco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killuanco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA484282419E000C8BB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -174,7 +176,8 @@
 				9D44AC88283153A600EE6271 /* K.swift */,
 				9D215A7F28536E3D003E89EE /* DataModel.swift */,
 				9D9A051728561DEE00C25671 /* Data Base.swift */,
-				9DA5BC18285DD1100056B29A /* ProductsManager.swift */,
+				9DA5BC18285DD1100056B29A /* ProductsListManager.swift */,
+				9D72AE6F2865E47E0055BC71 /* CategoryManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				9DBFA485282419E000C8BB12 /* AppDelegate.swift in Sources */,
 				9D82CF7C284138E80064BEA6 /* NotificationsViewController.swift in Sources */,
 				9D82CF7A28411A3E0064BEA6 /* CategoryViewController.swift in Sources */,
+				9D72AE702865E47E0055BC71 /* CategoryManager.swift in Sources */,
 				9D215A722852BFDF003E89EE /* PaymentMethodViewController.swift in Sources */,
 				9D215A7E28536BDE003E89EE /* ForgotPasswordViewController.swift in Sources */,
 				9D17781428455B8C00F300CB /* ProductViewController.swift in Sources */,
@@ -545,7 +549,7 @@
 				9D2750822826C0240029CB3F /* ContactUsViewController.swift in Sources */,
 				9D97680828436E250053EE90 /* LoginViewController.swift in Sources */,
 				9D9A051828561DEE00C25671 /* Data Base.swift in Sources */,
-				9DA5BC19285DD1100056B29A /* ProductsManager.swift in Sources */,
+				9DA5BC19285DD1100056B29A /* ProductsListManager.swift in Sources */,
 				9DB0D8492845125C00AF53E0 /* FavouritesViewController.swift in Sources */,
 				9D215A7B28536A31003E89EE /* CategoriesViewController.swift in Sources */,
 				9D82CF7728410DC90064BEA6 /* productView.swift in Sources */,
