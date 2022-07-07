@@ -45,6 +45,7 @@
 		9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBFA48F282419E400C8BB12 /* LaunchScreen.storyboard */; };
 		9DBFA49C282419E400C8BB12 /* KilluancoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA49B282419E400C8BB12 /* KilluancoTests.swift */; };
 		9DBFA4A7282419E400C8BB12 /* KilluancoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */; };
+		9DC502322877027D0052B580 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DC502312877027D0052B580 /* README.md */; };
 		9DD56C0B2845311700E61BBE /* categoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD56C092845311700E61BBE /* categoryView.xib */; };
 		AD7057C68C46A63E87679C39 /* Pods_Killuanco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2921402C78E6E9D6E9EC5FFD /* Pods_Killuanco.framework */; };
 /* End PBXBuildFile section */
@@ -114,6 +115,7 @@
 		9DBFA4A2282419E400C8BB12 /* KilluancoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KilluancoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBFA4A6282419E400C8BB12 /* KilluancoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilluancoUITests.swift; sourceTree = "<group>"; };
 		9DBFA4A8282419E400C8BB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC502312877027D0052B580 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9DD56C092845311700E61BBE /* categoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = categoryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -282,6 +284,7 @@
 		9DBFA478282419E000C8BB12 = {
 			isa = PBXGroup;
 			children = (
+				9DC502312877027D0052B580 /* README.md */,
 				9DBFA483282419E000C8BB12 /* Killuanco */,
 				9DBFA49A282419E400C8BB12 /* KilluancoTests */,
 				9DBFA4A5282419E400C8BB12 /* KilluancoUITests */,
@@ -457,6 +460,7 @@
 				9DBFA491282419E400C8BB12 /* LaunchScreen.storyboard in Resources */,
 				9D1778222845714100F300CB /* productCell.xib in Resources */,
 				9DBFA48E282419E400C8BB12 /* Assets.xcassets in Resources */,
+				9DC502322877027D0052B580 /* README.md in Resources */,
 				9DBFA48C282419E000C8BB12 /* Main.storyboard in Resources */,
 				9D9A051E285638F500C25671 /* CategoryCell.xib in Resources */,
 			);
