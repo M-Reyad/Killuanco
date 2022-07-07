@@ -3,6 +3,10 @@
 We will make your pet happy
 Since we opened our doors in 2022 we have dedicated all our time to Killua and co to ensure that our visitors and our pets have a valuable and pleasant experience.
 
+
+Image(bigLogo)
+
+
 ![Group 11](https://user-images.githubusercontent.com/93882864/177839751-8dbaf40d-4557-4a24-a989-2ac953c295b5.png)
 
 If you feel Animal Cafe. We are something more spectacular than that, tired after a trip and need to recharge or simply want to create bonds of friendship with our animals, we are here to help you. We provide a fun and interactive environment to show that we are not an ordinary we are Killua and co.
