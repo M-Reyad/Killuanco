@@ -36,6 +36,7 @@ If you feel Animal Cafe. We are something more spectacular than that, tired afte
 
 ##### Home Screen
 ![Screen Shot 2022-07-08 at 4 12 16 PM](https://user-images.githubusercontent.com/93882864/178009965-0bc79dd4-9b59-486b-acec-151a9b8e8fa5.png)
+
 ![Screen Shot 2022-07-08 at 4 13 45 PM](https://user-images.githubusercontent.com/93882864/178010024-4723c4bb-79b4-4a66-a7c1-82962caa2237.png)
 
 ##### Account Screen
