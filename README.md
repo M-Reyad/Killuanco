@@ -31,40 +31,32 @@ If you feel Animal Cafe. We are something more spectacular than that, tired afte
         
 #### Live Shots from the software:
 
+![Screen Shot 2022-07-08 at 4 11 49 PM](https://user-images.githubusercontent.com/93882864/178009933-d2b6bdd9-ab54-498b-a12f-e777ad520e1a.png)
 ##### Login View
 
-![Screen Shot 2022-07-08 at 4 11 49 PM](https://user-images.githubusercontent.com/93882864/178009933-d2b6bdd9-ab54-498b-a12f-e777ad520e1a.png)
 
-
-##### Home Screen
 
 ![Screen Shot 2022-07-08 at 4 12 16 PM](https://user-images.githubusercontent.com/93882864/178009965-0bc79dd4-9b59-486b-acec-151a9b8e8fa5.png)
 
 ![Screen Shot 2022-07-08 at 4 13 45 PM](https://user-images.githubusercontent.com/93882864/178010024-4723c4bb-79b4-4a66-a7c1-82962caa2237.png)
+##### Home Screen
 
-
-##### Account Screen
 
 ![Screen Shot 2022-07-08 at 4 13 10 PM](https://user-images.githubusercontent.com/93882864/178009816-1050a958-2396-45a9-b601-22709f0fc704.png)
+##### Account Screen
 
-
-##### My Account
 
 ![Screen Shot 2022-07-08 at 4 13 21 PM](https://user-images.githubusercontent.com/93882864/178010009-a2524747-0f2c-43c7-932c-4b8bb3bdcefc.png)
+##### My Account
 
-
-##### Categories.
 
 ![Screen Shot 2022-07-08 at 4 13 31 PM](https://user-images.githubusercontent.com/93882864/178010014-51aa2619-f89f-4628-bc73-1360ff19b9c0.png)
+##### Categories.
 
-
-##### Shopping Cart
 
 ![Screen Shot 2022-07-08 at 4 14 23 PM](https://user-images.githubusercontent.com/93882864/178010035-7e00a1d9-bf02-45f4-87b1-9b14e95edc5b.png)
+##### Shopping Cart
 
-
-##### Notifications
 
 ![Screen Shot 2022-07-08 at 4 14 43 PM](https://user-images.githubusercontent.com/93882864/178010048-3847cb7c-aa5d-4b87-9614-a1800d2049e9.png)
-
-
+##### Notifications
